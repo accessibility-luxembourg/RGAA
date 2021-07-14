@@ -45,9 +45,7 @@ Les pages HTML sont organisées de la manière suivante :
 
 <a rel="license" href="http://creativecommons.org/licenses/by/3.0/lu/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/lu/88x31.png" /></a>.
 
-Les contenus du RGAA sont placés sous licence Creative Commons [CC-BY 3.0 LU](https://creativecommons.org/licenses/by/3.0/lu/), ils constituent une copie adaptée du [RGAA](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/) édité par la [DINUM](https://www.numerique.gouv.fr/dinum/). Les contenus sont obtenus à partir du dépôt git suivant:
-
-- [DISIC/RGAA](https://github.com/DISIC/RGAA) pour les critères et le glossaire (version du 14/07/2021) 
+Les contenus du RGAA sont placés sous licence Creative Commons [CC-BY 3.0 LU](https://creativecommons.org/licenses/by/3.0/lu/), ils constituent une copie adaptée du [RGAA](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/) édité par la [DINUM](https://www.numerique.gouv.fr/dinum/). Les contenus sont obtenus à partir du dépôt git suivant: [DISIC/RGAA](https://github.com/DISIC/RGAA).
 
 Les adaptations de ces contenus au contexte légal luxembourgeois ont été réalisées par le [Service Information et Presse](https://sip.gouvernement.lu) et sont listées dans les [notes de révision](./v4.1/md/notes-revision.md). 
 
