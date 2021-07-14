@@ -8,7 +8,7 @@ Les fichiers au format JSON correspondent __uniquement à la méthode technique_
   * Références
   * Licence
 
-### Fichier [criteres.json](https://github.com/DISIC/RGAA/releases/download/v4.1/criteres.json "Télécharger le fichier criteres.json (293 Ko)")
+### Fichier criteres.json
 Le fichier `criteres.json` contient la liste des 106 critères du RGAA 4.0 regroupés par thématiques.
 Il permet la création des pages HTML relatives aux critères et tests de la méthode technique du RGAA 4.1
 
@@ -22,12 +22,15 @@ Chaque critère RGAA contient les informations suivantes :
   * Références aux critères WCAG associés ;
   * Références aux techniques WCAG associées.
 
-### Fichier [glossaire.json](https://github.com/DISIC/RGAA/releases/download/v4.1/glossaire.json "Télécharger le fichier glossaire.json (142 Ko)")
+### Fichier glossaire.json
 Le fichier `glossaire.json` contient les entrées de glossaire utilisées dans le fichier `criteres.json`.
-Il permet la création des pages HTML de la méthode technique du RGAA 4.0 relatives aux rubriques Glossaire, Environnement de test, Références et Licence.
+Il permet la création des pages HTML de la méthode technique du RGAA 4.1 relatives aux rubriques Glossaire, Environnement de test, Références et Licence.
 
 Ces entrées sont regroupées par ordre alphabétique à la manière d'un abécédaire.
 Chaque entrée de glossaire contient un ou plusieurs paragraphes explicatifs qui peuvent être assortis de liens et d'exemples.
+
+### Fichier niveaux.json
+Le fichier `niveaux.json` présente les niveaux WCAG A ou AA pour chaque critère du RGAA.
 
 #### Structure des contenus des fichiers JSON
 
@@ -53,4 +56,5 @@ De manière générale, le contenu de certaines propriétés JSON contient un ba
 
 ## Licence
 
-Le contenu de ce dépôt est publié sous [licence Ouverte 2.0](https://github.com/DISIC/RGAA/blob/master/LICENSE.md).
+<a rel="license" href="http://creativecommons.org/licenses/by/3.0/lu/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/lu/88x31.png" /></a><br />Le contenu de ce dépôt est mis à disposition par le [Service Information et Presse](https://sip.gouvernement.lu) selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by/3.0/lu/">Licence Creative Commons Paternité 3.0 Luxembourg</a>.
+

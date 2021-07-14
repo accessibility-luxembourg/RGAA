@@ -1,86 +1,46 @@
-# Référentiel général d'amélioration de l'accessibilité (RGAA)
+# Référentiel général d'amélioration de l'accessibilité (RGAA) pour le Luxembourg
 
-Ce dépôt contient les __fichiers de référence__ du RGAA à partir de la version 4.0
+Ce repository contient les __fichiers de référence__ du [RGAA](https://accessibilite.public.lu/fr/rgaa4.1/index.html) à partir de la version 4.0 adaptés au contexte légal luxembourgois, en particulier la [loi du 28 mai 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo).
 
-Le RGAA 4 est mis à disposition sous plusieurs formats :
-* un document téléchargeable en format ODT et en format PDF,
-* une version HTML disponible uniquement en ligne et publiée sur le site web de la Direction interministérielle du numérique (DINUM).
-
-__À noter__ : le site web de la DINUM publie le RGAA pour la version _en cours_. 
-Les fichiers de référence des versions antérieures du RGAA sont disponibles dans Github.
-
-## Consulter les Releases pour plus d'informations et accéder aux fichiers
 
 ********************
 
-## [version RGAA 4.1](https://github.com/DISIC/RGAA/releases/tag/v4.1)
-
-La version en ligne du RGAA est publiée sur le site de la DINUM dans la rubrique `Publications\rgaa_accessibilité` depuis le 18 février 2021.
+## version [RGAA 4.1](https://accessibilite.public.lu/fr/rgaa4.1/index.html)
 
 Les pages HTML sont organisées de la manière suivante :
 
-_Note : l'organisation des pages a été modifiée en version 4.1 par rapport à la version 4.0_
-* Accueil
-* Obligations d'accessibilité
+* [Accueil](./v4.1/md/introduction.md)
+* [Obligations](./v4.1/md/obligations.md)
 * Méthode technique
-  * Critères et tests
-  * Glossaire
-  * Environnement de test
-  * Références
-  * Licence
-* Kit d'audit
+  * [Critères et tests](./v4.1/JSON/criteres.json)
+  * [Glossaire](./v4.1/JSON/glossaire.json)
+  * [Environnement de test](./v4.1/md/environnement.md)
+  * [Références](./v4.1/md/references.md)
 * Documentation RGAA
-  * Méthodologie de test
-  * Annexe – Critères de succès triple A (AAA) des WCAG 2.1
-  * Notes de révision du RGAA 3 2017 vers RGAA 4
-  * Notes de révision du RGAA 4.0 vers RGAA 4.1
-* Questions
+  * [Kit d'audit](./v4.1/md/kit.md)
+  * [Méthodologie de test](./v4.1/md/methodologie.md)
+  * [Notes de révision du RGAA 4.0 vers RGAA 4.1](./v4.1/md/notes-revision.md)
 
-### Création des pages HTML de la version web du RGAA 4.1
-Les pages HTML sont générées à partir de fichiers en format Markdown et en format JSON.
 
-Les pages HTML `Accueil`, `Obligations d'accessibilité`, `Méthode technique`, `Kit d'audit`, `Méthodologie de test`, `Documentation`, `Questions`, `Annexe – Critères de succès triple A (AAA) des WCAG 2.1`, `Notes de révision du RGAA 3 2017 vers RGAA 4` et `Notes de révision du RGAA 4.0 vers RGAA 4.1` sont générées à partir de fichiers en format Markdown (md).
-
-Les pages HTML `Critères et tests` sont générées à partir du fichier `criteres.json` au format JSON.
-Les pages HTML `Glossaire`, `Environnement de test`, `Références` et `Licence` sont générées à partir du fichier `glossaire.json` au format JSON.
-
-Chaque fichier en format Markdown est mis à disposition individuellement ou regroupé dans un ensemble (_package_).
-Les fichiers en format JSON sont mis à disposition individuellement.
 
 *****************
 
-## [version RGAA 4.0](https://github.com/DISIC/RGAA/releases/tag/v4.0)
+## [version RGAA 4.0](https://accessibilite.public.lu/fr/rgaa4/index.html)
 
-La version en ligne du RGAA a été publiée sur le site de la DINUM dans la rubrique `Publications\rgaa_accessibilité` le 16 septembre 2019 avant la mise à jour par la [release 4.1](https://github.com/DISIC/RGAA/releases/tag/v4.1)
 
 Les pages HTML sont organisées de la manière suivante :
-* Accueil
-* Obligations d'accessibilité
+* [Accueil](./v4.0/md/methode.md)
 * Méthode technique
-  * Critères et tests
-  * Glossaire
-  * Environnement de test
-  * Références
-  * Licence
-* Kit d'audit
-* Méthodologie de test
-* Documentation
-* Questions
-* Notes de révision
+  * [Critères et tests](./v4.0/JSON/criteres.json)
+  * [Glossaire](./v4.0/JSON/glossaire.json)
+  * [Environnement de test](./v4.0/md/environnement.md)
+  * [Références](./v4.0/md/references.md)
+* [Méthodologie de test](./v4.0/md/methodologie.md)
+* [Notes de révision](./v4.0/md/notes-revision.md)
 
-### Création des pages HTML de la version web du RGAA 4.0
-Les pages HTML sont générées à partir de fichiers en format Markdown et en format JSON.
-
-Les pages HTML `Accueil`, `Obligations d'accessibilité`, `Méthode technique`, `Kit d'audit`, `Méthodologie de test`, `Documentation`, `Questions` et `Notes de révision` sont générées à partir de fichiers en format Markdown (md).
-
-Les pages HTML `Critères et tests` sont générées à partir du fichier `criteres.json` au format JSON.
-Les pages HTML `Glossaire`, `Environnement de test`, `Références` et `Licence` sont générées à partir du fichier `glossaire.json` au format JSON.
-
-Chaque fichier en format Markdown est mis à disposition individuellement ou regroupé dans un ensemble (_package_).
-Les fichiers en format JSON sont mis à disposition individuellement.
 
 ********************
 
 ## Licence
 
-Le contenu de ce dépôt est publié sous [licence Ouverte 2.0](LICENSE.md).
+<a rel="license" href="http://creativecommons.org/licenses/by/3.0/lu/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/lu/88x31.png" /></a><br />Le contenu de ce dépôt est mis à disposition par le [Service Information et Presse](https://sip.gouvernement.lu) selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by/3.0/lu/">Licence Creative Commons Paternité 3.0 Luxembourg</a>.

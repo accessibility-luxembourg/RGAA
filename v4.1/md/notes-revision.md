@@ -9,11 +9,11 @@ layout: rgaa-accessibilite
 
 Cet erratum signale les corrections apportées aux sections critères et glossaire de la version 4 du RGAA. Ces corrections concernent les critères (tests, cas particuliers et notes techniques) ainsi que le glossaire.
 
-Ces corrections ont été reportées directement aux fichiers criteres.json et glossaire.json disponibles sur le [dépôt GitHub du RGAA](https://github.com/DISIC/RGAA/).
+Ces corrections ont été reportées directement aux fichiers criteres.json et glossaire.json disponibles sur le [dépôt GitHub du RGAA](https://github.com/accessibility-luxembourg/RGAA).
 
 Les différentes sources de cette mise à jour sont :
 
-* Les issues GitHub du dépôt RGAA (<https://github.com/DISIC/RGAA/issues>) ; ces modifications sont signalées par la mention "issue" suivi du numéro de l'issue en question ;
+* Les issues GitHub du dépôt RGAA (<https://github.com/accessibility-luxembourg/RGAA>) ; ces modifications sont signalées par la mention "issue" suivi du numéro de l'issue en question ;
 * Des modifications actées sur la plateforme évolution RGAA qui n'ont pas été reportées lors de la consolidation du référentiel ; ces modifications sont signalées par la mention "évolution RGAA" ;
 * Des retours internes concernant des modifications de forme comme de fond ; dans ce dernier cas, ce sont des remarques de fond ne faisant pas question qui ont été corrigées ; ces modifications sont signalées par la mention "retour interne".
 
@@ -23,19 +23,19 @@ Les différentes sources de cette mise à jour sont :
 
 Modification du test 1.1.4 afin de tenir compte de mécanismes autres que des liens (par exemple, les options d'un élément select) pour assurer l'alternative à une zone réactive (retour interne) :
 
-"Chaque [zone cliquable](#zone-cliquable) d'une image réactive côté serveur est-t-elle doublée d'un lien dans la page ?"
+"Chaque [zone cliquable](glossaire.html#zone-cliquable) d'une image réactive côté serveur est-t-elle doublée d'un lien dans la page ?"
 
 est remplacée par :
 
-"Chaque [zone cliquable](#zone-cliquable) d'une image réactive côté serveur est-elle doublée d'un mécanisme utilisable quel que soit le dispositif de pointage utilisé et permettant d'accéder à la même destination ?"
+"Chaque [zone cliquable](glossaire.html#zone-cliquable) d'une image réactive côté serveur est-elle doublée d'un mécanisme utilisable quel que soit le dispositif de pointage utilisé et permettant d'accéder à la même destination ?"
 
 Modification de la première condition du test 1.1.6 (issue #56) :
 
-"La balise `<object>` possède une [alternative textuelle](#alternative-textuelle-image)"
+"La balise `<object>` possède une [alternative textuelle](glossaire.html#alternative-textuelle-image)"
 
 est remplacée par :
 
-"La balise `<object>` possède une [alternative textuelle](#alternative-textuelle-image) et un attribut `role='img'`"
+"La balise `<object>` possède une [alternative textuelle](glossaire.html#alternative-textuelle-image) et un attribut `role='img'`"
 
 Modification de la première condition du test 1.1.7 (issue #56) :
 
@@ -43,7 +43,7 @@ Modification de la première condition du test 1.1.7 (issue #56) :
 
 est remplacée par :
 
-"La balise `<embed>` possède une [alternative textuelle](#alternative-textuelle-image) et un attribut `role='img'`"
+"La balise `<embed>` possède une [alternative textuelle](glossaire.html#alternative-textuelle-image) et un attribut `role='img'`"
 
 Modification de la première condition du test 1.1.8 (issue #56) :
 
@@ -51,7 +51,7 @@ Modification de la première condition du test 1.1.8 (issue #56) :
 
 est remplacée par :
 
-"La balise `<canvas>` possède une [alternative textuelle](#alternative-textuelle-image) et un attribut `role='img'`"
+"La balise `<canvas>` possède une [alternative textuelle](glossaire.html#alternative-textuelle-image) et un attribut `role='img'`"
 
 ### Critère 1.3
 
@@ -69,11 +69,11 @@ Suppression du lien associé à l'entrée de glossaire "URL" dans le test 1.6.1 
 
 Modification du deuxième paragraphe de la note technique (issue #61) :
 
-"L'utilisation de l'attribut WAI-ARIA `aria-describedby` n'est pas possible pour lier une image à sa [description détaillée](#description-detaillee-image) par manque de support des technologies d'assistance."
+"L'utilisation de l'attribut WAI-ARIA `aria-describedby` n'est pas possible pour lier une image à sa [description détaillée](glossaire.html#description-detaillee-image) par manque de support des technologies d'assistance."
 
 est remplacé par :
 
-"L'utilisation de l'attribut WAI-ARIA `aria-describedby` n'est pas recommandée pour lier une image (`<img>`, `<object>`, `<embed>`, `<canvas>`) à sa [description détaillée](#description-detaillee-image), par manque de support des technologies d'assistance. Néanmoins, lorsqu'il est utilisé, l'attribut devra nécessairement faire référence à l'`id` de la zone contenant la description détaillée."
+"L'utilisation de l'attribut WAI-ARIA `aria-describedby` n'est pas recommandée pour lier une image (`<img>`, `<object>`, `<embed>`, `<canvas>`) à sa [description détaillée](glossaire.html#description-detaillee-image), par manque de support des technologies d'assistance. Néanmoins, lorsqu'il est utilisé, l'attribut devra nécessairement faire référence à l'`id` de la zone contenant la description détaillée."
 
 ### Critère 1.8
 
@@ -85,11 +85,11 @@ Ajout du test 1.8.6 (issue #76) :
 
 Modification dans le test 4.8.1 (issue #36) :
 
-"Un [lien ou bouton adjacent](#lien-ou-bouton-adjacent), clairement identifiable, contient l'adresse ([url](#url)) d'une page contenant une alternative."
+"Un [lien ou bouton adjacent](glossaire.html#lien-ou-bouton-adjacent), clairement identifiable, contient l'adresse (url) d'une page contenant une alternative."
 
 est remplacée par :
 
-"Un [lien ou un bouton adjacent](#lien-ou-bouton-adjacent), clairement identifiable, permet d'accéder à une page contenant une alternative."
+"Un [lien ou un bouton adjacent](glossaire.html#lien-ou-bouton-adjacent), clairement identifiable, permet d'accéder à une page contenant une alternative."
 
 ### Critère 5.1
 
@@ -148,19 +148,19 @@ Par exemple, si l'on considère l'intitulé visible « Commander maintenant » c
 
 Modification de l'intitulé du critère (issue #54) :
 
-"Dans chaque page web, chaque [lien](#lien), à l'exception des [ancres](#ancre), a-t-il un [intitulé](#intitule-ou-nom-accessible-de-lien) ?"
+"Dans chaque page web, chaque [lien](glossaire.html#lien), à l'exception des ancres, a-t-il un [intitulé](glossaire.html#intitule-ou-nom-accessible-de-lien) ?"
 
 est remplacé par :
 
-"Dans chaque page web, chaque [lien](#lien) a-t-il un [intitulé](#intitule-ou-nom-accessible-de-lien) ?"
+"Dans chaque page web, chaque [lien](glossaire.html#lien) a-t-il un [intitulé](glossaire.html#intitule-ou-nom-accessible-de-lien) ?"
 
 Modification consécutive de l'intitulé du test 6.2.1 :
 
-"Dans chaque page web, chaque [lien](#lien), à l'exception des [ancres](#ancre), a-t-il un [intitulé](#intitule-ou-nom-accessible-de-lien) entre `<a>` et `</a>` ?"
+"Dans chaque page web, chaque [lien](glossaire.html#lien), à l'exception des ancres, a-t-il un [intitulé](glossaire.html#intitule-ou-nom-accessible-de-lien) entre `<a>` et `</a>` ?"
 
 est remplacé par :
 
-"Dans chaque page web, chaque [lien](#lien) a-t-il un [intitulé](#intitule-ou-nom-accessible-de-lien) entre `<a>` et `</a>` ?"
+"Dans chaque page web, chaque [lien](glossaire.html#lien) a-t-il un [intitulé](glossaire.html#intitule-ou-nom-accessible-de-lien) entre `<a>` et `</a>` ?"
 
 Ajout d'une note technique :
 
@@ -193,11 +193,11 @@ Suppression de la technique WCAG H69 des références du critère 9.1 (issue #21
 
 Modification de l'intitulé du critère (issue #48) :
 
-"Dans chaque page web, le [contenu visible](#contenu-visible) reste-t-il présent lorsque les [feuilles de styles](#feuille-de-style) sont désactivées ?"
+"Dans chaque page web, le [contenu visible](glossaire.html#contenu-visible) reste-t-il présent lorsque les [feuilles de styles](glossaire.html#feuille-de-style) sont désactivées ?"
 
 est remplacé par :
 
-"Dans chaque page web, le [contenu visible](#contenu-visible) porteur d'information reste-t-il présent lorsque les [feuilles de styles](#feuille-de-style) sont désactivées ?"
+"Dans chaque page web, le [contenu visible](glossaire.html#contenu-visible) porteur d'information reste-t-il présent lorsque les [feuilles de styles](glossaire.html#feuille-de-style) sont désactivées ?"
 
 ### Critère 10.4
 
@@ -229,27 +229,27 @@ est remplacée par :
 
 Modification de la cinquième condition du test 11.1.1 (issue #25) :
 
-"Un bouton adjacent au [champ de formulaire](#champ-de-saisie-de-formulaire) lui fournit une étiquette visible et un attribut WAI-ARIA `aria-label`, `aria-labelledby` ou `title` lui fournit un nom accessible."
+"Un bouton adjacent au [champ de formulaire](glossaire.html#champ-de-saisie-de-formulaire) lui fournit une étiquette visible et un attribut WAI-ARIA `aria-label`, `aria-labelledby` ou `title` lui fournit un nom accessible."
 
 est remplacée par :
 
-"Un bouton adjacent au [champ de formulaire](#champ-de-saisie-de-formulaire) lui fournit une étiquette visible et un élément `<label>` visuellement caché ou un attribut WAI-ARIA `aria-label`, `aria-labelledby` ou `title` lui fournit un nom accessible."
+"Un bouton adjacent au [champ de formulaire](glossaire.html#champ-de-saisie-de-formulaire) lui fournit une étiquette visible et un élément `<label>` visuellement caché ou un attribut WAI-ARIA `aria-label`, `aria-labelledby` ou `title` lui fournit un nom accessible."
 
 ### Critère 11.4
 
 Modification dans les deux conditions du test 11.4.3 de l'occurrence "au-dessus" par "au-dessous" (issue #26) :
 
-"L'étiquette est visuellement [accolée](#accoles-etiquette-et-champ-accoles) immédiatement au-dessus ou à droite du [champ de formulaire](#champ-de-saisie-de-formulaire) lorsque le sens de lecture de la langue de l'étiquette est de gauche à droite."
+"L'étiquette est visuellement [accolée](glossaire.html#accoles-etiquette-et-champ-accoles) immédiatement au-dessus ou à droite du [champ de formulaire](glossaire.html#champ-de-saisie-de-formulaire) lorsque le sens de lecture de la langue de l'étiquette est de gauche à droite."
 
 est remplacée par :
 
-"L'étiquette est visuellement [accolée](#accoles-etiquette-et-champ-accoles) immédiatement au-dessous ou à droite du [champ de formulaire](#champ-de-saisie-de-formulaire) lorsque le sens de lecture de la langue de l'étiquette est de gauche à droite."
+"L'étiquette est visuellement [accolée](glossaire.html#accoles-etiquette-et-champ-accoles) immédiatement au-dessous ou à droite du [champ de formulaire](glossaire.html#champ-de-saisie-de-formulaire) lorsque le sens de lecture de la langue de l'étiquette est de gauche à droite."
 
-"L'étiquette est visuellement [accolée](#accoles-etiquette-et-champ-accoles) immédiatement au-dessus ou à gauche du [champ de formulaire](#champ-de-saisie-de-formulaire) lorsque le sens de lecture de la langue de l'étiquette est de droite à gauche."
+"L'étiquette est visuellement [accolée](glossaire.html#accoles-etiquette-et-champ-accoles) immédiatement au-dessus ou à gauche du [champ de formulaire](glossaire.html#champ-de-saisie-de-formulaire) lorsque le sens de lecture de la langue de l'étiquette est de droite à gauche."
 
 est remplacée par :
 
-"L'étiquette est visuellement [accolée](#accoles-etiquette-et-champ-accoles) immédiatement au-dessous ou à gauche du [champ de formulaire](#champ-de-saisie-de-formulaire) lorsque le sens de lecture de la langue de l'étiquette est de droite à gauche."
+"L'étiquette est visuellement [accolée](glossaire.html#accoles-etiquette-et-champ-accoles) immédiatement au-dessous ou à gauche du [champ de formulaire](glossaire.html#champ-de-saisie-de-formulaire) lorsque le sens de lecture de la langue de l'étiquette est de droite à gauche."
 
 ### Critère 11.6
 
@@ -267,15 +267,15 @@ Modification de la formulation des conditions du test 11.10.4, car c'est un doub
 
 "Les champs obligatoires ayant l'attribut `aria-invalid='true'` vérifient-ils une de ces conditions ?
 
-* Une [indication de champ obligatoire](#indication-de-champ-obligatoire) est visible et située dans l'étiquette associée au champ.
-* Une [indication de champ obligatoire](#indication-de-champ-obligatoire) est visible et située dans le [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) associé au champ."
+* Une [indication de champ obligatoire](glossaire.html#indication-de-champ-obligatoire) est visible et située dans l'étiquette associée au champ.
+* Une [indication de champ obligatoire](glossaire.html#indication-de-champ-obligatoire) est visible et située dans le [passage de texte](glossaire.html#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) associé au champ."
 
 est remplacée par :
 
 "Les champs obligatoires ayant l'attribut `aria-invalid='true'` vérifient-ils une de ces conditions ?
 
 * Le message d'erreur indiquant le caractère invalide de la saisie est visible et situé dans l'étiquette associée au champ.
-* Le message d'erreur indiquant le caractère invalide de la saisie est visible et situé dans le [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) associé au champ."
+* Le message d'erreur indiquant le caractère invalide de la saisie est visible et situé dans le [passage de texte](glossaire.html#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) associé au champ."
 
 Ajout d'un cas d'usage dans une note technique (issue #2) :
 
@@ -298,11 +298,11 @@ Dans le cas où l'ensemble des champs d'un formulaire sont obligatoires, les tes
 
 L'intitulé du critère n'est pas bon puisqu'il correspond à l'énoncé du premier test (retour interne) :
 
-"Pour chaque [formulaire](#formulaire) qui modifie ou supprime des données, ou qui transmet des réponses à un test ou à un examen, ou dont la validation a des conséquences financières ou juridiques, la saisie des données vérifie-t-elle une de ces conditions ?"
+"Pour chaque [formulaire](glossaire.html#formulaire) qui modifie ou supprime des données, ou qui transmet des réponses à un test ou à un examen, ou dont la validation a des conséquences financières ou juridiques, la saisie des données vérifie-t-elle une de ces conditions ?"
 
 est remplacée par :
 
-"Pour chaque [formulaire](#formulaire) qui modifie ou supprime des données, ou qui transmet des réponses à un test ou à un examen, ou dont la validation a des conséquences financières ou juridiques, les données saisies peuvent-elles être modifiées, mises à jour ou récupérées par l'utilisateur ?"
+"Pour chaque [formulaire](glossaire.html#formulaire) qui modifie ou supprime des données, ou qui transmet des réponses à un test ou à un examen, ou dont la validation a des conséquences financières ou juridiques, les données saisies peuvent-elles être modifiées, mises à jour ou récupérées par l'utilisateur ?"
 
 ### Critère 12.1
 
@@ -356,11 +356,11 @@ est remplacée par :
 
 Modification de la dernière condition du test 12.6.1 (issue #14) :
 
-"La zone peut être atteinte par le biais d'un [lien d'accès rapide](#liens-d-evitement-ou-d-acces-rapide) visible à la prise de focus lors d'une tabulation."
+"La zone peut être atteinte par le biais d'un [lien d'accès rapide](glossaire.html#liens-d-evitement-ou-d-acces-rapide) visible à la prise de focus lors d'une tabulation."
 
 est remplacée par :
 
-"La zone peut être atteinte par le biais d'un [lien d'accès rapide](#liens-d-evitement-ou-d-acces-rapide) visible ou, à défaut, visible à la prise de focus."
+"La zone peut être atteinte par le biais d'un [lien d'accès rapide](glossaire.html#liens-d-evitement-ou-d-acces-rapide) visible ou, à défaut, visible à la prise de focus."
 
 ### Critère 12.7
 
@@ -505,11 +505,11 @@ est remplacée par :
 
 Suppression de la mention "(à l'exception des ancres)" dans la note 4 (issue #54) :
 
-"Note 4 : lorsqu'un lien ne comporte aucun contenu (à l'exception des ancres), il sera non conforme au regard du [critère 10.2](#crit-10-2) et du [critère 6.4](#crit-6-4)."
+"Note 4 : lorsqu'un lien ne comporte aucun contenu (à l'exception des ancres), il sera non conforme au regard du [critère 10.2](criteres.html#crit-10-2) et du critère 6.4."
 
 est remplacée par :
 
-"Note 4 : lorsqu'un lien ne comporte aucun contenu, il sera non conforme au regard du [critère 10.2](#crit-10-2) et du [critère 6.2](#crit-6-2).",
+"Note 4 : lorsqu'un lien ne comporte aucun contenu, il sera non conforme au regard du [critère 10.2](criteres.html#crit-10-2) et du [critère 6.2](criteres.html#crit-6-2).",
 
 ### Items de même nature des listes de choix
 
@@ -553,31 +553,31 @@ Suppression de l'entrée, car le critère qui mentionnait cette expression a ét
 
 Modification de l'entrée de glossaire (issue #40 et issue #72) :
 
-"Composant d'interface dont l'activation permet de modifier l'apparence du site ou de la page de manière à afficher les contenus avec un ratio de contraste suffisant. Le design de ce composant d'interface devra être conforme au [critère 3.2](#crit-3-2) et au [critère 3.3](#crit-3-3) sans avoir recours lui-même à un mécanisme permettant d'afficher un rapport de contraste conforme."
+"Composant d'interface dont l'activation permet de modifier l'apparence du site ou de la page de manière à afficher les contenus avec un ratio de contraste suffisant. Le design de ce composant d'interface devra être conforme au [critère 3.2](criteres.html#crit-3-2) et au [critère 3.3](criteres.html#crit-3-3) sans avoir recours lui-même à un mécanisme permettant d'afficher un rapport de contraste conforme."
 
 est remplacée par :
 
-"Composant d'interface dont l'activation permet de modifier l'apparence du site ou de la page de manière à afficher les contenus avec un ratio de contraste suffisant. Le design de ce composant d'interface devra être conforme au [critère 3.2](#crit-3-2) et au [critère 3.3](#crit-3-3) sans avoir recours lui-même à un mécanisme permettant d'afficher un rapport de contraste conforme. Ce mécanisme doit conserver à l'identique les contenus et les fonctionnalités du site ou de la page qu'il modifie."
+"Composant d'interface dont l'activation permet de modifier l'apparence du site ou de la page de manière à afficher les contenus avec un ratio de contraste suffisant. Le design de ce composant d'interface devra être conforme au [critère 3.2](criteres.html#crit-3-2) et au [critère 3.3](criteres.html#crit-3-3) sans avoir recours lui-même à un mécanisme permettant d'afficher un rapport de contraste conforme. Ce mécanisme doit conserver à l'identique les contenus et les fonctionnalités du site ou de la page qu'il modifie."
 
 ### Média non temporel
 
 Modification de l'entrée de glossaire (issue #6) :
 
-"Note : l'utilisation du paramètre `wmode` pour un objet Flash avec les valeurs `\"transparent\"` et `\"opaque\"` invalide de fait le [critère 4.12](#crit-4-12). En effet, l'utilisation de ces valeurs a pour conséquence que l'animation Flash vue du côté des utilisateurs de lecteur d'écran est invisible."
+"Note : l'utilisation du paramètre `wmode` pour un objet Flash avec les valeurs `\"transparent\"` et `\"opaque\"` invalide de fait le [critère 4.12](criteres.html#crit-4-12). En effet, l'utilisation de ces valeurs a pour conséquence que l'animation Flash vue du côté des utilisateurs de lecteur d'écran est invisible."
 
 est remplacée par :
 
-"Note : l'utilisation du paramètre `wmode` pour un objet Flash avec les valeurs `\"transparent\"` et `\"opaque\"` invalide de fait le [critère 4.13](#crit-4-13). En effet, l'utilisation de ces valeurs a pour conséquence que l'animation Flash vue du côté des utilisateurs de lecteur d'écran est invisible."
+"Note : l'utilisation du paramètre `wmode` pour un objet Flash avec les valeurs `\"transparent\"` et `\"opaque\"` invalide de fait le [critère 4.13](criteres.html#crit-4-13). En effet, l'utilisation de ces valeurs a pour conséquence que l'animation Flash vue du côté des utilisateurs de lecteur d'écran est invisible."
 
 ### Média temporel (type son, vidéo et synchronisé)
 
 Modification de l'entrée de glossaire (issue #6) :
 
-"Note 1 : l'utilisation du paramètre wmode pour un objet Flash avec les valeurs `\"transparent\"` et `\"opaque\"` invalide de fait le [critère 4.11](#crit-4-11). En effet, l'utilisation de ces valeurs a pour conséquence que l'animation Flash vue du côté des utilisateurs de lecteur d'écran est invisible."
+"Note 1 : l'utilisation du paramètre wmode pour un objet Flash avec les valeurs `\"transparent\"` et `\"opaque\"` invalide de fait le [critère 4.11](criteres.html#crit-4-11). En effet, l'utilisation de ces valeurs a pour conséquence que l'animation Flash vue du côté des utilisateurs de lecteur d'écran est invisible."
 
 est remplacée par :
 
-"Note 1 : l'utilisation du paramètre wmode pour un objet Flash avec les valeurs `\"transparent\"` et `\"opaque\"` invalide de fait le [critère 4.13](#crit-4-13). En effet, l'utilisation de ces valeurs a pour conséquence que l'animation Flash vue du côté des utilisateurs de lecteur d'écran est invisible."
+"Note 1 : l'utilisation du paramètre wmode pour un objet Flash avec les valeurs `\"transparent\"` et `\"opaque\"` invalide de fait le [critère 4.13](criteres.html#crit-4-13). En effet, l'utilisation de ces valeurs a pour conséquence que l'animation Flash vue du côté des utilisateurs de lecteur d'écran est invisible."
 
 ### Moteur de recherche (interne à un site web)
 
@@ -614,11 +614,11 @@ est remplacée par :
 
 Modification de l'exemple et de la référence à l'ancien test 1.3.7 supprimé (issue #6) :
 
-"Par exemple : le [test 1.3.7](#test-1-3-7) demande de vérifier que l'alternative d'une image porteuse d'information vectorielle est correctement restituée."
+"Par exemple : le [test 1.3.7](criteres.html#test-1-3-7) demande de vérifier que l'alternative d'une image porteuse d'information vectorielle est correctement restituée."
 
 est remplacée par :
 
-"Par exemple : le [test 1.3.8](#test-1-3-8) demande de vérifier que l'alternative d'une image bitmap (balise `<canvas>`) porteuse d'information est correctement restituée.",
+"Par exemple : le [test 1.3.8](criteres.html#test-1-3-8) demande de vérifier que l'alternative d'une image bitmap (balise `<canvas>`) porteuse d'information est correctement restituée.",
 
 ### Si nécessaire (texte visible en complément de l'attribut aria-label ou aria-labelledby)
 
@@ -641,21 +641,21 @@ est remplacée par :
 
 Modification de la note :
 
-"Note : les titres cachés via CSS sont considérés comme présents et valident le [critère 9.1](#crit-9-1)."
+"Note : les titres cachés via CSS sont considérés comme présents et valident le [critère 9.1](criteres.html#crit-9-1)."
 
 est remplacée par :
 
-"Note : les titres visuellement cachés via CSS sont considérés comme présents et valident le [critère 9.1](#crit-9-1)."
+"Note : les titres visuellement cachés via CSS sont considérés comme présents et valident le [critère 9.1](criteres.html#crit-9-1)."
 
 ### Titre de cadre
 
 Modification de la note 2 (issue #44) :
 
-"Note 2 : Si cela ne gêne pas le fonctionnement de ce type de cadre, il est possible de les rendre indisponibles aux technologies d'assistance en utilisant l'attribut WAI-ARIA `aria-hidden='true'`. Dans ce cas le [critère 2.2](#crit-2-2) sera non applicable."
+"Note 2 : Si cela ne gêne pas le fonctionnement de ce type de cadre, il est possible de les rendre indisponibles aux technologies d'assistance en utilisant l'attribut WAI-ARIA `aria-hidden='true'`. Dans ce cas le [critère 2.2](criteres.html#crit-2-2) sera non applicable."
 
 est remplacée par :
 
-"Note 2 : Si cela ne gêne pas le fonctionnement de ce type de cadre, il est possible de les rendre indisponibles aux technologies d'assistance en utilisant l'attribut WAI-ARIA `aria-hidden='true'`. Dans ce cas le [critère 2.1](#crit-2-1) et le [critère 2.2](#crit-2-2) seront non applicables."
+"Note 2 : Si cela ne gêne pas le fonctionnement de ce type de cadre, il est possible de les rendre indisponibles aux technologies d'assistance en utilisant l'attribut WAI-ARIA `aria-hidden='true'`. Dans ce cas le [critère 2.1](criteres.html#crit-2-1) et le [critère 2.2](criteres.html#crit-2-2) seront non applicables."
 
 ### Version accessible (pour un document en téléchargement)
 
@@ -666,3 +666,32 @@ Suppression de la phrase faisant référence à un document obsolescent (RGAA 3)
 ### URL
 
 Suppression de l'entrée de glossaire "URL" (issue #61).
+
+
+## Adaptations pour le Luxembourg
+
+Vous trouverez ci-après les notes de révision issues de l'adaptation du RGAA 4.1 à la loi luxembourgeoise.
+
+### Page Critères
+
+#### Critère 4.1
+
+Remplacement des notes relatives à la loi française par une note relative à la loi luxembourgeoise.
+
+#### Critères 13.3 et 13.4
+
+Suppression d'une note relative aux organismes de droit privé. Ajout d'une note sur l'exemption de certains fichiers bureautiques d'après la loi luxembourgeoise.
+
+### Page Glossaire
+
+Les critères bureautiques pour les fichiers en téléchargement sont conservés.
+
+### Page Méthodologie de test
+
+#### Critère 4.1
+
+Remplacement des notes relatives à la loi française par une note relative à la loi luxembourgeoise.
+
+#### Critère 13.3
+
+Suppression d'une note relative aux organismes de droit privé. Ajout d'une note sur l'exemption de certains fichiers bureautiques d'après la loi luxembourgeoise.

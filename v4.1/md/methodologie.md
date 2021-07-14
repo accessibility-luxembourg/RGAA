@@ -23,19 +23,18 @@ Une liste d'outils est aussi proposée pour aider à la réalisation des tests ;
 
 L'outil le plus utile reste l'inspecteur de code que propose chaque navigateur. Il permet de rechercher facilement les éléments et les attributs requis pour un examen par un test d'accessibilité.
 
-Les aides techniques listées dans l’environnement de test retenu constituent un second ensemble d'outils indispensables (voir la rubrique [Environnement de test](environnement.md/#contenu)) ; ils sont, en effet, requis pour s'assurer d'une restitution correcte de contenus accessibles (les alternatives aux images, les intitulés de lien, les titres de tableau, ...) dans le cas notamment où l'examen du code seul ne suffirait pas. <!-- ref sur numerique /publications/rgaa-accessibilite/methode-rgaa/environnement/#contenu -->
+Les aides techniques listées dans l’environnement de test retenu constituent un second ensemble d'outils indispensables (voir la rubrique [Environnement de test](environnement.html/#contenu)) ; ils sont, en effet, requis pour s'assurer d'une restitution correcte de contenus accessibles (les alternatives aux images, les intitulés de lien, les titres de tableau, ...) dans le cas notamment où l'examen du code seul ne suffirait pas. <!-- ref sur numerique /publications/rgaa-accessibilite/methode-rgaa/environnement/#contenu -->
 
 D'autres outils sont disponibles pour aider à la recherche des éléments de contenu ; ils se présentent souvent comme des extensions au navigateur et permettent d'explorer un ou plusieurs aspects d'un test d'accessibilité.
 
 Les barres d'outils sont des extensions du navigateur qui vont faciliter le repérage visuel de certains éléments dans un document :
 
-* Web Accessibility Toolbar pour Internet Explorer (<https://developer.paciellogroup.com/resources/wat/>) : barre d'outils de vérification de certains points d'accessibilité d'un document ;
 * Web Developer Toolbar pour Firefox (<https://addons.mozilla.org/fr/firefox/addon/web-developer/>) : barre d'outils pour les développeurs qui peut aider à retrouver visuellement certains éléments dans un document pour en contrôler l'accessibilité ;
-* Web Developer Toolbar pour Chrome (<https://chrome.google.com/webstore/detail/web-developer/>) : la même barre d'outils que précédemment, pour Chrome.
+* Web Developer Toolbar pour Chrome (<https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm>) : la même barre d'outils que précédemment, pour Chrome.
 
 Au-delà de la simple barre d'outil, d'autres outils fournissent une analyse complète du document en signalant visuellement sur la page les erreurs d'accessibilité ou à l'inverse les éléments qui lui sont bénéfiques ; des filtres permettent alors souvent de n'afficher que certains de ces aspects. C'est ce que propose Wave, une solution disponible à la fois en ligne (<http://wave.webaim.org>) et comme extension de navigateur (<https://wave.webaim.org/extension/>).
 
-La validation du code source d'un document HTML utilise le validateur en ligne du W3C (<https://validator.w3.org/>) ; À noter que pour valider le code source généré par le navigateur, il faut utiliser l'option "Validate by Direct Input" en y copiant la source HTML proposée par l'inspecteur de code du navigateur. Des extensions de navigateur sont aussi disponibles, mais il faut être vigilant, car les algorithmes de validation de ces extensions ne sont pas forcément à jour par rapport au validateur du W3C et les résultats obtenus peuvent donc être différents.
+La validation du code source d'un document HTML utilise le validateur en ligne du W3C (<https://validator.w3.org/>). À noter que pour valider le code source généré par le navigateur, il faut utiliser l'option "Validate by Direct Input" en y copiant la source HTML proposée par l'inspecteur de code du navigateur. Des extensions de navigateur sont aussi disponibles, mais il faut être vigilant, car les algorithmes de validation de ces extensions ne sont pas forcément à jour par rapport au validateur du W3C et les résultats obtenus peuvent donc être différents.
 
 La vérification des contrastes de couleurs bénéficie de différents outils :
 
@@ -49,7 +48,7 @@ La vérification de l'arborescence du document et de la hiérarchie des titres d
 
 L'analyse des fichiers bureautiques peut être réalisée au moyen de différents outils en fonction du format du fichier :
 
-* PAC (PDF Accessibility Checker) version 3 pour Windows (<https://www.access-for-all.ch/en/pdf-lab/pdf-accessibility-checker-pac.html>) : logiciel qui permet de contrôler certains points d'accessibilité des documents PDF ;
+* PAC (PDF Accessibility Checker) version 3 pour Windows (<https://www.access-for-all.ch/en/pdf-accessibility-checker.html>) : logiciel qui permet de contrôler certains points d'accessibilité des documents PDF ;
 * Word Accessibility Plug-in pour Microsoft Office Windows (<http://accessibility.zhaw.ch/index.php?id=6&L=1>) : extension du logiciel Microsoft Word qui permet d'éditer et de contrôler l'accessibilité d'un document bureautique éditable au format .doc ; à noter que les versions récentes des outils bureautiques de Microsoft offrent une fonctionnalité intégrée de validation de l'accessibilité.
 * AccessODF pour LibreOffice (<https://extensions.libreoffice.org/extensions/accessodf>) : extension pour vérifier l'accessibilité d'un document LibreOffice Writer ; à noter que cette extension n'est plus compatible avec les dernières versions de LibreOffice (supérieures à la version 4.0) ;
 * Ace by DAISY App (<https://inclusivepublishing.org/toolbox/ace-by-daisy-app/>) est un utilitaire pour vérifier l'accessibilité d'un fichier EPUB.
@@ -737,8 +736,7 @@ Note : le critère est non applicable dans les situations où :
 * Le média temporel est utilisé pour accéder à une version agrandie ;
 * Le média temporel est utilisé comme un CAPTCHA ;
 * Le média temporel fait partie d'un test qui deviendrait inutile si la transcription textuelle, les sous-titres synchronisés ou l'audiodescription étaient communiqués ;
-* Pour les services de l’État, les collectivités territoriales et leurs établissements : si le média temporel a été publié entre le 23 septembre 2019 et le 23 septembre 2020 sur un site internet, intranet ou extranet créé depuis le 23 septembre 2018, il est exempté de l’obligation d’accessibilité ;
-* Pour les personnes de droit privé mentionnées aux 2° à 4° du I de l’article 47 de la loi du 11 février 2005 : si le média temporel a été publié avant le 23 septembre 2020, il est exempté de l’obligation d’accessibilité.
+* Le média temporel a été publié avant le 23 septembre 2020 (d'après la [loi du 28 mai 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo)) ;
 
 #### Critère 4.2 Pour chaque média temporel pré-enregistré ayant une transcription textuelle ou une audiodescription synchronisée, celles-ci sont-elles pertinentes (hors cas particuliers) ?
 
@@ -2280,7 +2278,7 @@ Note au sujet du format EPUB : l'utilitaire Ace by DAISY App permet d'effectuer 
 
 Note au sujet des documents dérogés : le référentiel propose un statut de dérogation dans certains cas (cf. guide d'accompagnement). Dans ce cas, les tests ne sont pas à réaliser, la version accessible étant fournie sur demande de l'utilisateur.
 
-Note à l'attention des personnes de droit privé mentionnées aux 2° à 4° du I de l’article 47 de la loi du 11 février 2005 : si les fichiers bureautiques (ex : PDF, documents Microsoft ou libreOffice, etc.) ont été publiés avant le 23 septembre 2018 (sauf si ce sont des documents nécessaires pour accomplir une démarche administrative relevant des tâches effectuées par l'organisme concerné), ils sont exemptés de l’obligation d’accessibilité.
+Note au sujet des documents bureautiques : si les fichiers bureautiques (ex : PDF, documents Microsoft ou libreOffice, etc.) ont été publiés avant le 23 septembre 2018 (sauf si ces contenus sont nécessaires pour les besoins de processus administratifs actifs concernant des tâches effectuées par l’organisme du secteur public concerné), ils sont exemptés de l’obligation d’accessibilité, d'après la loi du [28 mai 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo).
 
 #### Critère 13.4 Pour chaque document bureautique ayant une version accessible, cette version offre-t-elle la même information ?
 
@@ -2386,7 +2384,7 @@ Note : il existe des interfaces pour lesquelles l'orientation du périphérique 
 2. Pour chaque fonctionnalité, vérifier qu'elle reste disponible au moyen d'une interaction au toucher de type contact en un point unique de l'écran (par exemple, la possibilité de composer son mot de passe en suivant une trajectoire sur un clavier virtuel doit aussi être disponible au moyen de pressions successives sur les touches du clavier) ;
 3. Si c'est le cas pour chaque fonctionnalité utilisable ou disponible au moyen d'une interaction au toucher qui implique le suivi d'une trajectoire sur l'écran, le test est validé.
 
-<!-->
+<!--
 Cas particuliers
 Il existe une gestion de cas particuliers dans deux types de situation :
     • Le critère ne s'applique qu'à des fonctionnalités mises en place par l'auteur du site. Il ne concerne donc pas les gestes requis par l'agent utilisateur ou le système d'exploitation.

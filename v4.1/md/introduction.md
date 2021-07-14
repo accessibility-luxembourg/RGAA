@@ -6,6 +6,12 @@ menu:
   weight: 31
 layout: rgaa-accessibilite
 ---
+*Version 4.1-LU, publiée le 14 juillet 2021*
+
+D'après la [loi luxembourgeoise du 28 mai 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo), tous les sites publics et applications mobiles luxembourgeoises doivent être accessibles. 
+Le [Service Information et Presse (SIP)](https://sip.gouvernement.lu/) est en charge de l'évaluation de leur accessibilité.
+
+Dans ce cadre, le référentiel général d'amélioration de l'accessibilité (RGAA), créé par la [DINUM](https://www.numerique.gouv.fr/dinum/), a été sélectionné comme référentiel d'accessibilité pour tous les organismes du secteur public concernés par la loi.
 
 La méthode technique du RGAA permet de vérifier qu’une page web – c’est-à-dire tout contenu HTML (HTML4, XHTML1 et HTML5) - est conforme aux 50 critères de succès des niveaux A et AA de la norme internationale WCAG 2.1 qui ont été retenus dans la [norme européenne de référence (.pdf)](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf) pour établir le niveau d’exigence légale en matière d’accessibilité numérique.
 
@@ -15,14 +21,18 @@ Elle comporte 106 critères de contrôle RGAA incluant une moyenne de 2,5 tests 
 
 En cas d'absence de mise à jour du référentiel sous 3 ans pour prendre en compte de nouveaux standards ou spécifications techniques, il est possible de créer ses propres tests en complément de ceux existant.
 
-Certains tests, concernant notamment les composants d’interface développés en JavaScript, requièrent de vérifier la restitution des contenus avec des technologies d’assistance associées à des navigateurs et des systèmes d’exploitation. L’environnement de test (ou «Base de référence ») est décrit dans la partie 2.4.
+Certains tests, concernant notamment les composants d’interface développés en JavaScript, requièrent de vérifier la restitution des contenus avec des technologies d’assistance associées à des navigateurs et des systèmes d’exploitation. L’environnement de test (ou «Base de référence ») est décrit sur la page [Environnement de test](environnement.html).
 
-À noter que la méthode technique du RGAA 4.1 ne couvre pas les applications mobiles natives, les progiciels et le mobilier urbain numérique pour lesquels il sera nécessaire de vérifier directement la mise en œuvre de la [norme de référence EN 301-549 V2.1.2 (.pdf)](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf) notamment avec les parties :
+La méthode technique du RGAA 4.1 couvre uniquement les sites web, les applications mobiles natives sont couvertes par le [RAAM 1](../raam1/index.html).
 
-* 5 Exigences génériques ;
-* 6 TIC avec communication vocale bidirectionnelle ;
-* 7 TIC avec capacités vidéo ;
-* 8 Matériels ;
-* 11 Logiciels.
+La présente version est la version 4.1-LU, son contenu est directement issu du [RGAA 4.1 original](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/). Ce référentiel a été adapté par le [Service Information et Presse (SIP)](https://sip.gouvernement.lu/) pour faire référence au cadre légal luxembourgeois. Les sources sont disponibles sur le dépôt GitHub [accessibility-luxembourg/RGAA](https://github.com/accessibility-luxembourg/RGAA).
+En cas de défaut constaté sur ce référentiel, vous pouvez créer un ticket dans ce dépôt. 
 
-*[TIC]: technologies de l’information et de la communication
+### Sommaire
+
+  * [Critères et tests](criteres.html)
+  * [Glossaire](glossaire.html)
+  * [Environnement de test](environnement.html)
+  * [Méthodologie de test](methodo-test.html)
+  * [Références](references.html)
+  * [Notes de révision](notes-revision.html)
