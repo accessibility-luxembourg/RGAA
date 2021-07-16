@@ -12,33 +12,33 @@
                         "number": 1,
                         "title": "Chaque image [porteuse d'information](#image-porteuse-d-information) a-t-elle une [alternative textuelle](#alternative-textuelle-image) ?",
                         "tests": {
-                            "1": "Chaque image (balise `<img>` ou balise possédant l'attribut WAI-ARIA `role=\"img\"`) [porteuse d'information](#image-porteuse-d-information) a-t-elle une [alternative textuelle](#alternative-textuelle-image) ?",
-                            "2": "Chaque [zone](#zone-d-une-image-reactive) d'une [image réactive](#image-reactive) (balise `<area>`) [porteuse d'information](#image-porteuse-d-information) a-t-elle une [alternative textuelle](#alternative-textuelle-image) ?",
-                            "3": "Chaque bouton de type `image` (balise `<input>` avec l'attribut `type=\"image\"`) a-t-il une [alternative textuelle](#alternative-textuelle-image) ?",
+                            "1": "Chaque image (balise `<img>`{lang=en} ou balise possédant l'attribut WAI-ARIA `role=\"img\"`{lang=en}) [porteuse d'information](#image-porteuse-d-information) a-t-elle une [alternative textuelle](#alternative-textuelle-image) ?",
+                            "2": "Chaque [zone](#zone-d-une-image-reactive) d'une [image réactive](#image-reactive) (balise `<area>`{lang=en}) [porteuse d'information](#image-porteuse-d-information) a-t-elle une [alternative textuelle](#alternative-textuelle-image) ?",
+                            "3": "Chaque bouton de type `image`{lang=en} (balise `<input>`{lang=en} avec l'attribut `type=\"image\"`{lang=en}) a-t-il une [alternative textuelle](#alternative-textuelle-image) ?",
                             "4": "Chaque [zone cliquable](#zone-cliquable) d’une image réactive côté serveur est-elle doublée d’un mécanisme utilisable quel que soit le dispositif de pointage utilisé et permettant d'accéder à la même destination ?",
                             "5": [
-                                "Chaque image vectorielle (balise `<svg>`) [porteuse d'information](#image-porteuse-d-information), vérifie-t-elle ces conditions ?",
-                                "La balise `<svg>` possède un attribut WAI-ARIA `role=\"img\"` ;",
-                                "La balise `<svg>` a une [alternative textuelle](#alternative-textuelle-image)."
+                                "Chaque image vectorielle (balise `<svg>`{lang=en}) [porteuse d'information](#image-porteuse-d-information), vérifie-t-elle ces conditions ?",
+                                "La balise `<svg>`{lang=en} possède un attribut WAI-ARIA `role=\"img\"`{lang=en} ;",
+                                "La balise `<svg>`{lang=en} a une [alternative textuelle](#alternative-textuelle-image)."
                             ],
                             "6": [
-                                "Chaque [image objet](#image-objet) (balise `<object>` avec l'attribut `type=\"image/…\"`) [porteuse d'information](#image-porteuse-d-information), vérifie-t-elle une de ces conditions ?",
-                                "La balise `<object>` possède une [alternative textuelle](#alternative-textuelle-image) et un attribut `role=\"img\"` ;",
-                                "L'élément `<object>` est immédiatement suivi d'un [lien ou bouton adjacent](#lien-ou-bouton-adjacent) permettant d'accéder à un [contenu alternatif](#contenu-alternatif) ;",
-                                "Un mécanisme permet à l'utilisateur de remplacer l'élément `<object>` par un [contenu alternatif](#contenu-alternatif)."
+                                "Chaque [image objet](#image-objet) (balise `<object>`{lang=en} avec l'attribut `type=\"image/…\"`{lang=en}) [porteuse d'information](#image-porteuse-d-information), vérifie-t-elle une de ces conditions ?",
+                                "La balise `<object>`{lang=en} possède une [alternative textuelle](#alternative-textuelle-image) et un attribut `role=\"img\"`{lang=en} ;",
+                                "L'élément `<object>`{lang=en} est immédiatement suivi d'un [lien ou bouton adjacent](#lien-ou-bouton-adjacent) permettant d'accéder à un [contenu alternatif](#contenu-alternatif) ;",
+                                "Un mécanisme permet à l'utilisateur de remplacer l'élément `<object>`{lang=en} par un [contenu alternatif](#contenu-alternatif)."
                             ],
                             "7": [
-                                "Chaque image embarquée (balise `<embed>` avec l'attribut `type=\"image/…\"`) [porteuse d'information](#image-porteuse-d-information), vérifie-t-elle une de ces conditions ?",
-                                "La balise `<embed>` possède une [alternative textuelle](#alternative-textuelle-image) et un attribut `role=\"img\"` ;",
-                                "L'élément `<embed>` est immédiatement suivi d'un [lien ou bouton adjacent](#lien-ou-bouton-adjacent) permettant d'accéder à un [contenu alternatif](#contenu-alternatif) ;",
-                                "Un mécanisme permet à l'utilisateur de remplacer l'élément `<embed>` par un [contenu alternatif](#contenu-alternatif)."
+                                "Chaque image embarquée (balise `<embed>`{lang=en} avec l'attribut `type=\"image/…\"`{lang=en}) [porteuse d'information](#image-porteuse-d-information), vérifie-t-elle une de ces conditions ?",
+                                "La balise `<embed>`{lang=en} possède une [alternative textuelle](#alternative-textuelle-image) et un attribut `role=\"img\"`{lang=en} ;",
+                                "L'élément `<embed>`{lang=en} est immédiatement suivi d'un [lien ou bouton adjacent](#lien-ou-bouton-adjacent) permettant d'accéder à un [contenu alternatif](#contenu-alternatif) ;",
+                                "Un mécanisme permet à l'utilisateur de remplacer l'élément `<embed>`{lang=en} par un [contenu alternatif](#contenu-alternatif)."
                             ],
                             "8": [
-                                "Chaque image bitmap (balise `<canvas>`) [porteuse d'information](#image-porteuse-d-information), vérifie-t-elle une de ces conditions ?",
-                                "La balise `<canvas>` possède une [alternative textuelle](#alternative-textuelle-image) et un attribut `role=\"img\"` ;",
-                                "Un [contenu alternatif](#contenu-alternatif) est présent entre les balises `<canvas>` et `</canvas>` ;",
-                                "L'élément `<canvas>` est immédiatement suivi d'un [lien ou bouton adjacent](#lien-ou-bouton-adjacent) permettant d'accéder à un [contenu alternatif](#contenu-alternatif) ;",
-                                "Un mécanisme permet à l'utilisateur de remplacer l'élément `<canvas>` par un [contenu alternatif](#contenu-alternatif)."
+                                "Chaque image bitmap (balise `<canvas>`{lang=en}) [porteuse d'information](#image-porteuse-d-information), vérifie-t-elle une de ces conditions ?",
+                                "La balise `<canvas>`{lang=en} possède une [alternative textuelle](#alternative-textuelle-image) et un attribut `role=\"img\"`{lang=en} ;",
+                                "Un [contenu alternatif](#contenu-alternatif) est présent entre les balises `<canvas>`{lang=en} et `</canvas>`{lang=en} ;",
+                                "L'élément `<canvas>`{lang=en} est immédiatement suivi d'un [lien ou bouton adjacent](#lien-ou-bouton-adjacent) permettant d'accéder à un [contenu alternatif](#contenu-alternatif) ;",
+                                "Un mécanisme permet à l'utilisateur de remplacer l'élément `<canvas>`{lang=en} par un [contenu alternatif](#contenu-alternatif)."
                             ]
                         },
                         "references": [
@@ -65,44 +65,44 @@
                         "title": "Chaque [image de décoration](#image-de-decoration) est-elle correctement ignorée par les technologies d'assistance ?",
                         "tests": {
                             "1": [
-                                "Chaque image (balise `<img>`) [de décoration](#image-de-decoration), sans [légende](#legende-d-image), vérifie-t-elle une de ces conditions ?",
-                                "La balise `<img>` possède un attribut `alt` vide (`alt=\"\"`) et est dépourvue de tout autre attribut permettant de fournir une [alternative textuelle](#alternative-textuelle-image) ;",
-                                "La balise `<img>` possède un attribut WAI-ARIA `aria-hidden=\"true\"` ou `role=\"presentation\"`."
+                                "Chaque image (balise `<img>`{lang=en}) [de décoration](#image-de-decoration), sans [légende](#legende-d-image), vérifie-t-elle une de ces conditions ?",
+                                "La balise `<img>`{lang=en} possède un attribut `alt`{lang=en} vide (`alt=\"\"`{lang=en}) et est dépourvue de tout autre attribut permettant de fournir une [alternative textuelle](#alternative-textuelle-image) ;",
+                                "La balise `<img>`{lang=en} possède un attribut WAI-ARIA `aria-hidden=\"true\"`{lang=en} ou `role=\"presentation\"`{lang=en}."
                             ],
                             "2": [
-                                "Chaque [zone non cliquable](#zone-non-cliquable) (balise `<area>` sans attribut `href`) [de décoration](#image-de-decoration), vérifie-t-elle une de ces conditions ?",
-                                "La balise `<area>` possède un attribut `alt` vide (`alt=\"\"`) et est dépourvue de tout autre attribut permettant de fournir une [alternative textuelle](#alternative-textuelle-image) ;",
-                                "La balise `<area>` possède un attribut WAI-ARIA `aria-hidden=\"true\"` ou `role=\"presentation\"`."
+                                "Chaque [zone non cliquable](#zone-non-cliquable) (balise `<area>`{lang=en} sans attribut `href`{lang=en}) [de décoration](#image-de-decoration), vérifie-t-elle une de ces conditions ?",
+                                "La balise `<area>`{lang=en} possède un attribut `alt`{lang=en} vide (`alt=\"\"`{lang=en}) et est dépourvue de tout autre attribut permettant de fournir une [alternative textuelle](#alternative-textuelle-image) ;",
+                                "La balise `<area>`{lang=en} possède un attribut WAI-ARIA `aria-hidden=\"true\"`{lang=en} ou `role=\"presentation\"`{lang=en}."
                             ],
                             "3": [
-                                "Chaque [image objet](#image-objet) (balise `<object>` avec l'attribut `type=\"image/…\"`) [de décoration](#image-de-decoration), sans [légende](#legende-d-image), vérifie-t-elle ces conditions ?",
-                                "La balise `<object>` possède un attribut WAI-ARIA `aria-hidden=\"true\"` ;",
-                                "La balise `<object>` est dépourvue d'[alternative textuelle](#alternative-textuelle-image) ;",
-                                "Il n'y a aucun texte faisant office d'[alternative textuelle](#alternative-textuelle-image) entre `<object>` et `</object>`."
+                                "Chaque [image objet](#image-objet) (balise `<object>`{lang=en} avec l'attribut `type=\"image/…\"`{lang=en}) [de décoration](#image-de-decoration), sans [légende](#legende-d-image), vérifie-t-elle ces conditions ?",
+                                "La balise `<object>`{lang=en} possède un attribut WAI-ARIA `aria-hidden=\"true\"`{lang=en} ;",
+                                "La balise `<object>`{lang=en} est dépourvue d'[alternative textuelle](#alternative-textuelle-image) ;",
+                                "Il n'y a aucun texte faisant office d'[alternative textuelle](#alternative-textuelle-image) entre `<object>`{lang=en} et `</object>`{lang=en}."
                             ],
                             "4": [
-                                "Chaque image vectorielle (balise `<svg>`) [de décoration](#image-de-decoration), sans [légende](#legende-d-image), vérifie-t-elle ces conditions ?",
-                                "La balise `<svg>` possède un attribut WAI-ARIA `aria-hidden=\"true\"` ;",
-                                "La balise `<svg>` et ses enfants sont dépourvus d'[alternative textuelle](#alternative-textuelle-image) ;",
-                                "Les balises `<title>` et `<desc>` sont absentes ou vides ;",
-                                "La balise `<svg>` et ses enfants sont dépourvus d'attribut `title`."
+                                "Chaque image vectorielle (balise `<svg>`{lang=en}) [de décoration](#image-de-decoration), sans [légende](#legende-d-image), vérifie-t-elle ces conditions ?",
+                                "La balise `<svg>`{lang=en} possède un attribut WAI-ARIA `aria-hidden=\"true\"`{lang=en} ;",
+                                "La balise `<svg>`{lang=en} et ses enfants sont dépourvus d'[alternative textuelle](#alternative-textuelle-image) ;",
+                                "Les balises `<title>`{lang=en} et `<desc>`{lang=en} sont absentes ou vides ;",
+                                "La balise `<svg>`{lang=en} et ses enfants sont dépourvus d'attribut `title`{lang=en}."
                             ],
                             "5": [
-                                "Chaque image bitmap (balise `<canvas>`) [de décoration](#image-de-decoration), sans [légende](#legende-d-image), vérifie-t-elle ces conditions ?",
-                                "La balise `<canvas>` possède un attribut WAI-ARIA `aria-hidden=\"true\"` ;",
-                                "La balise `<canvas>` et ses enfants sont dépourvus d'[alternative textuelle](#alternative-textuelle-image) ;",
-                                "Il n'y a aucun texte faisant office d'[alternative textuelle](#alternative-textuelle-image) entre `<canvas>` et `</canvas>`."
+                                "Chaque image bitmap (balise `<canvas>`{lang=en}) [de décoration](#image-de-decoration), sans [légende](#legende-d-image), vérifie-t-elle ces conditions ?",
+                                "La balise `<canvas>`{lang=en} possède un attribut WAI-ARIA `aria-hidden=\"true\"`{lang=en} ;",
+                                "La balise `<canvas>`{lang=en} et ses enfants sont dépourvus d'[alternative textuelle](#alternative-textuelle-image) ;",
+                                "Il n'y a aucun texte faisant office d'[alternative textuelle](#alternative-textuelle-image) entre `<canvas>`{lang=en} et `</canvas>`{lang=en}."
                             ],
                             "6": [
-                                "Chaque image embarquée (balise `<embed>` avec l'attribut `type=\"image/…\"`) [de décoration](#image-de-decoration), sans [légende](#legende-d-image), vérifie-t-elle ces conditions ?",
-                                "La balise `<embed>` possède un attribut WAI-ARIA `aria-hidden=\"true\"` ;",
-                                "La balise `<embed>` et ses enfants sont dépourvus d'[alternative textuelle](#alternative-textuelle-image)."
+                                "Chaque image embarquée (balise `<embed>`{lang=en} avec l'attribut `type=\"image/…\"`{lang=en}) [de décoration](#image-de-decoration), sans [légende](#legende-d-image), vérifie-t-elle ces conditions ?",
+                                "La balise `<embed>`{lang=en} possède un attribut WAI-ARIA `aria-hidden=\"true\"`{lang=en} ;",
+                                "La balise `<embed>`{lang=en} et ses enfants sont dépourvus d'[alternative textuelle](#alternative-textuelle-image)."
                             ]
                         },
                         "technicalNote": [
                             "Lorsqu'une image est associée à une [légende](#legende-d-image), la note technique WCAG recommande de prévoir systématiquement une [alternative textuelle](#alternative-textuelle-image) (cf. [critère 1.9](#crit-1-9)). Dans ce cas le critère 1.2 est non applicable.",
-                            "Dans le cas d'une image vectorielle (balise `<svg>`) de décoration qui serait affichée au travers d'un élément `<use href=\"...\">` enfant de l'élément `<svg>`, le test 1.2.4 s'appliquera également à la balise `<svg>` associée par le biais de la balise `<use>`.",
-                            "Un attribut WAI-ARIA `role=\"presentation\"` peut être utilisé sur les images de décoration et les zones non cliquables de décoration. Le rôle `\"none\"` introduit en ARIA 1.1 et synonyme du rôle `\"presentation\"` peut être aussi utilisé. Il reste préférable cependant d'utiliser le rôle `\"presentation\"` en attendant un support satisfaisant du rôle `\"none\"`."
+                            "Dans le cas d'une image vectorielle (balise `<svg>`{lang=en}) de décoration qui serait affichée au travers d'un élément `<use href=\"...\">`{lang=en} enfant de l'élément `<svg>`{lang=en}, le test 1.2.4 s'appliquera également à la balise `<svg>`{lang=en} associée par le biais de la balise `<use>`{lang=en}.",
+                            "Un attribut WAI-ARIA `role=\"presentation\"`{lang=en} peut être utilisé sur les images de décoration et les zones non cliquables de décoration. Le rôle `\"none\"`{lang=en} introduit en ARIA 1.1 et synonyme du rôle `\"presentation\"`{lang=en} peut être aussi utilisé. Il reste préférable cependant d'utiliser le rôle `\"presentation\"`{lang=en} en attendant un support satisfaisant du rôle `\"none\"`{lang=en}."
                         ],
                         "references": [
                             {
@@ -131,55 +131,55 @@
                         "title": "Pour chaque image [porteuse d'information](#image-porteuse-d-information) ayant une [alternative textuelle](#alternative-textuelle-image), cette alternative est-elle pertinente (hors cas particuliers) ?",
                         "tests": {
                             "1": [
-                                "Pour chaque image (balise `<img>` ou balise possédant l'attribut WAI-ARIA `role=\"img\"`) [porteuse d'information](#image-porteuse-d-information), ayant une [alternative textuelle](#alternative-textuelle-image), cette alternative est-elle pertinente (hors cas particuliers) ?",
-                                "S'il est présent, le contenu de l'attribut `alt` est pertinent ;",
-                                "S'il est présent, le contenu de l'attribut `title` est pertinent ;",
-                                "S'il est présent, le contenu de l'attribut WAI-ARIA `aria-label` est pertinent ;",
-                                "S'il est présent, le [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) associé via l'attribut WAI-ARIA `aria-labelledby` est pertinent."
+                                "Pour chaque image (balise `<img>`{lang=en} ou balise possédant l'attribut WAI-ARIA `role=\"img\"`{lang=en}) [porteuse d'information](#image-porteuse-d-information), ayant une [alternative textuelle](#alternative-textuelle-image), cette alternative est-elle pertinente (hors cas particuliers) ?",
+                                "S'il est présent, le contenu de l'attribut `alt`{lang=en} est pertinent ;",
+                                "S'il est présent, le contenu de l'attribut `title`{lang=en} est pertinent ;",
+                                "S'il est présent, le contenu de l'attribut WAI-ARIA `aria-label`{lang=en} est pertinent ;",
+                                "S'il est présent, le [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) associé via l'attribut WAI-ARIA `aria-labelledby`{lang=en} est pertinent."
                             ],
                             "2": [
-                                "Pour chaque [zone](#zone-d-une-image-reactive) (balise `<area>`) d'une [image réactive](#image-reactive) [porteuse d'information](#image-porteuse-d-information), ayant une [alternative textuelle](#alternative-textuelle-image), cette alternative est-elle pertinente (hors cas particuliers) ?",
-                                "S'il est présent, le contenu de l'attribut `alt` est pertinent ;",
-                                "S'il est présent, le contenu de l'attribut `title` est pertinent ;",
-                                "S'il est présent, le contenu de l'attribut WAI-ARIA `aria-label` est pertinent ;",
-                                "S'il est présent, le [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) associé via l'attribut WAI-ARIA `aria-labelledby` est pertinent."
+                                "Pour chaque [zone](#zone-d-une-image-reactive) (balise `<area>`{lang=en}) d'une [image réactive](#image-reactive) [porteuse d'information](#image-porteuse-d-information), ayant une [alternative textuelle](#alternative-textuelle-image), cette alternative est-elle pertinente (hors cas particuliers) ?",
+                                "S'il est présent, le contenu de l'attribut `alt`{lang=en} est pertinent ;",
+                                "S'il est présent, le contenu de l'attribut `title`{lang=en} est pertinent ;",
+                                "S'il est présent, le contenu de l'attribut WAI-ARIA `aria-label`{lang=en} est pertinent ;",
+                                "S'il est présent, le [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) associé via l'attribut WAI-ARIA `aria-labelledby`{lang=en} est pertinent."
                             ],
                             "3": [
-                                "Pour chaque [bouton](#bouton-formulaire) de type `image` (balise `<input>` avec l'attribut `type=\"image\"`), ayant une [alternative textuelle](#alternative-textuelle-image), cette alternative est-elle pertinente (hors cas particuliers) ?",
-                                "S'il est présent, le contenu de l'attribut `alt` est pertinent ;",
-                                "S'il est présent, le contenu de l'attribut `title` est pertinent ;",
-                                "S'il est présent, le contenu de l'attribut WAI-ARIA `aria-label` est pertinent ;",
-                                "S'il est présent, le [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) associé via l'attribut WAI-ARIA `aria-labelledby` est pertinent."
+                                "Pour chaque [bouton](#bouton-formulaire) de type `image`{lang=en} (balise `<input>`{lang=en} avec l'attribut `type=\"image\"`{lang=en}), ayant une [alternative textuelle](#alternative-textuelle-image), cette alternative est-elle pertinente (hors cas particuliers) ?",
+                                "S'il est présent, le contenu de l'attribut `alt`{lang=en} est pertinent ;",
+                                "S'il est présent, le contenu de l'attribut `title`{lang=en} est pertinent ;",
+                                "S'il est présent, le contenu de l'attribut WAI-ARIA `aria-label`{lang=en} est pertinent ;",
+                                "S'il est présent, le [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) associé via l'attribut WAI-ARIA `aria-labelledby`{lang=en} est pertinent."
                             ],
                             "4": [
-                                "Pour chaque [image objet](#image-objet) (balise `<object>` avec l'attribut `type=\"image/…\"`) [porteuse d'information](#image-porteuse-d-information), ayant une [alternative textuelle](#alternative-textuelle-image) ou un [contenu alternatif](#contenu-alternatif), cette alternative est-elle pertinente (hors cas particuliers) ?",
-                                "S'il est présent, le contenu de l'attribut `title` est pertinent ;",
-                                "S'il est présent, le contenu de l'attribut WAI-ARIA `aria-label` est pertinent ;",
-                                "S'il est présent, le [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) associé via l'attribut WAI-ARIA `aria-labelledby` est pertinent ;",
+                                "Pour chaque [image objet](#image-objet) (balise `<object>`{lang=en} avec l'attribut `type=\"image/…\"`{lang=en}) [porteuse d'information](#image-porteuse-d-information), ayant une [alternative textuelle](#alternative-textuelle-image) ou un [contenu alternatif](#contenu-alternatif), cette alternative est-elle pertinente (hors cas particuliers) ?",
+                                "S'il est présent, le contenu de l'attribut `title`{lang=en} est pertinent ;",
+                                "S'il est présent, le contenu de l'attribut WAI-ARIA `aria-label`{lang=en} est pertinent ;",
+                                "S'il est présent, le [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) associé via l'attribut WAI-ARIA `aria-labelledby`{lang=en} est pertinent ;",
                                 "S'il est présent le [contenu alternatif](#contenu-alternatif) est pertinent."
                             ],
                             "5": [
-                                "Pour chaque image embarquée (balise `<embed>` avec l'attribut `type=\"image/…\"`) [porteuse d'information](#image-porteuse-d-information), ayant une [alternative textuelle](#alternative-textuelle-image) ou un [contenu alternatif](#contenu-alternatif), cette alternative est-elle pertinente (hors cas particuliers) ?",
-                                "S'il est présent, le contenu de l'attribut `title` est pertinent ;",
-                                "S'il est présent, le contenu de l'attribut WAI-ARIA `aria-label` est pertinent ;",
-                                "S'il est présent, le [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) associé via l'attribut WAI-ARIA `aria-labelledby` est pertinent ;",
+                                "Pour chaque image embarquée (balise `<embed>`{lang=en} avec l'attribut `type=\"image/…\"`{lang=en}) [porteuse d'information](#image-porteuse-d-information), ayant une [alternative textuelle](#alternative-textuelle-image) ou un [contenu alternatif](#contenu-alternatif), cette alternative est-elle pertinente (hors cas particuliers) ?",
+                                "S'il est présent, le contenu de l'attribut `title`{lang=en} est pertinent ;",
+                                "S'il est présent, le contenu de l'attribut WAI-ARIA `aria-label`{lang=en} est pertinent ;",
+                                "S'il est présent, le [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) associé via l'attribut WAI-ARIA `aria-labelledby`{lang=en} est pertinent ;",
                                 "S'il est présent le [contenu alternatif](#contenu-alternatif) est pertinent."
                             ],
                             "6": [
-                                "Pour chaque image vectorielle (balise `<svg>`) [porteuse d'information](#image-porteuse-d-information), ayant une [alternative textuelle](#alternative-textuelle-image), cette alternative est-elle pertinente (hors cas particuliers) ?",
-                                "S'il est présent, le contenu de l'élément `<title>` est pertinent ;",
-                                "S'il est présent, le contenu de l'attribut WAI-ARIA `aria-label` est pertinent ;",
-                                "S'il est présent, le [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) associé via l'attribut WAI-ARIA `aria-labelledby` est pertinent."
+                                "Pour chaque image vectorielle (balise `<svg>`{lang=en}) [porteuse d'information](#image-porteuse-d-information), ayant une [alternative textuelle](#alternative-textuelle-image), cette alternative est-elle pertinente (hors cas particuliers) ?",
+                                "S'il est présent, le contenu de l'élément `<title>`{lang=en} est pertinent ;",
+                                "S'il est présent, le contenu de l'attribut WAI-ARIA `aria-label`{lang=en} est pertinent ;",
+                                "S'il est présent, le [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) associé via l'attribut WAI-ARIA `aria-labelledby`{lang=en} est pertinent."
                             ],
                             "7": [
-                                "Pour chaque image bitmap (balise `<canvas>`) [porteuse d'information](#image-porteuse-d-information), ayant une [alternative textuelle](#alternative-textuelle-image) ou un [contenu alternatif](#contenu-alternatif), cette alternative est-elle pertinente (hors cas particuliers) ?",
-                                "S'il est présent, le contenu de l'attribut `title` est pertinent ;",
-                                "S'il est présent, le contenu de l'attribut WAI-ARIA `aria-label` est pertinent ;",
-                                "S'il est présent, le [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) associé via l'attribut WAI-ARIA `aria-labelledby` est pertinent ;",
+                                "Pour chaque image bitmap (balise `<canvas>`{lang=en}) [porteuse d'information](#image-porteuse-d-information), ayant une [alternative textuelle](#alternative-textuelle-image) ou un [contenu alternatif](#contenu-alternatif), cette alternative est-elle pertinente (hors cas particuliers) ?",
+                                "S'il est présent, le contenu de l'attribut `title`{lang=en} est pertinent ;",
+                                "S'il est présent, le contenu de l'attribut WAI-ARIA `aria-label`{lang=en} est pertinent ;",
+                                "S'il est présent, le [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) associé via l'attribut WAI-ARIA `aria-labelledby`{lang=en} est pertinent ;",
                                 "S'il est présent le [contenu alternatif](#contenu-alternatif) est pertinent."
                             ],
                             "8": [
-                                "Pour chaque image bitmap (balise `<canvas>`) [porteuse d'information](#image-porteuse-d-information) et ayant un [contenu alternatif](#contenu-alternatif) entre `<canvas>` et `</canvas>`, ce [contenu alternatif](#contenu-alternatif) est-il [correctement restitué par les technologies d'assistance](#correctement-restitue-par-les-technologies-d-assistance) ?"
+                                "Pour chaque image bitmap (balise `<canvas>`{lang=en}) [porteuse d'information](#image-porteuse-d-information) et ayant un [contenu alternatif](#contenu-alternatif) entre `<canvas>`{lang=en} et `</canvas>`{lang=en}, ce [contenu alternatif](#contenu-alternatif) est-il [correctement restitué par les technologies d'assistance](#correctement-restitue-par-les-technologies-d-assistance) ?"
                             ],
                             "9": [
                                 "Pour chaque image [porteuse d'information](#image-porteuse-d-information) et ayant une [alternative textuelle](#alternative-textuelle-image), l'[alternative textuelle](#alternative-textuelle-image) est-elle [courte et concise](#alternative-courte-et-concise) (hors cas particuliers) ?"
@@ -217,51 +217,51 @@
                         "title": "Pour chaque image utilisée comme [CAPTCHA](#captcha) ou comme [image-test](#image-test), ayant une [alternative textuelle](#alternative-textuelle-image), cette alternative permet-elle d'identifier la nature et la fonction de l'image ?",
                         "tests": {
                             "1": [
-                                "Pour chaque image (balise `<img>`) utilisée comme [CAPTCHA](#captcha) ou comme [image-test](#image-test), ayant une [alternative textuelle](#alternative-textuelle-image), cette alternative est-elle pertinente ?",
-                                "S'il est présent, le contenu de l'attribut `alt` est pertinent ;",
-                                "S'il est présent, le contenu de l'attribut `title` est pertinent ;",
-                                "S'il est présent, le contenu de l'attribut WAI-ARIA `aria-label` est pertinent ;",
-                                "S'il est présent, le [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) associé via l'attribut WAI-ARIA `aria-labelledby` est pertinent."
+                                "Pour chaque image (balise `<img>`{lang=en}) utilisée comme [CAPTCHA](#captcha) ou comme [image-test](#image-test), ayant une [alternative textuelle](#alternative-textuelle-image), cette alternative est-elle pertinente ?",
+                                "S'il est présent, le contenu de l'attribut `alt`{lang=en} est pertinent ;",
+                                "S'il est présent, le contenu de l'attribut `title`{lang=en} est pertinent ;",
+                                "S'il est présent, le contenu de l'attribut WAI-ARIA `aria-label`{lang=en} est pertinent ;",
+                                "S'il est présent, le [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) associé via l'attribut WAI-ARIA `aria-labelledby`{lang=en} est pertinent."
                             ],
                             "2": [
-                                "Pour chaque zone (balise `<area>`) d'une image réactive utilisée comme [CAPTCHA](#captcha) ou comme [image-test](#image-test), ayant une [alternative textuelle](#alternative-textuelle-image), cette alternative est-elle pertinente ?",
-                                "S'il est présent, le contenu de l'attribut `alt` est pertinent ;",
-                                "S'il est présent, le contenu de l'attribut `title` est pertinent ;",
-                                "S'il est présent, le contenu de l'attribut WAI-ARIA `aria-label` est pertinent ;",
-                                "S'il est présent, le [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) associé via l'attribut WAI-ARIA `aria-labelledby` est pertinent."
+                                "Pour chaque zone (balise `<area>`{lang=en}) d'une image réactive utilisée comme [CAPTCHA](#captcha) ou comme [image-test](#image-test), ayant une [alternative textuelle](#alternative-textuelle-image), cette alternative est-elle pertinente ?",
+                                "S'il est présent, le contenu de l'attribut `alt`{lang=en} est pertinent ;",
+                                "S'il est présent, le contenu de l'attribut `title`{lang=en} est pertinent ;",
+                                "S'il est présent, le contenu de l'attribut WAI-ARIA `aria-label`{lang=en} est pertinent ;",
+                                "S'il est présent, le [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) associé via l'attribut WAI-ARIA `aria-labelledby`{lang=en} est pertinent."
                             ],
                             "3": [
-                                "Pour chaque [bouton](#bouton-formulaire) de type `image` (balise `<input>` avec l'attribut `type=\"image\"`) utilisé comme [CAPTCHA](#captcha) ou comme [image-test](#image-test), ayant une [alternative textuelle](#alternative-textuelle-image), cette alternative est-elle pertinente ?",
-                                "S'il est présent, le contenu de l'attribut `alt` est pertinent ;",
-                                "S'il est présent, le contenu de l'attribut `title` est pertinent ;",
-                                "S'il est présent, le contenu de l'attribut WAI-ARIA `aria-label` est pertinent ;",
-                                "S'il est présent, le [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) associé via l'attribut WAI-ARIA `aria-labelledby` est pertinent."
+                                "Pour chaque [bouton](#bouton-formulaire) de type `image`{lang=en} (balise `<input>`{lang=en} avec l'attribut `type=\"image\"`{lang=en}) utilisé comme [CAPTCHA](#captcha) ou comme [image-test](#image-test), ayant une [alternative textuelle](#alternative-textuelle-image), cette alternative est-elle pertinente ?",
+                                "S'il est présent, le contenu de l'attribut `alt`{lang=en} est pertinent ;",
+                                "S'il est présent, le contenu de l'attribut `title`{lang=en} est pertinent ;",
+                                "S'il est présent, le contenu de l'attribut WAI-ARIA `aria-label`{lang=en} est pertinent ;",
+                                "S'il est présent, le [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) associé via l'attribut WAI-ARIA `aria-labelledby`{lang=en} est pertinent."
                             ],
                             "4": [
-                                "Pour chaque [image objet](#image-objet) (balise `<object>` avec l'attribut `type=\"image/…\"`) utilisée comme [CAPTCHA](#captcha) ou comme [image-test](#image-test), ayant une [alternative textuelle](#alternative-textuelle-image) ou un [contenu alternatif](#contenu-alternatif), cette alternative est-elle pertinente ?",
-                                "S'il est présent, le contenu de l'attribut `title` est pertinent ;",
-                                "S'il est présent, le contenu de l'attribut WAI-ARIA `aria-label` est pertinent ;",
-                                "S'il est présent, le [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) associé via l'attribut WAI-ARIA `aria-labelledby` est pertinent ;",
+                                "Pour chaque [image objet](#image-objet) (balise `<object>`{lang=en} avec l'attribut `type=\"image/…\"`{lang=en}) utilisée comme [CAPTCHA](#captcha) ou comme [image-test](#image-test), ayant une [alternative textuelle](#alternative-textuelle-image) ou un [contenu alternatif](#contenu-alternatif), cette alternative est-elle pertinente ?",
+                                "S'il est présent, le contenu de l'attribut `title`{lang=en} est pertinent ;",
+                                "S'il est présent, le contenu de l'attribut WAI-ARIA `aria-label`{lang=en} est pertinent ;",
+                                "S'il est présent, le [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) associé via l'attribut WAI-ARIA `aria-labelledby`{lang=en} est pertinent ;",
                                 "S'il est présent, le [contenu alternatif](#contenu-alternatif) est pertinent."
                             ],
                             "5": [
-                                "Pour chaque image embarquée (balise `<embed>` avec l'attribut `type=\"image/…\"`) utilisée comme [CAPTCHA](#captcha) ou comme [image-test](#image-test), ayant une [alternative textuelle](#alternative-textuelle-image) ou un [contenu alternatif](#contenu-alternatif), cette alternative est-elle pertinente ?",
-                                "S'il est présent, le contenu de l'attribut `title` est pertinent ;",
-                                "S'il est présent, le contenu de l'attribut WAI-ARIA `aria-label` est pertinent ;",
-                                "S'il est présent, le [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) associé via l'attribut WAI-ARIA `aria-labelledby` est pertinent ;",
+                                "Pour chaque image embarquée (balise `<embed>`{lang=en} avec l'attribut `type=\"image/…\"`{lang=en}) utilisée comme [CAPTCHA](#captcha) ou comme [image-test](#image-test), ayant une [alternative textuelle](#alternative-textuelle-image) ou un [contenu alternatif](#contenu-alternatif), cette alternative est-elle pertinente ?",
+                                "S'il est présent, le contenu de l'attribut `title`{lang=en} est pertinent ;",
+                                "S'il est présent, le contenu de l'attribut WAI-ARIA `aria-label`{lang=en} est pertinent ;",
+                                "S'il est présent, le [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) associé via l'attribut WAI-ARIA `aria-labelledby`{lang=en} est pertinent ;",
                                 "S'il est présent, le [contenu alternatif](#contenu-alternatif) est pertinent."
                             ],
                             "6": [
-                                "Pour chaque image vectorielle (balise `<svg>`) utilisée comme [CAPTCHA](#captcha) ou comme [image-test](#image-test), ayant une [alternative textuelle](#alternative-textuelle-image), cette alternative est-elle pertinente ?",
-                                "S'il est présent, le contenu de l'attribut `title` est pertinent ;",
-                                "S'il est présent, le contenu de l'attribut WAI-ARIA `aria-label` est pertinent ;",
-                                "S'il est présent, le [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) associé via l'attribut WAI-ARIA `aria-labelledby` est pertinent."
+                                "Pour chaque image vectorielle (balise `<svg>`{lang=en}) utilisée comme [CAPTCHA](#captcha) ou comme [image-test](#image-test), ayant une [alternative textuelle](#alternative-textuelle-image), cette alternative est-elle pertinente ?",
+                                "S'il est présent, le contenu de l'attribut `title`{lang=en} est pertinent ;",
+                                "S'il est présent, le contenu de l'attribut WAI-ARIA `aria-label`{lang=en} est pertinent ;",
+                                "S'il est présent, le [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) associé via l'attribut WAI-ARIA `aria-labelledby`{lang=en} est pertinent."
                             ],
                             "7": [
-                                "Pour chaque image bitmap (balise `<canvas>`) utilisée comme [CAPTCHA](#captcha) ou comme [image-test](#image-test), ayant une [alternative textuelle](#alternative-textuelle-image) ou un [contenu alternatif](#contenu-alternatif), cette alternative est-elle pertinente ?",
-                                "S'il est présent, le contenu de l'attribut `title` est pertinent ;",
-                                "S'il est présent, le contenu de l'attribut WAI-ARIA `aria-label` est pertinent ;",
-                                "S'il est présent, le [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) associé via l'attribut WAI-ARIA `aria-labelledby` est pertinent ;",
+                                "Pour chaque image bitmap (balise `<canvas>`{lang=en}) utilisée comme [CAPTCHA](#captcha) ou comme [image-test](#image-test), ayant une [alternative textuelle](#alternative-textuelle-image) ou un [contenu alternatif](#contenu-alternatif), cette alternative est-elle pertinente ?",
+                                "S'il est présent, le contenu de l'attribut `title`{lang=en} est pertinent ;",
+                                "S'il est présent, le contenu de l'attribut WAI-ARIA `aria-label`{lang=en} est pertinent ;",
+                                "S'il est présent, le [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) associé via l'attribut WAI-ARIA `aria-labelledby`{lang=en} est pertinent ;",
                                 "S'il est présent, le [contenu alternatif](#contenu-alternatif) est pertinent."
                             ]
                         },
@@ -286,12 +286,12 @@
                         "title": "Pour chaque image utilisée comme [CAPTCHA](#captcha), une solution d'accès alternatif au contenu ou à la fonction du CAPTCHA est-elle présente ?",
                         "tests": {
                             "1": [
-                                "Chaque image (balises `<img>`, `<area>`, `<object>`, `<embed>`, `<svg>`, `<canvas>` ou possédant un attribut WAI-ARIA `role=\"img\"`) utilisée comme [CAPTCHA](#captcha) vérifie-t-elle une de ces conditions ?",
+                                "Chaque image (balises `<img>`{lang=en}, `<area>`{lang=en}, `<object>`{lang=en}, `<embed>`{lang=en}, `<svg>`{lang=en}, `<canvas>`{lang=en} ou possédant un attribut WAI-ARIA `role=\"img\"`{lang=en}) utilisée comme [CAPTCHA](#captcha) vérifie-t-elle une de ces conditions ?",
                                 "Il existe une autre forme de [CAPTCHA](#captcha) non graphique, au moins ;",
                                 "Il existe une autre solution d'accès à la fonctionnalité qui est sécurisée par le [CAPTCHA](#captcha)."
                             ],
                             "2": [
-                                "Chaque bouton associé à une image (balise `input` avec l'attribut `type=\"image\"`) utilisée comme [CAPTCHA](#captcha) vérifie-t-il une de ces conditions ?",
+                                "Chaque bouton associé à une image (balise `input`{lang=en} avec l'attribut `type=\"image\"`{lang=en}) utilisée comme [CAPTCHA](#captcha) vérifie-t-il une de ces conditions ?",
                                 "Il existe une autre forme de [CAPTCHA](#captcha) non graphique, au moins ;",
                                 "Il existe une autre solution d'accès à la fonctionnalité sécurisée par le [CAPTCHA](#captcha)."
                             ]
@@ -316,63 +316,63 @@
                         "title": "Chaque image [porteuse d'information](#image-porteuse-d-information) a-t-elle, si nécessaire, une [description détaillée](#description-detaillee-image) ?",
                         "tests": {
                             "1": [
-                                "Chaque image (balise `<img>`) [porteuse d'information](#image-porteuse-d-information), qui nécessite une [description détaillée](#description-detaillee-image), vérifie-t-elle une de ces conditions ?",
-                                "Il existe un attribut `longdesc` qui donne l'adresse (URL) d'une page ou d'un emplacement dans la page contenant la [description détaillée](#description-detaillee-image) ;",
+                                "Chaque image (balise `<img>`{lang=en}) [porteuse d'information](#image-porteuse-d-information), qui nécessite une [description détaillée](#description-detaillee-image), vérifie-t-elle une de ces conditions ?",
+                                "Il existe un attribut `longdesc`{lang=en} qui donne l'adresse (URL) d'une page ou d'un emplacement dans la page contenant la [description détaillée](#description-detaillee-image) ;",
                                 "Il existe une [alternative textuelle](#alternative-textuelle-image) contenant la référence à une [description détaillée](#description-detaillee-image) adjacente à l'image ;",
                                 "Il existe un [lien ou un bouton adjacent](#lien-ou-bouton-adjacent) permettant d'accéder à la [description détaillée](#description-detaillee-image)."
                             ],
                             "2": [
-                                "Chaque [image objet](#image-objet) (balise `<object>` avec l'attribut `type=\"image/…\"`) [porteuse d'information](#image-porteuse-d-information), qui nécessite une [description détaillée](#description-detaillee-image), vérifie-t-elle une de ces conditions ?",
+                                "Chaque [image objet](#image-objet) (balise `<object>`{lang=en} avec l'attribut `type=\"image/…\"`{lang=en}) [porteuse d'information](#image-porteuse-d-information), qui nécessite une [description détaillée](#description-detaillee-image), vérifie-t-elle une de ces conditions ?",
                                 "Il existe une [alternative textuelle](#alternative-textuelle-image) contenant la référence à une [description détaillée](#description-detaillee-image) adjacente à l'image ;",
                                 "Il existe un [lien ou un bouton adjacent](#lien-ou-bouton-adjacent) permettant d'accéder à la [description détaillée](#description-detaillee-image)."
                             ],
                             "3": [
-                                "Chaque image embarquée (balise `<embed>`) [porteuse d'information](#image-porteuse-d-information), qui nécessite une [description détaillée](#description-detaillee-image), vérifie-t-elle une de ces conditions ?",
+                                "Chaque image embarquée (balise `<embed>`{lang=en}) [porteuse d'information](#image-porteuse-d-information), qui nécessite une [description détaillée](#description-detaillee-image), vérifie-t-elle une de ces conditions ?",
                                 "Il existe une [alternative textuelle](#alternative-textuelle-image) contenant la référence à une [description détaillée](#description-detaillee-image) adjacente à l'image ;",
                                 "Il existe un [lien ou un bouton adjacent](#lien-ou-bouton-adjacent) permettant d'accéder à la [description détaillée](#description-detaillee-image)."
                             ],
                             "4": [
-                                "Chaque [bouton](#bouton-formulaire) de type `image` (balise `<input>` avec l'attribut `type=\"image\"`) [porteur d'information](#image-porteuse-d-information), qui nécessite une [description détaillée](#description-detaillee-image), vérifie-t-elle une de ces conditions ?",
+                                "Chaque [bouton](#bouton-formulaire) de type `image`{lang=en} (balise `<input>`{lang=en} avec l'attribut `type=\"image\"`{lang=en}) [porteur d'information](#image-porteuse-d-information), qui nécessite une [description détaillée](#description-detaillee-image), vérifie-t-elle une de ces conditions ?",
                                 "Il existe une [alternative textuelle](#alternative-textuelle-image) contenant la référence à une [description détaillée](#description-detaillee-image) adjacente à l'image ;",
                                 "Il existe un [lien ou un bouton adjacent](#lien-ou-bouton-adjacent) permettant d'accéder à la [description détaillée](#description-detaillee-image) ;",
-                                "Il existe un attribut WAI-ARIA `aria-describedby` associant un [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) faisant office de [description détaillée](#description-detaillee-image)."
+                                "Il existe un attribut WAI-ARIA `aria-describedby`{lang=en} associant un [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) faisant office de [description détaillée](#description-detaillee-image)."
                             ],
                             "5": [
-                                "Chaque image vectorielle (balise `<svg>`) [porteuse d'information](#image-porteuse-d-information), qui nécessite une [description détaillée](#description-detaillee-image), vérifie-t-elle une de ces conditions ?",
-                                "Il existe un attribut WAI-ARIA `aria-label` contenant l'[alternative textuelle](#alternative-textuelle-image) et une référence à une [description détaillée](#description-detaillee-image) adjacente ;",
-                                "Il existe un attribut WAI-ARIA `aria-labelledby` associant un [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) faisant office d'[alternative textuelle](#alternative-textuelle-image) et un autre faisant office de [description détaillée](#description-detaillee-image) ;",
-                                "Il existe un attribut WAI-ARIA `aria-describedby` associant un [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) faisant office de [description détaillée](#description-detaillee-image) ;",
+                                "Chaque image vectorielle (balise `<svg>`{lang=en}) [porteuse d'information](#image-porteuse-d-information), qui nécessite une [description détaillée](#description-detaillee-image), vérifie-t-elle une de ces conditions ?",
+                                "Il existe un attribut WAI-ARIA `aria-label`{lang=en} contenant l'[alternative textuelle](#alternative-textuelle-image) et une référence à une [description détaillée](#description-detaillee-image) adjacente ;",
+                                "Il existe un attribut WAI-ARIA `aria-labelledby`{lang=en} associant un [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) faisant office d'[alternative textuelle](#alternative-textuelle-image) et un autre faisant office de [description détaillée](#description-detaillee-image) ;",
+                                "Il existe un attribut WAI-ARIA `aria-describedby`{lang=en} associant un [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) faisant office de [description détaillée](#description-detaillee-image) ;",
                                 "Il existe un [lien ou un bouton adjacent](#lien-ou-bouton-adjacent) permettant d'accéder à la [description détaillée](#description-detaillee-image)."
                             ],
                             "6": [
-                                "Pour chaque image vectorielle (balise `<svg>`) [porteuse d'information](#image-porteuse-d-information), ayant une [description détaillée](#description-detaillee-image), la référence éventuelle à la [description détaillée](#description-detaillee-image) dans l'attribut WAI-ARIA `aria-label` et la [description détaillée](#description-detaillee-image) associée par l'attribut WAI-ARIA `aria-labelledby` ou `aria-describedby` sont-elles correctement restituées par les technologies d'assistance ?"
+                                "Pour chaque image vectorielle (balise `<svg>`{lang=en}) [porteuse d'information](#image-porteuse-d-information), ayant une [description détaillée](#description-detaillee-image), la référence éventuelle à la [description détaillée](#description-detaillee-image) dans l'attribut WAI-ARIA `aria-label`{lang=en} et la [description détaillée](#description-detaillee-image) associée par l'attribut WAI-ARIA `aria-labelledby`{lang=en} ou `aria-describedby`{lang=en} sont-elles correctement restituées par les technologies d'assistance ?"
                             ],
                             "7": [
-                                "Chaque image bitmap (balise `<canvas>`), [porteuse d'information](#image-porteuse-d-information), qui nécessite une [description détaillée](#description-detaillee-image), vérifie-t-elle une de ces conditions ?",
-                                "Il existe un attribut WAI-ARIA `aria-label` contenant l'[alternative textuelle](#alternative-textuelle-image) et une référence à une [description détaillée](#description-detaillee-image) adjacente ;",
-                                "Il existe un attribut WAI-ARIA `aria-labelledby` associant un [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) faisant office d'[alternative textuelle](#alternative-textuelle-image) et un autre faisant office de [description détaillée](#description-detaillee-image) ;",
-                                "Il existe un contenu textuel entre `<canvas>` et `</canvas>` faisant référence à une [description détaillée](#description-detaillee-image) adjacente à l'image bitmap ;",
-                                "Il existe un contenu textuel entre `<canvas>` et `</canvas>` faisant office de [description détaillée](#description-detaillee-image) ;",
+                                "Chaque image bitmap (balise `<canvas>`{lang=en}), [porteuse d'information](#image-porteuse-d-information), qui nécessite une [description détaillée](#description-detaillee-image), vérifie-t-elle une de ces conditions ?",
+                                "Il existe un attribut WAI-ARIA `aria-label`{lang=en} contenant l'[alternative textuelle](#alternative-textuelle-image) et une référence à une [description détaillée](#description-detaillee-image) adjacente ;",
+                                "Il existe un attribut WAI-ARIA `aria-labelledby`{lang=en} associant un [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) faisant office d'[alternative textuelle](#alternative-textuelle-image) et un autre faisant office de [description détaillée](#description-detaillee-image) ;",
+                                "Il existe un contenu textuel entre `<canvas>`{lang=en} et `</canvas>`{lang=en} faisant référence à une [description détaillée](#description-detaillee-image) adjacente à l'image bitmap ;",
+                                "Il existe un contenu textuel entre `<canvas>`{lang=en} et `</canvas>`{lang=en} faisant office de [description détaillée](#description-detaillee-image) ;",
                                 "Il existe un [lien ou bouton adjacent](#lien-ou-bouton-adjacent) permettant d'accéder à la [description détaillée](#description-detaillee-image)."
                             ],
                             "8": [
-                                "Pour chaque image bitmap (balise `<canvas>`) [porteuse d'information](#image-porteuse-d-information), qui implémente une référence à une [description détaillée](#description-detaillee-image) adjacente, cette référence est-elle correctement restituée par les technologies d'assistance ?"
+                                "Pour chaque image bitmap (balise `<canvas>`{lang=en}) [porteuse d'information](#image-porteuse-d-information), qui implémente une référence à une [description détaillée](#description-detaillee-image) adjacente, cette référence est-elle correctement restituée par les technologies d'assistance ?"
                             ],
                             "9": [
-                                "Pour chaque image (balise `<img>`, `<input>` avec l'attribut `type=\"image\"`, `<area>`, `<object>`, `<embed>`, `<svg>`, `<canvas>`, ou possédant un attribut WAI-ARIA `role=\"img\"`) [porteuse d'information](#image-porteuse-d-information), qui est accompagnée d'une [description détaillée](#description-detaillee-image) et qui utilise un attribut WAI-ARIA `aria-describedby`, l'attribut WAI-ARIA `aria-describedby` associe-t-il la [description détaillée](#description-detaillee-image) ?"
+                                "Pour chaque image (balise `<img>`{lang=en}, `<input>`{lang=en} avec l'attribut `type=\"image\"`{lang=en}, `<area>`{lang=en}, `<object>`{lang=en}, `<embed>`{lang=en}, `<svg>`{lang=en}, `<canvas>`{lang=en}, ou possédant un attribut WAI-ARIA `role=\"img\"`{lang=en}) [porteuse d'information](#image-porteuse-d-information), qui est accompagnée d'une [description détaillée](#description-detaillee-image) et qui utilise un attribut WAI-ARIA `aria-describedby`{lang=en}, l'attribut WAI-ARIA `aria-describedby`{lang=en} associe-t-il la [description détaillée](#description-detaillee-image) ?"
                             ],
                             "10": [
-                                "Chaque balise possédant un attribut WAI-ARIA `role=\"img\"` [porteuse d'information](#image-porteuse-d-information), qui nécessite une [description détaillée](#description-detaillee-image), vérifie-t-elle une de ces conditions ?",
-                                "Il existe un attribut WAI-ARIA `aria-label` contenant l'[alternative textuelle](#alternative-textuelle-image) et une référence à une [description détaillée](#description-detaillee-image) adjacente ;",
-                                "Il existe un attribut WAI-ARIA `aria-labelledby` associant un [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) faisant office d'[alternative textuelle](#alternative-textuelle-image) et un autre faisant office de [description détaillée](#description-detaillee-image) ;",
-                                "Il existe un attribut WAI-ARIA `aria-describedby` associant un [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) faisant office de [description détaillée](#description-detaillee-image) ;",
+                                "Chaque balise possédant un attribut WAI-ARIA `role=\"img\"`{lang=en} [porteuse d'information](#image-porteuse-d-information), qui nécessite une [description détaillée](#description-detaillee-image), vérifie-t-elle une de ces conditions ?",
+                                "Il existe un attribut WAI-ARIA `aria-label`{lang=en} contenant l'[alternative textuelle](#alternative-textuelle-image) et une référence à une [description détaillée](#description-detaillee-image) adjacente ;",
+                                "Il existe un attribut WAI-ARIA `aria-labelledby`{lang=en} associant un [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) faisant office d'[alternative textuelle](#alternative-textuelle-image) et un autre faisant office de [description détaillée](#description-detaillee-image) ;",
+                                "Il existe un attribut WAI-ARIA `aria-describedby`{lang=en} associant un [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) faisant office de [description détaillée](#description-detaillee-image) ;",
                                 "Il existe un [lien ou un bouton adjacent](#lien-ou-bouton-adjacent) permettant d'accéder à la [description détaillée](#description-detaillee-image)."
                             ]
                         },
                         "technicalNote": [
-                            "Dans le cas du SVG, le manque de support de l'élément `<title>` et `<desc>` par les technologies d'assistance crée une difficulté dans le cas de l'implémentation de l'[alternative textuelle](#alternative-textuelle-image) de l'image et de sa [description détaillée](#description-detaillee-image). Dans ce cas, il est recommandé d'utiliser l'attribut WAI-ARIA `aria-label` pour implémenter à la fois l'[alternative textuelle](#alternative-textuelle-image) courte et la référence à [description détaillée](#description-detaillee-image) adjacente ou l'attribut WAI-ARIA `aria-labelledby` pour associer les passages de texte faisant office d'alternative courte et de [description détaillée](#description-detaillee-image).",
-                            "L'utilisation de l'attribut WAI-ARIA `aria-describedby` n'est pas recommandée pour lier une image (`<img>`, `<object>`, `<embed>`, `<canvas>`) à sa [description détaillée](#description-detaillee-image), par manque de support des technologies d'assistance. Néanmoins, lorsqu’il est utilisé, l'attribut devra nécessairement faire référence à l’`id` de la zone contenant la description détaillée.",
-                            "La [description détaillée](#description-detaillee-image) adjacente peut être implémentée via une balise `<figcaption>`, dans ce cas le [critère 1.9](#crit-1-9) doit être vérifié (utilisation de `<figure>` et des attributs WAI-ARIA `role=\"figure\"` et `aria-label`, notamment)."
+                            "Dans le cas du SVG, le manque de support de l'élément `<title>`{lang=en} et `<desc>`{lang=en} par les technologies d'assistance crée une difficulté dans le cas de l'implémentation de l'[alternative textuelle](#alternative-textuelle-image) de l'image et de sa [description détaillée](#description-detaillee-image). Dans ce cas, il est recommandé d'utiliser l'attribut WAI-ARIA `aria-label`{lang=en} pour implémenter à la fois l'[alternative textuelle](#alternative-textuelle-image) courte et la référence à [description détaillée](#description-detaillee-image) adjacente ou l'attribut WAI-ARIA `aria-labelledby`{lang=en} pour associer les passages de texte faisant office d'alternative courte et de [description détaillée](#description-detaillee-image).",
+                            "L'utilisation de l'attribut WAI-ARIA `aria-describedby`{lang=en} n'est pas recommandée pour lier une image (`<img>`{lang=en}, `<object>`{lang=en}, `<embed>`{lang=en}, `<canvas>`{lang=en}) à sa [description détaillée](#description-detaillee-image), par manque de support des technologies d'assistance. Néanmoins, lorsqu’il est utilisé, l'attribut devra nécessairement faire référence à l’`id`{lang=en} de la zone contenant la description détaillée.",
+                            "La [description détaillée](#description-detaillee-image) adjacente peut être implémentée via une balise `<figcaption>`{lang=en}, dans ce cas le [critère 1.9](#crit-1-9) doit être vérifié (utilisation de `<figure>`{lang=en} et des attributs WAI-ARIA `role=\"figure\"`{lang=en} et `aria-label`{lang=en}, notamment)."
                         ],
                         "references": [
                             {
@@ -398,48 +398,48 @@
                         "title": "Pour chaque image [porteuse d'information](#image-porteuse-d-information) ayant une [description détaillée](#description-detaillee-image), cette description est-elle pertinente ?",
                         "tests": {
                             "1": [
-                                "Chaque image (balise `<img>`) [porteuse d'information](#image-porteuse-d-information), ayant une [description détaillée](#description-detaillee-image), vérifie-t-elle ces conditions ?",
-                                "La [description détaillée](#description-detaillee-image) via l'adresse référencée dans l'attribut `longdesc` est pertinente ;",
+                                "Chaque image (balise `<img>`{lang=en}) [porteuse d'information](#image-porteuse-d-information), ayant une [description détaillée](#description-detaillee-image), vérifie-t-elle ces conditions ?",
+                                "La [description détaillée](#description-detaillee-image) via l'adresse référencée dans l'attribut `longdesc`{lang=en} est pertinente ;",
                                 "La [description détaillée](#description-detaillee-image) dans la page et signalée par l'[alternative textuelle](#alternative-textuelle-image) est pertinente ;",
                                 "La [description détaillée](#description-detaillee-image) via un [lien ou bouton adjacent](#lien-ou-bouton-adjacent) est pertinente ;",
-                                "Le [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) associé via l'attribut WAI-ARIA `aria-describedby` est pertinent."
+                                "Le [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) associé via l'attribut WAI-ARIA `aria-describedby`{lang=en} est pertinent."
                             ],
                             "2": [
-                                "Chaque [bouton](#bouton-formulaire) de type `image` (balise `<input>` avec l'attribut `type=\"image\"`) [porteur d'information](#image-porteuse-d-information), ayant une [description détaillée](#description-detaillee-image), vérifie-t-elle ces conditions ?",
+                                "Chaque [bouton](#bouton-formulaire) de type `image`{lang=en} (balise `<input>`{lang=en} avec l'attribut `type=\"image\"`{lang=en}) [porteur d'information](#image-porteuse-d-information), ayant une [description détaillée](#description-detaillee-image), vérifie-t-elle ces conditions ?",
                                 "La [description détaillée](#description-detaillee-image) dans la page et signalée par l'[alternative textuelle](#alternative-textuelle-image) est pertinente ;",
                                 "La [description détaillée](#description-detaillee-image) via un [lien ou bouton adjacent](#lien-ou-bouton-adjacent) est pertinente ;",
-                                "Le [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) associé via l'attribut WAI-ARIA `aria-describedby` est pertinent."
+                                "Le [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) associé via l'attribut WAI-ARIA `aria-describedby`{lang=en} est pertinent."
                             ],
                             "3": [
-                                "Chaque [image objet](#image-objet) (balise `<object>` avec l'attribut type=`\"image/…\"`) [porteuse d'information](#image-porteuse-d-information), ayant une [description détaillée](#description-detaillee-image), vérifie-t-elle ces conditions ?",
+                                "Chaque [image objet](#image-objet) (balise `<object>`{lang=en} avec l'attribut type=`\"image/…\"`{lang=en}) [porteuse d'information](#image-porteuse-d-information), ayant une [description détaillée](#description-detaillee-image), vérifie-t-elle ces conditions ?",
                                 "La [description détaillée](#description-detaillee-image) dans la page et signalée par l'[alternative textuelle](#alternative-textuelle-image) est pertinente ;",
                                 "La [description détaillée](#description-detaillee-image) adjacente à l'[image objet](#image-objet) est pertinente ;",
                                 "La [description détaillée](#description-detaillee-image) via un [lien ou bouton adjacent](#lien-ou-bouton-adjacent) est pertinente ;",
-                                "Le [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) associé via l'attribut WAI-ARIA `aria-describedby` est pertinent."
+                                "Le [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) associé via l'attribut WAI-ARIA `aria-describedby`{lang=en} est pertinent."
                             ],
                             "4": [
-                                "Chaque image embarquée (balise `<embed>` avec l'attribut type=`\"image/…\"`) [porteuse d'information](#image-porteuse-d-information), ayant une [description détaillée](#description-detaillee-image), vérifie-t-elle ces conditions ?",
+                                "Chaque image embarquée (balise `<embed>`{lang=en} avec l'attribut type=`\"image/…\"`{lang=en}) [porteuse d'information](#image-porteuse-d-information), ayant une [description détaillée](#description-detaillee-image), vérifie-t-elle ces conditions ?",
                                 "La [description détaillée](#description-detaillee-image) dans la page et signalée par l'[alternative textuelle](#alternative-textuelle-image) est pertinente ;",
                                 "La [description détaillée](#description-detaillee-image) adjacente à l'image embarquée est pertinente ;",
                                 "La [description détaillée](#description-detaillee-image) via un [lien ou bouton adjacent](#lien-ou-bouton-adjacent) est pertinente ;",
-                                "Le [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) associé via l'attribut WAI-ARIA `aria-describedby` est pertinent."
+                                "Le [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) associé via l'attribut WAI-ARIA `aria-describedby`{lang=en} est pertinent."
                             ],
                             "5": [
-                                "Chaque image vectorielle (balise `<svg>`) [porteuse d'information](#image-porteuse-d-information), ayant une [description détaillée](#description-detaillee-image), vérifie-t-elle ces conditions ?",
+                                "Chaque image vectorielle (balise `<svg>`{lang=en}) [porteuse d'information](#image-porteuse-d-information), ayant une [description détaillée](#description-detaillee-image), vérifie-t-elle ces conditions ?",
                                 "La [description détaillée](#description-detaillee-image) dans la page et signalée par l'[alternative textuelle](#alternative-textuelle-image) est pertinente ;",
-                                "La [description détaillée](#description-detaillee-image) dans la page et signalée par le texte contenu dans balise `<desc>` ou `<title>` est pertinente ;",
-                                "La [description détaillée](#description-detaillee-image) contenue dans la balise `<desc>` est pertinente ;",
+                                "La [description détaillée](#description-detaillee-image) dans la page et signalée par le texte contenu dans balise `<desc>`{lang=en} ou `<title>`{lang=en} est pertinente ;",
+                                "La [description détaillée](#description-detaillee-image) contenue dans la balise `<desc>`{lang=en} est pertinente ;",
                                 "La [description détaillée](#description-detaillee-image) via un [lien ou bouton adjacent](#lien-ou-bouton-adjacent) est pertinente ;",
-                                "Le [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) associé via l'attribut WAI-ARIA `aria-describedby` est pertinent."
+                                "Le [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) associé via l'attribut WAI-ARIA `aria-describedby`{lang=en} est pertinent."
                             ],
                             "6": [
-                                "Chaque image bitmap (balise `<canvas>`) [porteuse d'information](#image-porteuse-d-information), ayant une [description détaillée](#description-detaillee-image), vérifie-t-elle ces conditions ?",
+                                "Chaque image bitmap (balise `<canvas>`{lang=en}) [porteuse d'information](#image-porteuse-d-information), ayant une [description détaillée](#description-detaillee-image), vérifie-t-elle ces conditions ?",
                                 "La [description détaillée](#description-detaillee-image) dans la page et signalée par l'[alternative textuelle](#alternative-textuelle-image) est pertinente ;",
-                                "La [description détaillée](#description-detaillee-image) dans la page et signalée par le texte contenu entre `<canvas>` et `</canvas>` est pertinente ;",
-                                "La [description détaillée](#description-detaillee-image) contenue entre `<canvas>` et `</canvas>` est pertinente ;",
+                                "La [description détaillée](#description-detaillee-image) dans la page et signalée par le texte contenu entre `<canvas>`{lang=en} et `</canvas>`{lang=en} est pertinente ;",
+                                "La [description détaillée](#description-detaillee-image) contenue entre `<canvas>`{lang=en} et `</canvas>`{lang=en} est pertinente ;",
                                 "La [description détaillée](#description-detaillee-image) adjacente à l'image bitmap est pertinente ;",
                                 "La [description détaillée](#description-detaillee-image) via un [lien ou bouton adjacent](#lien-ou-bouton-adjacent) est pertinente ;",
-                                "Le [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) associé via l'attribut WAI-ARIA `aria-describedby` est pertinent."
+                                "Le [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) associé via l'attribut WAI-ARIA `aria-describedby`{lang=en} est pertinent."
                             ]
                         },
                         "references": [
@@ -463,22 +463,22 @@
                         "title": "Chaque [image texte](#image-texte) [porteuse d'information](#image-porteuse-d-information), en l'absence d'un [mécanisme de remplacement](#mecanisme-de-remplacement), doit si possible être remplacée par du [texte stylé](#texte-style). Cette règle est-elle respectée (hors cas particuliers) ?",
                         "tests": {
                             "1": [
-                                "Chaque [image texte](#image-texte) (balise `<img>` ou possédant un attribut WAI-ARIA `role=\"img\"`) [porteuse d'information](#image-porteuse-d-information), en l'absence d'un [mécanisme de remplacement](#mecanisme-de-remplacement), doit si possible être remplacée par du [texte stylé](#texte-style). Cette règle est-elle respectée (hors cas particuliers) ?"
+                                "Chaque [image texte](#image-texte) (balise `<img>`{lang=en} ou possédant un attribut WAI-ARIA `role=\"img\"`{lang=en}) [porteuse d'information](#image-porteuse-d-information), en l'absence d'un [mécanisme de remplacement](#mecanisme-de-remplacement), doit si possible être remplacée par du [texte stylé](#texte-style). Cette règle est-elle respectée (hors cas particuliers) ?"
                             ],
                             "2": [
-                                "Chaque bouton « [image texte](#image-texte) » (balise `<input>` avec l'attribut `type=\"image\"`) [porteur d'information](#image-porteuse-d-information), en l'absence d'un [mécanisme de remplacement](#mecanisme-de-remplacement), doit si possible être remplacé par du [texte stylé](#texte-style). Cette règle est-elle respectée (hors cas particuliers) ?"
+                                "Chaque bouton « [image texte](#image-texte) » (balise `<input>`{lang=en} avec l'attribut `type=\"image\"`{lang=en}) [porteur d'information](#image-porteuse-d-information), en l'absence d'un [mécanisme de remplacement](#mecanisme-de-remplacement), doit si possible être remplacé par du [texte stylé](#texte-style). Cette règle est-elle respectée (hors cas particuliers) ?"
                             ],
                             "3": [
-                                "Chaque [image texte](#image-texte) objet (balise `<object>` avec l'attribut `type=\"image/…\"`) [porteuse d'information](#image-porteuse-d-information), en l'absence d'un [mécanisme de remplacement](#mecanisme-de-remplacement), doit si possible être remplacée par du [texte stylé](#texte-style). Cette règle est-elle respectée (hors cas particuliers) ?"
+                                "Chaque [image texte](#image-texte) objet (balise `<object>`{lang=en} avec l'attribut `type=\"image/…\"`{lang=en}) [porteuse d'information](#image-porteuse-d-information), en l'absence d'un [mécanisme de remplacement](#mecanisme-de-remplacement), doit si possible être remplacée par du [texte stylé](#texte-style). Cette règle est-elle respectée (hors cas particuliers) ?"
                             ],
                             "4": [
-                                "Chaque [image texte](#image-texte) embarquée (balise `<embed>` avec l'attribut `type=\"image/…\"`) [porteuse d'information](#image-porteuse-d-information), en l'absence d'un [mécanisme de remplacement](#mecanisme-de-remplacement), doit si possible être remplacée par du [texte stylé](#texte-style). Cette règle est-elle respectée (hors cas particuliers) ?"
+                                "Chaque [image texte](#image-texte) embarquée (balise `<embed>`{lang=en} avec l'attribut `type=\"image/…\"`{lang=en}) [porteuse d'information](#image-porteuse-d-information), en l'absence d'un [mécanisme de remplacement](#mecanisme-de-remplacement), doit si possible être remplacée par du [texte stylé](#texte-style). Cette règle est-elle respectée (hors cas particuliers) ?"
                             ],
                             "5": [
-                                "Chaque [image texte](#image-texte) bitmap (balise `<canvas>`) [porteuse d'information](#image-porteuse-d-information), en l'absence d'un [mécanisme de remplacement](#mecanisme-de-remplacement), doit si possible être remplacée par du [texte stylé](#texte-style). Cette règle est-elle respectée (hors cas particuliers) ?"
+                                "Chaque [image texte](#image-texte) bitmap (balise `<canvas>`{lang=en}) [porteuse d'information](#image-porteuse-d-information), en l'absence d'un [mécanisme de remplacement](#mecanisme-de-remplacement), doit si possible être remplacée par du [texte stylé](#texte-style). Cette règle est-elle respectée (hors cas particuliers) ?"
                             ],
                             "6": [
-                                "Chaque image texte SVG (balise `<svg>`) porteuse d'information et dont le texte n'est pas complètement structuré au moyen d'éléments `<text>`, en l'absence d'un mécanisme de remplacement, doit si possible être remplacée par du texte stylé. Cette règle est-elle respectée (hors cas particuliers) ?"
+                                "Chaque image texte SVG (balise `<svg>`{lang=en}) porteuse d'information et dont le texte n'est pas complètement structuré au moyen d'éléments `<text>`{lang=en}, en l'absence d'un mécanisme de remplacement, doit si possible être remplacée par du texte stylé. Cette règle est-elle respectée (hors cas particuliers) ?"
                             ]
                         },
                         "technicalNote": [
@@ -510,45 +510,45 @@
                         "title": "Chaque [légende d'image](#legende-d-image) est-elle, si nécessaire, correctement reliée à l'image correspondante ?",
                         "tests": {
                             "1": [
-                                "Chaque image pourvue d'une [légende](#legende-d-image) (balise `<img>`, `<input>` avec l'attribut `type=\"image\"` ou possédant un attribut WAI-ARIA `role=\"img\"` associée à une [légende](#legende-d-image) adjacente), vérifie-t-elle, si nécessaire, ces conditions ?",
-                                "L'image (balise `<img>`, `<input>` avec l'attribut `type=\"image\"` ou possédant un attribut WAI-ARIA `role=\"img\"`) et sa [légende](#legende-d-image) adjacente sont contenues dans une balise `<figure>` ;",
-                                "La balise `<figure>` possède un attribut WAI-ARIA `role=\"figure\"` ou `role=\"group\"` ;",
-                                "La balise `<figure>` possède un attribut WAI-ARIA `aria-label` dont le contenu est identique au contenu de la [légende](#legende-d-image) ;",
-                                "La [légende](#legende-d-image) est contenue dans une balise `<figcaption>`."
+                                "Chaque image pourvue d'une [légende](#legende-d-image) (balise `<img>`{lang=en}, `<input>`{lang=en} avec l'attribut `type=\"image\"`{lang=en} ou possédant un attribut WAI-ARIA `role=\"img\"`{lang=en} associée à une [légende](#legende-d-image) adjacente), vérifie-t-elle, si nécessaire, ces conditions ?",
+                                "L'image (balise `<img>`{lang=en}, `<input>`{lang=en} avec l'attribut `type=\"image\"`{lang=en} ou possédant un attribut WAI-ARIA `role=\"img\"`{lang=en}) et sa [légende](#legende-d-image) adjacente sont contenues dans une balise `<figure>`{lang=en} ;",
+                                "La balise `<figure>`{lang=en} possède un attribut WAI-ARIA `role=\"figure\"`{lang=en} ou `role=\"group\"`{lang=en} ;",
+                                "La balise `<figure>`{lang=en} possède un attribut WAI-ARIA `aria-label`{lang=en} dont le contenu est identique au contenu de la [légende](#legende-d-image) ;",
+                                "La [légende](#legende-d-image) est contenue dans une balise `<figcaption>`{lang=en}."
                             ],
                             "2": [
-                                "Chaque [image objet](#image-objet) pourvue d'une [légende](#legende-d-image) (balise `<object>` avec l'attribut `type=\"image/…\"` associée à une [légende](#legende-d-image) adjacente), vérifie-t-elle, si nécessaire, ces conditions ?",
-                                "L'[image objet](#image-objet) (balise `<object>`) et sa [légende](#legende-d-image) adjacente sont contenues dans une balise `<figure>` ;",
-                                "La balise `<figure>` possède un attribut WAI-ARIA `role=\"figure\"` ou `role=\"group\"` ;",
-                                "La balise `<figure>` possède un attribut WAI-ARIA `aria-label` dont le contenu est identique au contenu de la [légende](#legende-d-image) ;",
-                                "La [légende](#legende-d-image) est contenue dans une balise `<figcaption>`."
+                                "Chaque [image objet](#image-objet) pourvue d'une [légende](#legende-d-image) (balise `<object>`{lang=en} avec l'attribut `type=\"image/…\"`{lang=en} associée à une [légende](#legende-d-image) adjacente), vérifie-t-elle, si nécessaire, ces conditions ?",
+                                "L'[image objet](#image-objet) (balise `<object>`{lang=en}) et sa [légende](#legende-d-image) adjacente sont contenues dans une balise `<figure>`{lang=en} ;",
+                                "La balise `<figure>`{lang=en} possède un attribut WAI-ARIA `role=\"figure\"`{lang=en} ou `role=\"group\"`{lang=en} ;",
+                                "La balise `<figure>`{lang=en} possède un attribut WAI-ARIA `aria-label`{lang=en} dont le contenu est identique au contenu de la [légende](#legende-d-image) ;",
+                                "La [légende](#legende-d-image) est contenue dans une balise `<figcaption>`{lang=en}."
                             ],
                             "3": [
-                                "Chaque image embarquée pourvue d'une [légende](#legende-d-image) (balise `<embed>` associée à une [légende](#legende-d-image) adjacente), vérifie-t-elle, si nécessaire, ces conditions ?",
-                                "L'image embarquée (balise `<embed>`) et sa [légende](#legende-d-image) adjacente sont contenues dans une balise `<figure>` ;",
-                                "La balise `<figure>` possède un attribut WAI-ARIA `role=\"figure\"` ou `role=\"group\"` ;",
-                                "La balise `<figure>` possède un attribut WAI-ARIA `aria-label` dont le contenu est identique au contenu de la [légende](#legende-d-image) ;",
-                                "La [légende](#legende-d-image) est contenue dans une balise `<figcaption>`."
+                                "Chaque image embarquée pourvue d'une [légende](#legende-d-image) (balise `<embed>`{lang=en} associée à une [légende](#legende-d-image) adjacente), vérifie-t-elle, si nécessaire, ces conditions ?",
+                                "L'image embarquée (balise `<embed>`{lang=en}) et sa [légende](#legende-d-image) adjacente sont contenues dans une balise `<figure>`{lang=en} ;",
+                                "La balise `<figure>`{lang=en} possède un attribut WAI-ARIA `role=\"figure\"`{lang=en} ou `role=\"group\"`{lang=en} ;",
+                                "La balise `<figure>`{lang=en} possède un attribut WAI-ARIA `aria-label`{lang=en} dont le contenu est identique au contenu de la [légende](#legende-d-image) ;",
+                                "La [légende](#legende-d-image) est contenue dans une balise `<figcaption>`{lang=en}."
                             ],
                             "4": [
-                                "Chaque image vectorielle pourvue d'une [légende](#legende-d-image) (balise `<svg>` associée à une [légende](#legende-d-image) adjacente), vérifie-t-elle, si nécessaire, ces conditions ?",
-                                "L'image vectorielle (balise `<svg>`) et sa [légende](#legende-d-image) adjacente sont contenues dans une balise `<figure>` ;",
-                                "La balise `<figure>` possède un attribut WAI-ARIA `role=\"figure\"` ou `role=\"group\"` ;",
-                                "La balise `<figure>` possède un attribut WAI-ARIA `aria-label` dont le contenu est identique au contenu de la [légende](#legende-d-image) ;",
-                                "La [légende](#legende-d-image) est contenue dans une balise `<figcaption>`."
+                                "Chaque image vectorielle pourvue d'une [légende](#legende-d-image) (balise `<svg>`{lang=en} associée à une [légende](#legende-d-image) adjacente), vérifie-t-elle, si nécessaire, ces conditions ?",
+                                "L'image vectorielle (balise `<svg>`{lang=en}) et sa [légende](#legende-d-image) adjacente sont contenues dans une balise `<figure>`{lang=en} ;",
+                                "La balise `<figure>`{lang=en} possède un attribut WAI-ARIA `role=\"figure\"`{lang=en} ou `role=\"group\"`{lang=en} ;",
+                                "La balise `<figure>`{lang=en} possède un attribut WAI-ARIA `aria-label`{lang=en} dont le contenu est identique au contenu de la [légende](#legende-d-image) ;",
+                                "La [légende](#legende-d-image) est contenue dans une balise `<figcaption>`{lang=en}."
                             ],
                             "5": [
-                                "Chaque image bitmap pourvue d'une [légende](#legende-d-image) (balise `<canvas>` associée à une [légende](#legende-d-image) adjacente), vérifie-t-elle, si nécessaire, ces conditions ?",
-                                "L'image bitmap (balise `<canvas>`) et sa [légende](#legende-d-image) adjacente sont contenues dans une balise `<figure>` ;",
-                                "La balise `<figure>` possède un attribut WAI-ARIA `role=\"figure\"` ou `role=\"group\"` ;",
-                                "La balise `<figure>` possède un attribut WAI-ARIA `aria-label` dont le contenu est identique au contenu de la [légende](#legende-d-image) ;",
-                                "La [légende](#legende-d-image) est contenue dans une balise `<figcaption>`."
+                                "Chaque image bitmap pourvue d'une [légende](#legende-d-image) (balise `<canvas>`{lang=en} associée à une [légende](#legende-d-image) adjacente), vérifie-t-elle, si nécessaire, ces conditions ?",
+                                "L'image bitmap (balise `<canvas>`{lang=en}) et sa [légende](#legende-d-image) adjacente sont contenues dans une balise `<figure>`{lang=en} ;",
+                                "La balise `<figure>`{lang=en} possède un attribut WAI-ARIA `role=\"figure\"`{lang=en} ou `role=\"group\"`{lang=en} ;",
+                                "La balise `<figure>`{lang=en} possède un attribut WAI-ARIA `aria-label`{lang=en} dont le contenu est identique au contenu de la [légende](#legende-d-image) ;",
+                                "La [légende](#legende-d-image) est contenue dans une balise `<figcaption>`{lang=en}."
                             ]
                         },
                         "technicalNote": [
-                            "L'implémentation d'un attribut WAI-ARIA `role=\"group\"` ou `role=\"figure\"` sur l'élément parent `<figure>` est destiné à pallier le manque de support actuel des éléments `<figure>` par les technologies d'assistance. L'utilisation d'un élément `<figcaption>` pour associer une [légende](#legende-d-image) à une image impose au minimum l'utilisation d'un attribut WAI-ARIA `aria-label` sur l'élément parent `<figure>` dont le contenu sera identique au contenu de l'élément `<figcaption>`. Pour s’assurer d’un support optimal, il peut également être fait une association explicite entre le contenu de l’[alternative textuelle](#alternative-textuelle-image) de l’image et le contenu de l’élément `<figcaption>`, par exemple :",
+                            "L'implémentation d'un attribut WAI-ARIA `role=\"group\"`{lang=en} ou `role=\"figure\"`{lang=en} sur l'élément parent `<figure>`{lang=en} est destiné à pallier le manque de support actuel des éléments `<figure>`{lang=en} par les technologies d'assistance. L'utilisation d'un élément `<figcaption>`{lang=en} pour associer une [légende](#legende-d-image) à une image impose au minimum l'utilisation d'un attribut WAI-ARIA `aria-label`{lang=en} sur l'élément parent `<figure>`{lang=en} dont le contenu sera identique au contenu de l'élément `<figcaption>`{lang=en}. Pour s’assurer d’un support optimal, il peut également être fait une association explicite entre le contenu de l’[alternative textuelle](#alternative-textuelle-image) de l’image et le contenu de l’élément `<figcaption>`{lang=en}, par exemple :",
                             "`<img src=\"image.png\" alt=\"Photo : soleil couchant\" /><figcaption>Photo : crédit xxx</figcaption>`",
-                            "Les attributs WAI-ARIA `aria-labelledby` et `aria-describedby` ne peuvent pas être utilisés actuellement par manque de support par les technologies d'assistance.",
+                            "Les attributs WAI-ARIA `aria-labelledby`{lang=en} et `aria-describedby`{lang=en} ne peuvent pas être utilisés actuellement par manque de support par les technologies d'assistance.",
                             "Note : les images légendées doivent par ailleurs respecter le [critère 1.1](#crit-1-1) et le [critère 1.3](#crit-1-3) relatifs aux images porteuses d'information."
                         ],
                         "references": [
@@ -580,7 +580,7 @@
                         "title": "Chaque [cadre](#cadre) a-t-il un [titre de cadre](#titre-de-cadre) ?",
                         "tests": {
                             "1": [
-                                "Chaque cadre (balise `<iframe>` ou `<frame>`) a-t-il un attribut `title` ?"
+                                "Chaque cadre (balise `<iframe>`{lang=en} ou `<frame>`{lang=en}) a-t-il un attribut `title`{lang=en} ?"
                             ]
                         },
                         "references": [
@@ -603,7 +603,7 @@
                         "title": "Pour chaque [cadre](#cadre) ayant un [titre de cadre](#titre-de-cadre), ce titre de cadre est-il pertinent ?",
                         "tests": {
                             "1": [
-                                "Pour chaque cadre (balise `<iframe>` ou `<frame>`) ayant un attribut `title`, le contenu de cet attribut est-il pertinent ?"
+                                "Pour chaque cadre (balise `<iframe>`{lang=en} ou `<frame>`{lang=en}) ayant un attribut `title`{lang=en}, le contenu de cet attribut est-il pertinent ?"
                             ]
                         },
                         "references": [
@@ -706,7 +706,7 @@
                                     "Le texte fait partie d'un logo ou d'un nom de marque d'un organisme ou d'une société ;",
                                     "Le texte ou l'image de texte est purement décoratif ;",
                                     "Le texte fait partie d'une image véhiculant une information mais le texte lui-même n'apporte aucune information essentielle ;",
-                                    "Le texte ou l'image de texte fait partie d'un élément d'interface sur lequel aucune action n'est possible (par exemple un bouton avec l'attribut `disabled`)."
+                                    "Le texte ou l'image de texte fait partie d'un élément d'interface sur lequel aucune action n'est possible (par exemple un bouton avec l'attribut `disabled`{lang=en})."
                                 ]
                             }
                         ],
@@ -757,7 +757,7 @@
                             "Les cas suivants sont non applicables pour ce critère :",
                             {
                                 "ul": [
-                                    "Composant d'interface inactif (par exemple, un bouton avec un attribut `disabled`) sur lequel aucune action n'est possible ;",
+                                    "Composant d'interface inactif (par exemple, un bouton avec un attribut `disabled`{lang=en}) sur lequel aucune action n'est possible ;",
                                     "Composant d'interface pour lequel l'apparence est gérée par les styles natifs du navigateur sans aucune modification par l'auteur (par exemple, le style au focus natif dans Chrome ou Firefox) ;",
                                     "Composant d'interface pour lequel la couleur n'est pas nécessaire pour identifier le composant ou son état (par exemple, un groupe de liens faisant office de navigation dont la position dans la page, la taille et la couleur du texte permettent de comprendre qu'il s'agit de liens même si la couleur du soulignement des liens avec le fond blanc n'a pas un ratio de 3:1 et que le texte lui a un ratio de 4.5:1) ;",
                                     "[élément graphique](#element-graphique) ou parties d'élément graphique non porteur d'information ou ayant une alternative (description longue, informations identiques visibles dans la page) ;",
@@ -914,7 +914,7 @@
                                 "Il existe une version alternative possédant des [sous-titres synchronisés](#sous-titres-synchronises-objet-multimedia) accessible via un [lien ou bouton adjacent](#lien-ou-bouton-adjacent)."
                             ],
                             "2": [
-                                "Pour chaque [média temporel](#media-temporel-type-son-video-et-synchronise) synchronisé pré-enregistré possédant des [sous-titres synchronisés](#sous-titres-synchronises-objet-multimedia) diffusés via une balise `<track>`, la balise `<track>` possède-t-elle un attribut `kind=\"captions\"` ?"
+                                "Pour chaque [média temporel](#media-temporel-type-son-video-et-synchronise) synchronisé pré-enregistré possédant des [sous-titres synchronisés](#sous-titres-synchronises-objet-multimedia) diffusés via une balise `<track>`{lang=en}, la balise `<track>`{lang=en} possède-t-elle un attribut `kind=\"captions\"`{lang=en} ?"
                             ]
                         },
                         "particularCases": [
@@ -1139,7 +1139,7 @@
                         "title": "Chaque son déclenché automatiquement est-il [contrôlable](#controle-son-declenche-automatiquement) par l'utilisateur ?",
                         "tests": {
                             "1": [
-                                "Chaque séquence sonore déclenchée automatiquement via une balise `<object>`, `<video>`, `<audio>`, `<embed>`, `<bgsound>` ou un code JavaScript vérifie-t-elle une de ces conditions ?",
+                                "Chaque séquence sonore déclenchée automatiquement via une balise `<object>`{lang=en}, `<video>`{lang=en}, `<audio>`{lang=en}, `<embed>`{lang=en}, `<bgsound>`{lang=en} ou un code JavaScript vérifie-t-elle une de ces conditions ?",
                                 "La séquence sonore a une durée inférieure ou égale à 3 secondes ;",
                                 "La séquence sonore peut être stoppée sur action de l'utilisateur ;",
                                 "Le volume de la séquence sonore peut être contrôlé par l'utilisateur indépendamment du contrôle de volume du système."
@@ -1284,7 +1284,7 @@
                             ]
                         },
                         "technicalNote": [
-                            "La spécification HTML propose plusieurs [méthodes pour lier un résumé à un tableau](https://html.spec.whatwg.org/multipage/tables.html#table-descriptions-techniques) (tableau lié à un passage de texte avec l’attribut `aria-describedby`, tableau groupé dans un élément `figure` avec un résumé présent dans un élément `figcaption` ou un élément `p`, résumé présent dans un élément `details` contenu dans l’élément `caption`). Ces méthodes n’ont pas un support suffisant pour être utilisées actuellement."
+                            "La spécification HTML propose plusieurs [méthodes pour lier un résumé à un tableau](https://html.spec.whatwg.org/multipage/tables.html#table-descriptions-techniques) (tableau lié à un passage de texte avec l’attribut `aria-describedby`{lang=en}, tableau groupé dans un élément `figure`{lang=en} avec un résumé présent dans un élément `figcaption`{lang=en} ou un élément `p`{lang=en}, résumé présent dans un élément `details`{lang=en} contenu dans l’élément `caption`{lang=en}). Ces méthodes n’ont pas un support suffisant pour être utilisées actuellement."
                         ],
                         "references": [
                             {
@@ -1331,7 +1331,7 @@
                             "1": [
                                 "Chaque [tableau de mise en forme](#tableau-de-mise-en-forme) vérifie-t-il ces conditions ?",
                                 "Le contenu linéarisé reste compréhensible ;",
-                                "La balise `<table>` possède un attribut `role=\"presentation\"`."
+                                "La balise `<table>`{lang=en} possède un attribut `role=\"presentation\"`{lang=en}."
                             ]
                         },
                         "references": [
@@ -1403,19 +1403,19 @@
                         "tests": {
                             "1": [
                                 "Pour chaque [tableau de données](#tableau-de-donnees), chaque [en-tête de colonne](#en-tete-de-colonne-ou-de-ligne) s'appliquant à la totalité de la colonne vérifie-t-il une de ces conditions ?",
-                                "L'[en-tête de colonnes](#en-tete-de-colonne-ou-de-ligne) est structuré au moyen d'une balise `<th>` ;",
-                                "L'[en-tête de colonnes](#en-tete-de-colonne-ou-de-ligne) est structuré au moyen d'une balise pourvue d'un attribut WAI-ARIA `role=\"columnheader\"`."
+                                "L'[en-tête de colonnes](#en-tete-de-colonne-ou-de-ligne) est structuré au moyen d'une balise `<th>`{lang=en} ;",
+                                "L'[en-tête de colonnes](#en-tete-de-colonne-ou-de-ligne) est structuré au moyen d'une balise pourvue d'un attribut WAI-ARIA `role=\"columnheader\"`{lang=en}."
                             ],
                             "2": [
                                 "Pour chaque [tableau de données](#tableau-de-donnees), chaque [en-tête de ligne](#en-tete-de-colonne-ou-de-ligne) s'appliquant à la totalité de la ligne vérifie-t-il une de ces conditions ?",
-                                "L'[en-tête de lignes](#en-tete-de-colonne-ou-de-ligne) est structuré au moyen d'une balise `<th>` ;",
-                                "L'[en-tête de lignes](#en-tete-de-colonne-ou-de-ligne) est structuré au moyen d'une balise pourvue d'un attribut WAI-ARIA `role=\"rowheader\"`."
+                                "L'[en-tête de lignes](#en-tete-de-colonne-ou-de-ligne) est structuré au moyen d'une balise `<th>`{lang=en} ;",
+                                "L'[en-tête de lignes](#en-tete-de-colonne-ou-de-ligne) est structuré au moyen d'une balise pourvue d'un attribut WAI-ARIA `role=\"rowheader\"`{lang=en}."
                             ],
                             "3": [
-                                "Pour chaque [tableau de données](#tableau-de-donnees), chaque en-tête ne s'appliquant pas à la totalité de la ligne ou de la colonne est-il structuré au moyen d'une balise `<th>` ?"
+                                "Pour chaque [tableau de données](#tableau-de-donnees), chaque en-tête ne s'appliquant pas à la totalité de la ligne ou de la colonne est-il structuré au moyen d'une balise `<th>`{lang=en} ?"
                             ],
                             "4": [
-                                "Pour chaque [tableau de données](#tableau-de-donnees), chaque cellule associée à plusieurs en-têtes est-elle structurée au moyen d’une balise `<td>` ou `<th>` ?"
+                                "Pour chaque [tableau de données](#tableau-de-donnees), chaque cellule associée à plusieurs en-têtes est-elle structurée au moyen d’une balise `<td>`{lang=en} ou `<th>`{lang=en} ?"
                             ]
                         },
                         "references": [
@@ -1439,38 +1439,38 @@
                         "title": "Pour chaque [tableau de données](#tableau-de-donnees), la technique appropriée permettant d'associer chaque cellule avec ses [en-têtes](#en-tete-de-colonne-ou-de-ligne) est-elle utilisée (hors cas particuliers) ?",
                         "tests": {
                             "1": [
-                                "Pour chaque contenu de balise `<th>` s'appliquant à la totalité de la ligne ou de la colonne, la balise `<th>` respecte-t-elle une de ces conditions (hors cas particuliers) ?",
-                                "La balise `<th>` possède un attribut `id` unique ;",
-                                "La balise `<th>` possède un attribut `scope` ;",
-                                "La balise `<th>` possède un attribut WAI-ARIA `role=\"rowheader\"` ou `role=\"columnheader\"`."
+                                "Pour chaque contenu de balise `<th>`{lang=en} s'appliquant à la totalité de la ligne ou de la colonne, la balise `<th>`{lang=en} respecte-t-elle une de ces conditions (hors cas particuliers) ?",
+                                "La balise `<th>`{lang=en} possède un attribut `id`{lang=en} unique ;",
+                                "La balise `<th>`{lang=en} possède un attribut `scope`{lang=en} ;",
+                                "La balise `<th>`{lang=en} possède un attribut WAI-ARIA `role=\"rowheader\"`{lang=en} ou `role=\"columnheader\"`{lang=en}."
                             ],
                             "2": [
-                                "Pour chaque contenu de balise `<th>` s'appliquant à la totalité de la ligne ou de la colonne et possédant un attribut `scope`, la balise `<th>` vérifie-t-elle une de ces conditions ?",
-                                "La balise `<th>` possède un attribut scope avec la valeur `\"row\"` pour les [en-têtes de ligne](#en-tete-de-colonne-ou-de-ligne) ;",
-                                "La balise `<th>` possède un attribut scope avec la valeur `\"col\"` pour les [en-têtes de colonne](#en-tete-de-colonne-ou-de-ligne)."
+                                "Pour chaque contenu de balise `<th>`{lang=en} s'appliquant à la totalité de la ligne ou de la colonne et possédant un attribut `scope`{lang=en}, la balise `<th>`{lang=en} vérifie-t-elle une de ces conditions ?",
+                                "La balise `<th>`{lang=en} possède un attribut scope avec la valeur `\"row\"`{lang=en} pour les [en-têtes de ligne](#en-tete-de-colonne-ou-de-ligne) ;",
+                                "La balise `<th>`{lang=en} possède un attribut scope avec la valeur `\"col\"`{lang=en} pour les [en-têtes de colonne](#en-tete-de-colonne-ou-de-ligne)."
                             ],
                             "3": [
-                                "Pour chaque contenu de balise `<th>` ne s'appliquant pas à la totalité de la ligne ou de la colonne, la balise `<th>` vérifie-t-elle ces conditions ?",
-                                "La balise `<th>` ne possède pas d'attribut `scope` ;",
-                                "La balise `<th>` ne possède pas d'attribut WAI-ARIA `role=\"rowheader\"` ou `role=\"columnheader\"` ;",
-                                "La balise `<th>` possède un attribut `id` unique."
+                                "Pour chaque contenu de balise `<th>`{lang=en} ne s'appliquant pas à la totalité de la ligne ou de la colonne, la balise `<th>`{lang=en} vérifie-t-elle ces conditions ?",
+                                "La balise `<th>`{lang=en} ne possède pas d'attribut `scope`{lang=en} ;",
+                                "La balise `<th>`{lang=en} ne possède pas d'attribut WAI-ARIA `role=\"rowheader\"`{lang=en} ou `role=\"columnheader\"`{lang=en} ;",
+                                "La balise `<th>`{lang=en} possède un attribut `id`{lang=en} unique."
                             ],
                             "4": [
-                                "Pour chaque contenu de balise `<td>` ou `<th>` associée à un ou plusieurs en-têtes possédant un attribut `id`, la balise vérifie-t-elle ces conditions ?",
-                                "La balise possède un attribut `headers` ;",
-                                "L'attribut `headers` possède la liste des valeurs d'attribut `id` des [en-têtes](#en-tete-de-colonne-ou-de-ligne) associés."
+                                "Pour chaque contenu de balise `<td>`{lang=en} ou `<th>`{lang=en} associée à un ou plusieurs en-têtes possédant un attribut `id`{lang=en}, la balise vérifie-t-elle ces conditions ?",
+                                "La balise possède un attribut `headers`{lang=en} ;",
+                                "L'attribut `headers`{lang=en} possède la liste des valeurs d'attribut `id`{lang=en} des [en-têtes](#en-tete-de-colonne-ou-de-ligne) associés."
                             ],
                             "5": [
-                                "Pour chaque balise pourvue d'un attribut WAI-ARIA `role=\"rowheader\"` ou `role=\"columnheader\"` dont le contenu s'applique à la totalité de la ligne ou de la colonne, la balise vérifie-t-elle une de ces conditions ?",
-                                "La balise possède un attribut WAI-ARIA `role=\"rowheader\"` pour les [en-têtes de ligne](#en-tete-de-colonne-ou-de-ligne) ;",
-                                "La balise possède un attribut WAI-ARIA `role=\"columnheader\"` pour les [en-têtes de colonne](#en-tete-de-colonne-ou-de-ligne)."
+                                "Pour chaque balise pourvue d'un attribut WAI-ARIA `role=\"rowheader\"`{lang=en} ou `role=\"columnheader\"`{lang=en} dont le contenu s'applique à la totalité de la ligne ou de la colonne, la balise vérifie-t-elle une de ces conditions ?",
+                                "La balise possède un attribut WAI-ARIA `role=\"rowheader\"`{lang=en} pour les [en-têtes de ligne](#en-tete-de-colonne-ou-de-ligne) ;",
+                                "La balise possède un attribut WAI-ARIA `role=\"columnheader\"`{lang=en} pour les [en-têtes de colonne](#en-tete-de-colonne-ou-de-ligne)."
                             ]
                         },
                         "technicalNote": [
-                            "Si l'attribut `headers` est implémenté sur une cellule déjà reliée à un en-tête (de ligne ou de colonne) avec l'attribut `scope` (avec la valeur `col` ou `row`), c'est l'en-tête ou les en-têtes référencés par l'attribut `headers` qui seront restitués aux technologies d'assistance. Les en-têtes reliés avec l'attribut `scope` seront ignorés."
+                            "Si l'attribut `headers`{lang=en} est implémenté sur une cellule déjà reliée à un en-tête (de ligne ou de colonne) avec l'attribut `scope`{lang=en} (avec la valeur `col`{lang=en} ou `row`{lang=en}), c'est l'en-tête ou les en-têtes référencés par l'attribut `headers`{lang=en} qui seront restitués aux technologies d'assistance. Les en-têtes reliés avec l'attribut `scope`{lang=en} seront ignorés."
                         ],
                         "particularCases": [
-                            "Dans le cas de tableaux de données ayant des en-têtes sur une seule ligne ou une seule colonne, les en-têtes peuvent être structurés à l'aide de balise `<th>` sans attribut `scope`."
+                            "Dans le cas de tableaux de données ayant des en-têtes sur une seule ligne ou une seule colonne, les en-têtes peuvent être structurés à l'aide de balise `<th>`{lang=en} sans attribut `scope`{lang=en}."
                         ],
                         "references": [
                             {
@@ -1494,9 +1494,9 @@
                         "title": "Chaque [tableau de mise en forme](#tableau-de-mise-en-forme) ne doit pas utiliser d'éléments propres aux [tableaux de données](#tableau-de-donnees). Cette règle est-elle respectée ?",
                         "tests": {
                             "1": [
-                                "Chaque [tableau de mise en forme](#tableau-de-mise-en-forme) (balise `<table>`) vérifie-t-il ces conditions ?",
-                                "Le tableau de mise en forme (balise `<table>`) n'a pas d’attribut `summary` (sinon vide) et ne contient pas de balises `<caption>`, `<th>`, `<thead>`, `<tfoot>`, `<colgroup>` ou de balises ayant un attribut WAI-ARIA `role=\"rowheader\"`, `role=\"columnheader\"` ;",
-                                "Les cellules du tableau de mise en forme (balises `<td>`) ne possèdent pas d'attributs `scope`, `headers`, `axis`."
+                                "Chaque [tableau de mise en forme](#tableau-de-mise-en-forme) (balise `<table>`{lang=en}) vérifie-t-il ces conditions ?",
+                                "Le tableau de mise en forme (balise `<table>`{lang=en}) n'a pas d’attribut `summary`{lang=en} (sinon vide) et ne contient pas de balises `<caption>`{lang=en}, `<th>`{lang=en}, `<thead>`{lang=en}, `<tfoot>`{lang=en}, `<colgroup>`{lang=en} ou de balises ayant un attribut WAI-ARIA `role=\"rowheader\"`{lang=en}, `role=\"columnheader\"`{lang=en} ;",
+                                "Les cellules du tableau de mise en forme (balises `<td>`{lang=en}) ne possèdent pas d'attributs `scope`{lang=en}, `headers`{lang=en}, `axis`{lang=en}."
                             ]
                         },
                         "references": [
@@ -1608,11 +1608,11 @@
                         "title": "Dans chaque page web, chaque [lien](#lien) a-t-il un [intitulé](#intitule-ou-nom-accessible-de-lien) ?",
                         "tests": {
                             "1": [
-                                "Dans chaque page web, chaque [lien](#lien) a-t-il un [intitulé](#intitule-ou-nom-accessible-de-lien) entre `<a>` et `</a>` ?"
+                                "Dans chaque page web, chaque [lien](#lien) a-t-il un [intitulé](#intitule-ou-nom-accessible-de-lien) entre `<a>`{lang=en} et `</a>`{lang=en} ?"
                             ]
                         },
                         "technicalNote": [
-                            "Une ancre n’est pas un lien même si pendant longtemps l’élément `<a>` a servi de support à cette technique. Elle n’est donc pas concernée par le présent critère."
+                            "Une ancre n’est pas un lien même si pendant longtemps l’élément `<a>`{lang=en} a servi de support à cette technique. Elle n’est donc pas concernée par le présent critère."
                         ],
                         "references": [
                             {
@@ -1708,8 +1708,8 @@
                         "title": "Pour chaque [script](#script) ayant une [alternative](#alternative-a-script), cette alternative est-elle pertinente ?",
                         "tests": {
                             "1": [
-                                "Chaque [script](#script) débutant par la balise `<script>` et ayant une [alternative](#alternative-a-script) vérifie-t-il une de ces conditions ?",
-                                "L'[alternative](#alternative-a-script)  entre `<noscript>` et `</noscript>` permet d'accéder à des contenus et des fonctionnalités similaires ;",
+                                "Chaque [script](#script) débutant par la balise `<script>`{lang=en} et ayant une [alternative](#alternative-a-script) vérifie-t-il une de ces conditions ?",
+                                "L'[alternative](#alternative-a-script)  entre `<noscript>`{lang=en} et `</noscript>`{lang=en} permet d'accéder à des contenus et des fonctionnalités similaires ;",
                                 "La page affichée, lorsque JavaScript est désactivé, permet d'accéder à des contenus et des fonctionnalités similaires ;",
                                 "La page alternative permet d'accéder à des contenus et des fonctionnalités similaires ;",
                                 "Le langage de script côté serveur permet d'accéder à des contenus et des fonctionnalités similaires ;",
@@ -1787,7 +1787,7 @@
                             "1": [
                                 "Chaque [script](#script) qui initie un [changement de contexte](#changement-de-contexte) vérifie-t-il une de ces conditions ?",
                                 "L'utilisateur est averti par un texte de l'action du script et du type de changement avant son déclenchement ;",
-                                "Le changement de contexte est initié par un bouton (input de type `submit`, `button` ou `image` ou balise `<button>`) explicite ;",
+                                "Le changement de contexte est initié par un bouton (input de type `submit`{lang=en}, `button`{lang=en} ou `image`{lang=en} ou balise `<button>`{lang=en}) explicite ;",
                                 "Le changement de contexte est initié par un lien explicite."
                             ]
                         },
@@ -1823,25 +1823,25 @@
                         "title": "Dans chaque page web, les [messages de statut](#message-de-statut) sont-ils correctement restitués par les technologies d'assistance ?",
                         "tests": {
                             "1": [
-                                "Chaque [message de statut](#message-de-statut) qui informe de la réussite, du résultat d'une action ou bien de l'état d'une application utilise-t-il l'attribut WAI-ARIA `role=\"status\"` ?"
+                                "Chaque [message de statut](#message-de-statut) qui informe de la réussite, du résultat d'une action ou bien de l'état d'une application utilise-t-il l'attribut WAI-ARIA `role=\"status\"`{lang=en} ?"
                             ],
                             "2": [
-                                "Chaque [message de statut](#message-de-statut) qui présente une suggestion, ou avertit de l'existence d'une erreur utilise-t-il l'attribut WAI-ARIA `role=\"alert\"` ?"
+                                "Chaque [message de statut](#message-de-statut) qui présente une suggestion, ou avertit de l'existence d'une erreur utilise-t-il l'attribut WAI-ARIA `role=\"alert\"`{lang=en} ?"
                             ],
                             "3": [
-                                "Chaque [message de statut](#message-de-statut) qui indique la progression d'un processus utilise-t-il l'un des attributs WAI-ARIA `role=\"log\"`, `role=\"progressbar\"` ou `role=\"status\"` ?"
+                                "Chaque [message de statut](#message-de-statut) qui indique la progression d'un processus utilise-t-il l'un des attributs WAI-ARIA `role=\"log\"`{lang=en}, `role=\"progressbar\"`{lang=en} ou `role=\"status\"`{lang=en} ?"
                             ]
                         },
                         "technicalNote": [
-                            "Les rôles WAI-ARIA `log`, `status` et `alert` ont implicitement une valeur d'attribut WAI-ARIA `aria-live` et `aria-atomic`. On pourra donc considérer (conformément à la spécification WAI-ARIA 1.1) que :",
+                            "Les rôles WAI-ARIA `log`{lang=en}, `status`{lang=en} et `alert`{lang=en} ont implicitement une valeur d'attribut WAI-ARIA `aria-live`{lang=en} et `aria-atomic`{lang=en}. On pourra donc considérer (conformément à la spécification WAI-ARIA 1.1) que :",
                             {
                                 "ul": [
-                                    "Un attribut WAI-ARIA `aria-live=\"polite\"` associé à un message de statut peut valoir pour un rôle WAI-ARIA `log` ;",
-                                    "Un attribut WAI-ARIA `aria-live=\"polite\"` et un attribut WAI-ARIA `aria-atomic=\"true\"` associés à un message de statut peuvent valoir pour un rôle WAI-ARIA `status` ;",
-                                    "Un attribut WAI-ARIA `aria-live=\"assertive\"` et un attribut WAI-ARIA `aria-atomic=\"true\"` associés à un message de statut peuvent valoir pour un rôle WAI-ARIA `alert`."
+                                    "Un attribut WAI-ARIA `aria-live=\"polite\"`{lang=en} associé à un message de statut peut valoir pour un rôle WAI-ARIA `log`{lang=en} ;",
+                                    "Un attribut WAI-ARIA `aria-live=\"polite\"`{lang=en} et un attribut WAI-ARIA `aria-atomic=\"true\"`{lang=en} associés à un message de statut peuvent valoir pour un rôle WAI-ARIA `status`{lang=en} ;",
+                                    "Un attribut WAI-ARIA `aria-live=\"assertive\"`{lang=en} et un attribut WAI-ARIA `aria-atomic=\"true\"`{lang=en} associés à un message de statut peuvent valoir pour un rôle WAI-ARIA `alert`{lang=en}."
                                 ]
                             },
-                            "C'est sous réserve que la nature du message de statut satisfasse bien à la correspondance implicitement établie. Dans le cas d'un message de statut indiquant la progression d'un processus et matérialisé graphiquement par une barre de progression, un rôle WAI-ARIA `progressbar` explicite est nécessaire."
+                            "C'est sous réserve que la nature du message de statut satisfasse bien à la correspondance implicitement établie. Dans le cas d'un message de statut indiquant la progression d'un processus et matérialisé graphiquement par une barre de progression, un rôle WAI-ARIA `progressbar`{lang=en} explicite est nécessaire."
                         ],
                         "references": [
                             {
@@ -1871,13 +1871,13 @@
                         "title": "Chaque page web est-elle définie par un [type de document](#type-de-document) ?",
                         "tests": {
                             "1": [
-                                "Pour chaque page web, le [type de document](#type-de-document) (balise `doctype`) est-il présent ?"
+                                "Pour chaque page web, le [type de document](#type-de-document) (balise `doctype`{lang=en}) est-il présent ?"
                             ],
                             "2": [
-                                "Pour chaque page web, le [type de document](#type-de-document) (balise `doctype`) est-il valide ?"
+                                "Pour chaque page web, le [type de document](#type-de-document) (balise `doctype`{lang=en}) est-il valide ?"
                             ],
                             "3": [
-                                "Pour chaque page web possédant une déclaration de [type de document](#type-de-document), celle-ci est-elle située avant la balise `<html>` dans le code source ?"
+                                "Pour chaque page web possédant une déclaration de [type de document](#type-de-document), celle-ci est-elle située avant la balise `<html>`{lang=en} dans le code source ?"
                             ]
                         },
                         "references": [
@@ -1935,8 +1935,8 @@
                         "tests": {
                             "1": [
                                 "Pour chaque page web, l'indication de langue par défaut vérifie-t-elle une de ces conditions ?",
-                                "L'indication de la langue de la page (attribut `lang` et/ou `xml:lang`) est donnée pour l'élément `html` ;",
-                                "L'indication de la langue de la page (attribut `lang` et/ou `xml:lang`) est donnée sur chaque élément de texte ou sur l'un des éléments parents."
+                                "L'indication de la langue de la page (attribut `lang`{lang=en} et/ou `xml:lang`{lang=en}) est donnée pour l'élément `html`{lang=en} ;",
+                                "L'indication de la langue de la page (attribut `lang`{lang=en} et/ou `xml:lang`{lang=en}) est donnée sur chaque élément de texte ou sur l'un des éléments parents."
                             ]
                         },
                         "references": [
@@ -1984,7 +1984,7 @@
                         "title": "Chaque page web a-t-elle un [titre de page](#titre-de-page) ?",
                         "tests": {
                             "1": [
-                                "Chaque page web a-t-elle un [titre de page](#titre-de-page) (balise `<title>`) ?"
+                                "Chaque page web a-t-elle un [titre de page](#titre-de-page) (balise `<title>`{lang=en}) ?"
                             ]
                         },
                         "references": [
@@ -2009,7 +2009,7 @@
                         "title": "Pour chaque page web ayant un [titre de page](#titre-de-page), ce titre est-il pertinent ?",
                         "tests": {
                             "1": [
-                                "Pour chaque page web ayant un [titre de page](#titre-de-page) (balise `<title>`), le contenu de cette balise est-il pertinent ?"
+                                "Pour chaque page web ayant un [titre de page](#titre-de-page) (balise `<title>`{lang=en}), le contenu de cette balise est-il pertinent ?"
                             ]
                         },
                         "references": [
@@ -2035,8 +2035,8 @@
                         "tests": {
                             "1": [
                                 "Dans chaque page web, chaque texte écrit dans une langue différente de la [langue par défaut](#langue-par-defaut) vérifie-t-il une de ces conditions (hors cas particuliers) ?",
-                                "L'indication de langue est donnée sur l'élément contenant le texte (attribut `lang` et/ou `xml:lang`) ;",
-                                "L'indication de langue est donnée sur un des éléments parents (attribut `lang` et/ou `xml:lang`)."
+                                "L'indication de langue est donnée sur l'élément contenant le texte (attribut `lang`{lang=en} et/ou `xml:lang`{lang=en}) ;",
+                                "L'indication de langue est donnée sur un des éléments parents (attribut `lang`{lang=en} et/ou `xml:lang`{lang=en})."
                             ]
                         },
                         "particularCases": [
@@ -2098,7 +2098,7 @@
                         "title": "Dans chaque page web, les balises ne doivent pas être utilisées [uniquement à des fins de présentation](#uniquement-a-des-fins-de-presentation). Cette règle est-elle respectée ?",
                         "tests": {
                             "1": [
-                                "Dans chaque page web les balises (à l'exception de `<div>`, `<span>` et `<table>`) ne doivent pas être utilisées [uniquement à des fins de présentation](#uniquement-a-des-fins-de-presentation). Cette règle est-elle respectée ?"
+                                "Dans chaque page web les balises (à l'exception de `<div>`{lang=en}, `<span>`{lang=en} et `<table>`{lang=en}) ne doivent pas être utilisées [uniquement à des fins de présentation](#uniquement-a-des-fins-de-presentation). Cette règle est-elle respectée ?"
                             ]
                         },
                         "references": [
@@ -2124,12 +2124,12 @@
                         "title": "Dans chaque page web, les changements du [sens de lecture](#sens-de-lecture) sont-ils signalés ?",
                         "tests": {
                             "1": [
-                                "Dans chaque page web, chaque texte dont le [sens de lecture](#sens-de-lecture) est différent du sens de lecture par défaut est contenu dans une balise possédant un attribut `dir` ?"
+                                "Dans chaque page web, chaque texte dont le [sens de lecture](#sens-de-lecture) est différent du sens de lecture par défaut est contenu dans une balise possédant un attribut `dir`{lang=en} ?"
                             ],
                             "2": [
-                                "Dans chaque page web, chaque changement du [sens de lecture](#sens-de-lecture) (attribut `dir`) vérifie-t-il ces conditions ?",
-                                "La valeur de l'attribut `dir` est conforme (`rtl` ou `ltr`) ;",
-                                "La valeur de l'attribut `dir` est pertinente."
+                                "Dans chaque page web, chaque changement du [sens de lecture](#sens-de-lecture) (attribut `dir`{lang=en}) vérifie-t-il ces conditions ?",
+                                "La valeur de l'attribut `dir`{lang=en} est conforme (`rtl`{lang=en} ou `ltr`{lang=en}) ;",
+                                "La valeur de l'attribut `dir`{lang=en} est pertinente."
                             ]
                         },
                         "references": [
@@ -2158,17 +2158,17 @@
                         "title": "Dans chaque page web, l'information est-elle structurée par l'utilisation appropriée de [titres](#titre) ?",
                         "tests": {
                             "1": [
-                                "Dans chaque page web, la hiérarchie entre les [titres](#titre) (balise `<hx>` ou balise possédant un attribut WAI-ARIA `role=\"heading\"` associé à un attribut WAI-ARIA `aria-level`) est-elle pertinente ?"
+                                "Dans chaque page web, la hiérarchie entre les [titres](#titre) (balise `<hx>`{lang=en} ou balise possédant un attribut WAI-ARIA `role=\"heading\"`{lang=en} associé à un attribut WAI-ARIA `aria-level`{lang=en}) est-elle pertinente ?"
                             ],
                             "2": [
-                                "Dans chaque page web, le contenu de chaque [titre](#titre) (balise `<hx>` ou balise possédant un attribut WAI-ARIA `role=\"heading\"` associé à un attribut WAI-ARIA `aria-level`) est-il pertinent ?"
+                                "Dans chaque page web, le contenu de chaque [titre](#titre) (balise `<hx>`{lang=en} ou balise possédant un attribut WAI-ARIA `role=\"heading\"`{lang=en} associé à un attribut WAI-ARIA `aria-level`{lang=en}) est-il pertinent ?"
                             ],
                             "3": [
-                                "Dans chaque page web, chaque passage de texte constituant un [titre](#titre) est-il structuré à l'aide d'une balise `<hx>` ou d'une balise possédant un attribut WAI-ARIA `role=\"heading\"` associé à un attribut WAI-ARIA `aria-level` ?"
+                                "Dans chaque page web, chaque passage de texte constituant un [titre](#titre) est-il structuré à l'aide d'une balise `<hx>`{lang=en} ou d'une balise possédant un attribut WAI-ARIA `role=\"heading\"`{lang=en} associé à un attribut WAI-ARIA `aria-level`{lang=en} ?"
                             ]
                         },
                         "technicalNote": [
-                            "WAI-ARIA permet de définir des titres via le rôle `heading` et l'attribut `aria-level` (indication du niveau de titre). Bien qu'il soit préférable d'utiliser l'élément de titre natif en HTML `<hx>`, l'utilisation du rôle WAI-ARIA `heading` est compatible avec l'accessibilité."
+                            "WAI-ARIA permet de définir des titres via le rôle `heading`{lang=en} et l'attribut `aria-level`{lang=en} (indication du niveau de titre). Bien qu'il soit préférable d'utiliser l'élément de titre natif en HTML `<hx>`{lang=en}, l'utilisation du rôle WAI-ARIA `heading`{lang=en} est compatible avec l'accessibilité."
                         ],
                         "references": [
                             {
@@ -2199,16 +2199,16 @@
                         "tests": {
                             "1": [
                                 "Dans chaque page web, la [structure du document](#structure-du-document) vérifie-t-elle ces conditions (hors cas particuliers) ?",
-                                "La [zone d'en-tête de la page](#zone-d-en-tete) est structurée via une balise `<header>` ;",
-                                "Les [zones de navigation principale et secondaire](#menu-et-barre-de-navigation) sont structurées via une balise `<nav>` ;",
-                                "La balise `<nav>` est réservée à la structuration des [zones de navigation principales et secondaires](#menu-et-barre-de-navigation) ;",
-                                "La [zone de contenu principal](#zone-de-contenu-principal) est structurée via une balise `<main>` ;",
-                                "La [structure du document](#structure-du-document) utilise une balise `<main>` visible unique ;",
-                                "La [zone de pied de page](#zone-de-pied-de-page) est structurée via une balise `<footer>`."
+                                "La [zone d'en-tête de la page](#zone-d-en-tete) est structurée via une balise `<header>`{lang=en} ;",
+                                "Les [zones de navigation principale et secondaire](#menu-et-barre-de-navigation) sont structurées via une balise `<nav>`{lang=en} ;",
+                                "La balise `<nav>`{lang=en} est réservée à la structuration des [zones de navigation principales et secondaires](#menu-et-barre-de-navigation) ;",
+                                "La [zone de contenu principal](#zone-de-contenu-principal) est structurée via une balise `<main>`{lang=en} ;",
+                                "La [structure du document](#structure-du-document) utilise une balise `<main>`{lang=en} visible unique ;",
+                                "La [zone de pied de page](#zone-de-pied-de-page) est structurée via une balise `<footer>`{lang=en}."
                             ]
                         },
                         "technicalNote": [
-                            "La balise `<main>` peut être utilisée plusieurs fois dans le même document HTML. Néanmoins, il ne peut y avoir en permanence qu'une seule balise visible et lisible par les technologies d'assistances, les autres devant disposer d'un attribut `hidden` ou d’un style permettant de les masquer aux technologies d’assistances. À noter cependant que l’utilisation d’un style seul restera insuffisante pour assurer l’unicité d’une balise `<main>` visible en cas de désactivation des feuilles de styles."
+                            "La balise `<main>`{lang=en} peut être utilisée plusieurs fois dans le même document HTML. Néanmoins, il ne peut y avoir en permanence qu'une seule balise visible et lisible par les technologies d'assistances, les autres devant disposer d'un attribut `hidden`{lang=en} ou d’un style permettant de les masquer aux technologies d’assistances. À noter cependant que l’utilisation d’un style seul restera insuffisante pour assurer l’unicité d’une balise `<main>`{lang=en} visible en cas de désactivation des feuilles de styles."
                         ],
                         "particularCases": [
                             "Lorsque le doctype déclaré dans la page n'est pas le doctype HTML5, ce critère est non applicable."
@@ -2235,22 +2235,22 @@
                         "tests": {
                             "1": [
                                 "Dans chaque page web, les informations regroupées visuellement sous forme de [liste](#listes) non ordonnée vérifient-elles une de ces conditions ?",
-                                "La liste utilise les balises HTML `<ul>` et `<li>` ;",
-                                "La liste utilise les attributs WAI-ARIA `role=\"list\"` et `role=\"listitem\"`."
+                                "La liste utilise les balises HTML `<ul>`{lang=en} et `<li>`{lang=en} ;",
+                                "La liste utilise les attributs WAI-ARIA `role=\"list\"`{lang=en} et `role=\"listitem\"`{lang=en}."
                             ],
                             "2": [
                                 "Dans chaque page web, les informations regroupées visuellement sous forme de [liste](#listes) ordonnée vérifient-elles une de ces conditions ?",
-                                "La liste utilise les balises HTML `<ol>` et `<li>` ;",
-                                "La liste utilise les attributs WAI-ARIA `role=\"list\"` et `role=\"listitem\"`."
+                                "La liste utilise les balises HTML `<ol>`{lang=en} et `<li>`{lang=en} ;",
+                                "La liste utilise les attributs WAI-ARIA `role=\"list\"`{lang=en} et `role=\"listitem\"`{lang=en}."
                             ],
                             "3": [
-                                "Dans chaque page web, les informations regroupées sous forme de [liste](#listes) de description utilisent-elles les balises `<dl>` et `<dt>/<dd>` ? "
+                                "Dans chaque page web, les informations regroupées sous forme de [liste](#listes) de description utilisent-elles les balises `<dl>`{lang=en} et `<dt>/<dd>`{lang=en} ? "
                             ]
                         },
                         "technicalNote": [
-                            "Les attributs WAI-ARIA `role=\"list\"` et `role=\"listitem\"` peuvent nécessiter l'utilisation des attributs WAI-ARIA `aria-setsize` et `aria-posinset` dans le cas où l'ensemble de la liste n'est pas disponible via le DOM généré au moment de la consultation.",
-                            "Les attributs WAI-ARIA `role=\"tree\"`, `role=\"tablist\"`, `role=\"menu\"`, `role=\"combobox\"` et `role=\"listbox\"` ne sont pas équivalents à une liste HTML `<ul>` ou `<ol>`.",
-                            "Voir : [The roles model - list](https://www.w3.org/TR/wai-aria/#list)"
+                            "Les attributs WAI-ARIA `role=\"list\"`{lang=en} et `role=\"listitem\"`{lang=en} peuvent nécessiter l'utilisation des attributs WAI-ARIA `aria-setsize`{lang=en} et `aria-posinset`{lang=en} dans le cas où l'ensemble de la liste n'est pas disponible via le DOM généré au moment de la consultation.",
+                            "Les attributs WAI-ARIA `role=\"tree\"`{lang=en}, `role=\"tablist\"`{lang=en}, `role=\"menu\"`{lang=en}, `role=\"combobox\"`{lang=en} et `role=\"listbox\"`{lang=en} ne sont pas équivalents à une liste HTML `<ul>`{lang=en} ou `<ol>`{lang=en}.",
+                            "Voir : [The roles model - list](https://www.w3.org/TR/wai-aria/#list){lang=en}"
                         ],
                         "references": [
                             {
@@ -2276,10 +2276,10 @@
                         "title": "Dans chaque page web, chaque citation est-elle correctement indiquée ?",
                         "tests": {
                             "1": [
-                                "Dans chaque page web, chaque citation courte utilise-t-elle une balise `<q>` ?"
+                                "Dans chaque page web, chaque citation courte utilise-t-elle une balise `<q>`{lang=en} ?"
                             ],
                             "2": [
-                                "Dans chaque page web, chaque bloc de citation utilise-t-il une balise `<blockquote>` ? "
+                                "Dans chaque page web, chaque bloc de citation utilise-t-il une balise `<blockquote>`{lang=en} ? "
                             ]
                         },
                         "references": [
@@ -2447,13 +2447,13 @@
                         "title": "Dans chaque page web, les déclarations CSS de couleurs de fond d'élément et de police sont-elles correctement utilisées ?",
                         "tests": {
                             "1": [
-                                "Dans chaque page web, chaque déclaration CSS de couleurs de police (`color`), d'un élément susceptible de contenir du texte, est-elle accompagnée d'une déclaration de couleur de fond (`background`, `background-color`), au moins, héritée d'un parent ?"
+                                "Dans chaque page web, chaque déclaration CSS de couleurs de police (`color`{lang=en}), d'un élément susceptible de contenir du texte, est-elle accompagnée d'une déclaration de couleur de fond (`background`{lang=en}, `background-color`{lang=en}), au moins, héritée d'un parent ?"
                             ],
                             "2": [
-                                "Dans chaque page web, chaque déclaration de couleur de fond (`background`, `background-color`), d'un élément susceptible de contenir du texte, est-elle accompagnée d'une déclaration de couleur de police (`color`) au moins, héritée d'un parent ?"
+                                "Dans chaque page web, chaque déclaration de couleur de fond (`background`{lang=en}, `background-color`{lang=en}), d'un élément susceptible de contenir du texte, est-elle accompagnée d'une déclaration de couleur de police (`color`{lang=en}) au moins, héritée d'un parent ?"
                             ],
                             "3": [
-                                "Dans chaque page web, chaque utilisation d'une image pour créer une couleur de fond d'un élément susceptible de contenir du texte, via CSS (`background`, `background-image`), est-elle accompagnée d'une déclaration de couleur de fond (`background`, `background-color`), au moins, héritée d'un parent ?"
+                                "Dans chaque page web, chaque utilisation d'une image pour créer une couleur de fond d'un élément susceptible de contenir du texte, via CSS (`background`{lang=en}, `background-image`{lang=en}), est-elle accompagnée d'une déclaration de couleur de fond (`background`{lang=en}, `background-color`{lang=en}), au moins, héritée d'un parent ?"
                             ]
                         },
                         "references": [
@@ -2542,10 +2542,10 @@
                             ]
                         },
                         "technicalNote": [
-                            "WAI-ARIA propose un attribut `aria-hidden` (`true` ou `false`) qui permet d'inhiber la restitution d'un contenu en direction des technologies d'assistance, sans action sur sa visibilité en direction des agents utilisateurs : un contenu avec `aria-hidden=\"true\"` ne sera donc plus vocalisable, mais restera visible.",
-                            "Sauf si le contenu contrôlé par `aria-hidden` n'a pas vocation à être restitué par les technologies d'assistance, la valeur de l'attribut `aria-hidden` doit être cohérente avec l'état affiché ou masqué du contenu à l'écran.",
-                            "La spécification HTML5 propose un attribut `hidden` qui permet de rendre indisponible (quand l'attribut `hidden` est présent) un contenu dans le DOM généré (de manière similaire au `type=\"hidden\"` sur un contrôle de formulaire).",
-                            "Il est possible d'avoir des situations où un contenu contrôlé par `hidden` ou `aria-hidden` se trouve momentanément dans un état incohérent avec le statut affiché ou masqué du contenu, par exemple si l'on désire rendre disponible un élément, mais que son affichage à l'écran reste dépendant d'une action ultérieure. Dans ce cas, c'est l'état final du contenu qui doit être considéré."
+                            "WAI-ARIA propose un attribut `aria-hidden`{lang=en} (`true`{lang=en} ou `false`{lang=en}) qui permet d'inhiber la restitution d'un contenu en direction des technologies d'assistance, sans action sur sa visibilité en direction des agents utilisateurs : un contenu avec `aria-hidden=\"true\"`{lang=en} ne sera donc plus vocalisable, mais restera visible.",
+                            "Sauf si le contenu contrôlé par `aria-hidden`{lang=en} n'a pas vocation à être restitué par les technologies d'assistance, la valeur de l'attribut `aria-hidden`{lang=en} doit être cohérente avec l'état affiché ou masqué du contenu à l'écran.",
+                            "La spécification HTML5 propose un attribut `hidden`{lang=en} qui permet de rendre indisponible (quand l'attribut `hidden`{lang=en} est présent) un contenu dans le DOM généré (de manière similaire au `type=\"hidden\"`{lang=en} sur un contrôle de formulaire).",
+                            "Il est possible d'avoir des situations où un contenu contrôlé par `hidden`{lang=en} ou `aria-hidden`{lang=en} se trouve momentanément dans un état incohérent avec le statut affiché ou masqué du contenu, par exemple si l'on désire rendre disponible un élément, mais que son affichage à l'écran reste dépendant d'une action ultérieure. Dans ce cas, c'est l'état final du contenu qui doit être considéré."
                         ],
                         "references": [
                             {
@@ -2681,10 +2681,10 @@
                         "tests": {
                             "1": [
                                 "Dans chaque page web, le texte reste-t-il lisible lorsque l'affichage est modifié selon ces conditions (hors cas particuliers) ?",
-                                "L'espacement entre les lignes (`line-height`) est augmenté jusqu'à 1,5 fois la taille de la police ;",
-                                "L'espacement suivant les paragraphes (balise `<p>`) est augmenté jusqu'à 2 fois la taille de la police ;",
-                                "L'espacement des lettres (`letter-spacing`) est augmenté jusqu'à 0,12 fois la taille de la police ;",
-                                "L'espacement des mots (`word-spacing`) est augmenté jusqu'à 0,16 fois la taille de la police."
+                                "L'espacement entre les lignes (`line-height`{lang=en}) est augmenté jusqu'à 1,5 fois la taille de la police ;",
+                                "L'espacement suivant les paragraphes (balise `<p>`{lang=en}) est augmenté jusqu'à 2 fois la taille de la police ;",
+                                "L'espacement des lettres (`letter-spacing`{lang=en}) est augmenté jusqu'à 0,12 fois la taille de la police ;",
+                                "L'espacement des mots (`word-spacing`{lang=en}) est augmenté jusqu'à 0,16 fois la taille de la police."
                             ]
                         },
                         "particularCases": [
@@ -2693,7 +2693,7 @@
                                 "ul": [
                                     "Les sous-titres directement intégrés à une vidéo ;",
                                     "Les images texte ;",
-                                    "Le texte au sein d'une balise `<canvas>`."
+                                    "Le texte au sein d'une balise `<canvas>`{lang=en}."
                                 ]
                             }
                         ],
@@ -2733,7 +2733,7 @@
                             ]
                         },
                         "particularCases": [
-                            "Lorsque le contenu additionnel est contrôlé par l'agent utilisateur (par exemple, attribut `title` ou validation native de formulaire) ou correspond à une fenêtre modale conforme au [motif de conception](#motif-de-conception) WAI-ARIA `dialog`, le critère 10.13 est non applicable.",
+                            "Lorsque le contenu additionnel est contrôlé par l'agent utilisateur (par exemple, attribut `title`{lang=en} ou validation native de formulaire) ou correspond à une fenêtre modale conforme au [motif de conception](#motif-de-conception) WAI-ARIA `dialog`{lang=en}, le critère 10.13 est non applicable.",
                             "Lorsque le contenu additionnel ne masque ou ne remplace aucun contenu porteur d'information, le test 10.13.1 est non applicable."
                         ],
                         "references": [
@@ -2795,20 +2795,20 @@
                         "tests": {
                             "1": [
                                 "Chaque [champ de formulaire](#champ-de-saisie-de-formulaire) vérifie-t-il une de ces conditions ?",
-                                "Le [champ de formulaire](#champ-de-saisie-de-formulaire) possède un attribut WAI-ARIA `aria-labelledby` référençant un [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) identifié ;",
-                                "Le [champ de formulaire](#champ-de-saisie-de-formulaire) possède un attribut WAI-ARIA `aria-label` ;",
-                                "Une balise `<label>` ayant un attribut `for` est associée au [champ de formulaire](#champ-de-saisie-de-formulaire) ;",
-                                "Le [champ de formulaire](#champ-de-saisie-de-formulaire) possède un attribut `title` ;",
-                                "Un bouton adjacent au [champ de formulaire](#champ-de-saisie-de-formulaire) lui fournit une étiquette visible et un élément `<label>` visuellement caché ou un attribut WAI-ARIA `aria-label`, `aria-labelledby` ou `title` lui fournit un nom accessible."
+                                "Le [champ de formulaire](#champ-de-saisie-de-formulaire) possède un attribut WAI-ARIA `aria-labelledby`{lang=en} référençant un [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) identifié ;",
+                                "Le [champ de formulaire](#champ-de-saisie-de-formulaire) possède un attribut WAI-ARIA `aria-label`{lang=en} ;",
+                                "Une balise `<label>`{lang=en} ayant un attribut `for`{lang=en} est associée au [champ de formulaire](#champ-de-saisie-de-formulaire) ;",
+                                "Le [champ de formulaire](#champ-de-saisie-de-formulaire) possède un attribut `title`{lang=en} ;",
+                                "Un bouton adjacent au [champ de formulaire](#champ-de-saisie-de-formulaire) lui fournit une étiquette visible et un élément `<label>`{lang=en} visuellement caché ou un attribut WAI-ARIA `aria-label`{lang=en}, `aria-labelledby`{lang=en} ou `title`{lang=en} lui fournit un nom accessible."
                             ],
                             "2": [
-                                "Chaque [champ de formulaire](#champ-de-saisie-de-formulaire) associé à une balise `<label>` ayant un attribut `for`, vérifie-t-il ces conditions ?",
-                                "Le [champ de formulaire](#champ-de-saisie-de-formulaire) possède un attribut `id` ;",
-                                "La valeur de l'attribut `for` est égale à la valeur de l'attribut `id` du [champ de formulaire](#champ-de-saisie-de-formulaire) associé."
+                                "Chaque [champ de formulaire](#champ-de-saisie-de-formulaire) associé à une balise `<label>`{lang=en} ayant un attribut `for`{lang=en}, vérifie-t-il ces conditions ?",
+                                "Le [champ de formulaire](#champ-de-saisie-de-formulaire) possède un attribut `id`{lang=en} ;",
+                                "La valeur de l'attribut `for`{lang=en} est égale à la valeur de l'attribut `id`{lang=en} du [champ de formulaire](#champ-de-saisie-de-formulaire) associé."
                             ],
                             "3": [
-                                "Chaque [champ de formulaire](#champ-de-saisie-de-formulaire) ayant une [étiquette](#etiquette-de-champ-de-formulaire) dont le contenu n'est pas visible ou à proximité (masqué, `aria-label`) ou qui n’est pas [accolé](#accoles-etiquette-et-champ-accoles) au champ (`aria-labelledby`), vérifie-t-il une de ses conditions ?",
-                                "Le [champ de formulaire](#champ-de-saisie-de-formulaire) possède un attribut `title` dont le contenu permet de comprendre la nature de la saisie attendue ;",
+                                "Chaque [champ de formulaire](#champ-de-saisie-de-formulaire) ayant une [étiquette](#etiquette-de-champ-de-formulaire) dont le contenu n'est pas visible ou à proximité (masqué, `aria-label`{lang=en}) ou qui n’est pas [accolé](#accoles-etiquette-et-champ-accoles) au champ (`aria-labelledby`{lang=en}), vérifie-t-il une de ses conditions ?",
+                                "Le [champ de formulaire](#champ-de-saisie-de-formulaire) possède un attribut `title`{lang=en} dont le contenu permet de comprendre la nature de la saisie attendue ;",
                                 "Le [champ de formulaire](#champ-de-saisie-de-formulaire) est accompagné d'un [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) accolé au champ qui devient visible à la prise de focus permettant de comprendre la nature de la saisie attendue ;",
                                 "Le [champ de formulaire](#champ-de-saisie-de-formulaire) est accompagné d'un [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) visible accolé au champ permettant de comprendre la nature de la saisie attendue."
                             ]
@@ -2846,23 +2846,23 @@
                         "title": "Chaque [étiquette](#etiquette-de-champ-de-formulaire) associée à un [champ de formulaire](#champ-de-saisie-de-formulaire) est-elle pertinente (hors cas particuliers) ?",
                         "tests": {
                             "1": [
-                                "Chaque balise `<label>` permet-elle de connaître la fonction exacte du [champ de formulaire](#champ-de-saisie-de-formulaire) auquel elle est associée ?"
+                                "Chaque balise `<label>`{lang=en} permet-elle de connaître la fonction exacte du [champ de formulaire](#champ-de-saisie-de-formulaire) auquel elle est associée ?"
                             ],
                             "2": [
-                                "Chaque attribut `title` permet-il de connaître la fonction exacte du [champ de formulaire](#champ-de-saisie-de-formulaire) auquel il est associé ?"
+                                "Chaque attribut `title`{lang=en} permet-il de connaître la fonction exacte du [champ de formulaire](#champ-de-saisie-de-formulaire) auquel il est associé ?"
                             ],
                             "3": [
-                                "Chaque étiquette implémentée via l'attribut WAI-ARIA `aria-label` permet-elle de connaître la fonction exacte du [champ de formulaire](#champ-de-saisie-de-formulaire) auquel elle est associée ?"
+                                "Chaque étiquette implémentée via l'attribut WAI-ARIA `aria-label`{lang=en} permet-elle de connaître la fonction exacte du [champ de formulaire](#champ-de-saisie-de-formulaire) auquel elle est associée ?"
                             ],
                             "4": [
-                                "Chaque [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) associé via l'attribut WAI-ARIA `aria-labelledby` permet-il de connaître la fonction exacte du [champ de formulaire](#champ-de-saisie-de-formulaire) auquel il est associé ?"
+                                "Chaque [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) associé via l'attribut WAI-ARIA `aria-labelledby`{lang=en} permet-il de connaître la fonction exacte du [champ de formulaire](#champ-de-saisie-de-formulaire) auquel il est associé ?"
                             ],
                             "5": [
                                 "Chaque [champ de formulaire](#champ-de-saisie-de-formulaire) ayant un [intitulé visible](#intitule-visible) vérifie-t-il ces conditions (hors cas particuliers) ?",
-                                "S'il est présent, le contenu de l'attribut WAI-ARIA `aria-label` du [champ de formulaire](#champ-de-saisie-de-formulaire) contient au moins l'[intitulé visible](#intitule-visible) ;",
-                                "S'il est présent, le [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) lié au [champ de formulaire](#champ-de-saisie-de-formulaire) via un attribut WAI-ARIA `aria-labelledby` contient au moins l'[intitulé visible](#intitule-visible) ;",
-                                "S'il est présent, le contenu de l'attribut `title` du [champ de formulaire](#champ-de-saisie-de-formulaire) contient au moins l'[intitulé visible](#intitule-visible) ;",
-                                "S'il est présent le contenu de la balise `<label>` associé au [champ de formulaire](#champ-de-saisie-de-formulaire) contient au moins l'[intitulé visible](#intitule-visible)."
+                                "S'il est présent, le contenu de l'attribut WAI-ARIA `aria-label`{lang=en} du [champ de formulaire](#champ-de-saisie-de-formulaire) contient au moins l'[intitulé visible](#intitule-visible) ;",
+                                "S'il est présent, le [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) lié au [champ de formulaire](#champ-de-saisie-de-formulaire) via un attribut WAI-ARIA `aria-labelledby`{lang=en} contient au moins l'[intitulé visible](#intitule-visible) ;",
+                                "S'il est présent, le contenu de l'attribut `title`{lang=en} du [champ de formulaire](#champ-de-saisie-de-formulaire) contient au moins l'[intitulé visible](#intitule-visible) ;",
+                                "S'il est présent le contenu de la balise `<label>`{lang=en} associé au [champ de formulaire](#champ-de-saisie-de-formulaire) contient au moins l'[intitulé visible](#intitule-visible)."
                             ],
                             "6": [
                                 "Chaque bouton adjacent au [champ de formulaire](#champ-de-saisie-de-formulaire) qui fournit une étiquette visible permet-il de connaître la fonction exacte du [champ de formulaire](#champ-de-saisie-de-formulaire) auquel il est associé ?"
@@ -2937,12 +2937,12 @@
                                 "Chaque [étiquette de champ](#etiquette-de-champ-de-formulaire) et son [champ](#champ-de-saisie-de-formulaire) associé sont-ils [accolés](#accoles-etiquette-et-champ-accoles) ?"
                             ],
                             "2": [
-                                "Chaque [étiquette](#etiquette-de-champ-de-formulaire) [accolée](#accoles-etiquette-et-champ-accoles) à un [champ](#champ-de-saisie-de-formulaire) (à l'exception des cases à cocher, bouton radio ou balises ayant un attribut WAI-ARIA `role=\"checkbox\"`, `role=\"radio\"` ou `role=\"switch\"`), vérifie-t-elle ces conditions (hors cas particuliers) ?",
+                                "Chaque [étiquette](#etiquette-de-champ-de-formulaire) [accolée](#accoles-etiquette-et-champ-accoles) à un [champ](#champ-de-saisie-de-formulaire) (à l'exception des cases à cocher, bouton radio ou balises ayant un attribut WAI-ARIA `role=\"checkbox\"`{lang=en}, `role=\"radio\"`{lang=en} ou `role=\"switch\"`{lang=en}), vérifie-t-elle ces conditions (hors cas particuliers) ?",
                                 "L'étiquette est visuellement [accolée](#accoles-etiquette-et-champ-accoles) immédiatement au-dessus ou à gauche du [champ de formulaire](#champ-de-saisie-de-formulaire) lorsque le sens de lecture de la langue de l'étiquette est de gauche à droite ;",
                                 "L'étiquette est visuellement [accolée](#accoles-etiquette-et-champ-accoles) immédiatement au-dessus ou à droite du [champ de formulaire](#champ-de-saisie-de-formulaire) lorsque le sens de lecture de la langue de l'étiquette est de droite à gauche."
                             ],
                             "3": [
-                                "Chaque [étiquette](#etiquette-de-champ-de-formulaire) [accolée](#accoles-etiquette-et-champ-accoles) à un [champ](#champ-de-saisie-de-formulaire) de type `checkbox` ou `radio` ou à une balise ayant un attribut WAI-ARIA `role=\"checkbox\"`, `role=\"radio\"` ou `role=\"switch\"`, vérifie-t-elle ces conditions (hors cas particuliers) ?",
+                                "Chaque [étiquette](#etiquette-de-champ-de-formulaire) [accolée](#accoles-etiquette-et-champ-accoles) à un [champ](#champ-de-saisie-de-formulaire) de type `checkbox`{lang=en} ou `radio`{lang=en} ou à une balise ayant un attribut WAI-ARIA `role=\"checkbox\"`{lang=en}, `role=\"radio\"`{lang=en} ou `role=\"switch\"`{lang=en}, vérifie-t-elle ces conditions (hors cas particuliers) ?",
                                 "L'étiquette est visuellement [accolée](#accoles-etiquette-et-champ-accoles) immédiatement au-dessous ou à droite du [champ de formulaire](#champ-de-saisie-de-formulaire) lorsque le sens de lecture de la langue de l'étiquette est de gauche à droite ;",
                                 "L'étiquette est visuellement [accolée](#accoles-etiquette-et-champ-accoles) immédiatement au-dessous ou à gauche du [champ de formulaire](#champ-de-saisie-de-formulaire) lorsque le sens de lecture de la langue de l'étiquette est de droite à gauche."
                             ]
@@ -2953,7 +2953,7 @@
                                 "ul": [
                                     "Dans le cas où l'[étiquette](#etiquette-de-champ-de-formulaire) mélange une portion de texte qui se lit de droite à gauche avec une portion de texte qui se lit de gauche à droite ;",
                                     "Dans le cas où un formulaire contient des labels de plusieurs langues qui se liraient de droite à gauche et inversement. Par exemple, un formulaire de commande en arabe qui propose une liste de cases à cocher de produit en langue française ou mixant des produits en langue arabe ou en langue française ;",
-                                    "Dans le cas où les champs de type `radio` ou `checkbox` et les balises ayant un attribut WAI-ARIA `role=\"checkbox\"`, `role=\"radio\"` ou `role=\"switch\"` ne sont pas visuellement présentés sous forme de bouton radio ou de case à cocher",
+                                    "Dans le cas où les champs de type `radio`{lang=en} ou `checkbox`{lang=en} et les balises ayant un attribut WAI-ARIA `role=\"checkbox\"`{lang=en}, `role=\"radio\"`{lang=en} ou `role=\"switch\"`{lang=en} ne sont pas visuellement présentés sous forme de bouton radio ou de case à cocher",
                                     "Dans le cas où les champs seraient utilisés dans un contexte où il pourrait être légitime, du point de vue de l'expérience utilisateur, de placer les étiquettes de manière différente à celle requise dans les tests 11.4.2 et 11.4.3."
                                 ]
                             }
@@ -2979,9 +2979,9 @@
                         "tests": {
                             "1": [
                                 "Les [champs de même nature](#champs-de-meme-nature) vérifient-ils l'une de ces conditions, si nécessaire ?",
-                                "Les [champs de même nature](#champs-de-meme-nature) sont regroupés dans une balise `<fieldset>` ;",
-                                "Les [champs de même nature](#champs-de-meme-nature) sont regroupés dans une balise possédant un attribut WAI-ARIA `role=\"group\"` ;",
-                                "Les [champs de même nature](#champs-de-meme-nature) de type `radio` (`<input type=\"radio\">`) ou balises possédant un attribut WAI-ARIA `role=\"radio\"`) sont regroupés dans une balise possédant un attribut WAI-ARIA `role=\"radiogroup\"` ou `role=\"group\"`."
+                                "Les [champs de même nature](#champs-de-meme-nature) sont regroupés dans une balise `<fieldset>`{lang=en} ;",
+                                "Les [champs de même nature](#champs-de-meme-nature) sont regroupés dans une balise possédant un attribut WAI-ARIA `role=\"group\"`{lang=en} ;",
+                                "Les [champs de même nature](#champs-de-meme-nature) de type `radio`{lang=en} (`<input type=\"radio\">`{lang=en}) ou balises possédant un attribut WAI-ARIA `role=\"radio\"`{lang=en}) sont regroupés dans une balise possédant un attribut WAI-ARIA `role=\"radiogroup\"`{lang=en} ou `role=\"group\"`{lang=en}."
                             ]
                         },
                         "references": [
@@ -3056,17 +3056,17 @@
                         "title": "Dans chaque [formulaire](#formulaire), les [items de même nature d'une liste de choix](#items-de-meme-nature-d-une-liste-de-choix) sont-ils regroupés de manière pertinente ?",
                         "tests": {
                             "1": [
-                                "Pour chaque balise `<select>`, les [items de même nature d'une liste de choix](#items-de-meme-nature-d-une-liste-de-choix) sont-ils regroupés avec une balise `<optgroup>`, si nécessaire ?"
+                                "Pour chaque balise `<select>`{lang=en}, les [items de même nature d'une liste de choix](#items-de-meme-nature-d-une-liste-de-choix) sont-ils regroupés avec une balise `<optgroup>`{lang=en}, si nécessaire ?"
                             ],
                             "2": [
-                                "Dans chaque balise `<select>`, chaque balise `<optgroup>` possède-t-elle un attribut `label` ?"
+                                "Dans chaque balise `<select>`{lang=en}, chaque balise `<optgroup>`{lang=en} possède-t-elle un attribut `label`{lang=en} ?"
                             ],
                             "3": [
-                                "Pour chaque balise `<optgroup>` ayant un attribut `label`, le contenu de l'attribut `label` est-il pertinent ?"
+                                "Pour chaque balise `<optgroup>`{lang=en} ayant un attribut `label`{lang=en}, le contenu de l'attribut `label`{lang=en} est-il pertinent ?"
                             ]
                         },
                         "technicalNote": [
-                            "Il est possible d’utiliser une balise ayant un attribut WAI-ARIA `role=\"listbox\"` en remplacement d’une balise `<select>`. En revanche, il est impossible de créer des groupes d’options via l’utilisation de WAI-ARIA. De ce fait, une liste nécessitant un regroupement d’options structurée à l’aide d’une balise ayant un attribut WAI-ARIA `role=\"listbox\"` sera considérée comme non conforme au [critère 11.8](#crit-11-8)."
+                            "Il est possible d’utiliser une balise ayant un attribut WAI-ARIA `role=\"listbox\"`{lang=en} en remplacement d’une balise `<select>`{lang=en}. En revanche, il est impossible de créer des groupes d’options via l’utilisation de WAI-ARIA. De ce fait, une liste nécessitant un regroupement d’options structurée à l’aide d’une balise ayant un attribut WAI-ARIA `role=\"listbox\"`{lang=en} sera considérée comme non conforme au [critère 11.8](#crit-11-8)."
                         ],
                         "references": [
                             {
@@ -3089,21 +3089,21 @@
                         "tests": {
                             "1": [
                                 "L'intitulé de chaque [bouton](#bouton-formulaire) est-il pertinent ?",
-                                "S'il est présent, le contenu de l'attribut WAI-ARIA `aria-label` est pertinent ;",
-                                "S'il est présent, le [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) lié au bouton via un attribut WAI-ARIA `aria-labelledby` est pertinent ;",
-                                "S'il est présent, le contenu de l'attribut `value` d'une balise `<input>` de type `submit`, `reset` ou `button` est pertinent ;",
-                                "S'il est présent, le contenu de la balise `<button>` est pertinent ;",
-                                "S'il est présent, le contenu de l'attribut `alt` d'une balise `<input>` de type `image` est pertinent ;",
-                                "S'il est présent, le contenu de l'attribut `title` est pertinent."
+                                "S'il est présent, le contenu de l'attribut WAI-ARIA `aria-label`{lang=en} est pertinent ;",
+                                "S'il est présent, le [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) lié au bouton via un attribut WAI-ARIA `aria-labelledby`{lang=en} est pertinent ;",
+                                "S'il est présent, le contenu de l'attribut `value`{lang=en} d'une balise `<input>`{lang=en} de type `submit`{lang=en}, `reset`{lang=en} ou `button`{lang=en} est pertinent ;",
+                                "S'il est présent, le contenu de la balise `<button>`{lang=en} est pertinent ;",
+                                "S'il est présent, le contenu de l'attribut `alt`{lang=en} d'une balise `<input>`{lang=en} de type `image`{lang=en} est pertinent ;",
+                                "S'il est présent, le contenu de l'attribut `title`{lang=en} est pertinent."
                             ],
                             "2": [
                                 "Chaque [bouton](#bouton-formulaire) affichant un [intitulé visible](#intitule-visible) vérifie-t-il ces conditions (hors cas particuliers) ?",
-                                "S'il est présent, le contenu de l'attribut WAI-ARIA `aria-label` contient au moins l'[intitulé visible](#intitule-visible) ;",
-                                "S'il est présent, le [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) lié au bouton via un attribut WAI-ARIA `aria-labelledby` contient au moins l'[intitulé visible](#intitule-visible) ;",
-                                "S'il est présent, le contenu de l'attribut `value` d'une balise `<input>` de type `submit`, `reset` ou `button` contient au moins l'[intitulé visible](#intitule-visible) ;",
-                                "S'il est présent, le contenu de la balise `<button>` contient au moins l'[intitulé visible](#intitule-visible) ;",
-                                "S'il est présent, le contenu de l'attribut `alt` d'une balise `<input>` de type `image` contient au moins l'[intitulé visible](#intitule-visible) ;",
-                                "S'il est présent, le contenu de l'attribut `title` contient au moins l'[intitulé visible](#intitule-visible)."
+                                "S'il est présent, le contenu de l'attribut WAI-ARIA `aria-label`{lang=en} contient au moins l'[intitulé visible](#intitule-visible) ;",
+                                "S'il est présent, le [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) lié au bouton via un attribut WAI-ARIA `aria-labelledby`{lang=en} contient au moins l'[intitulé visible](#intitule-visible) ;",
+                                "S'il est présent, le contenu de l'attribut `value`{lang=en} d'une balise `<input>`{lang=en} de type `submit`{lang=en}, `reset`{lang=en} ou `button`{lang=en} contient au moins l'[intitulé visible](#intitule-visible) ;",
+                                "S'il est présent, le contenu de la balise `<button>`{lang=en} contient au moins l'[intitulé visible](#intitule-visible) ;",
+                                "S'il est présent, le contenu de l'attribut `alt`{lang=en} d'une balise `<input>`{lang=en} de type `image`{lang=en} contient au moins l'[intitulé visible](#intitule-visible) ;",
+                                "S'il est présent, le contenu de l'attribut `title`{lang=en} contient au moins l'[intitulé visible](#intitule-visible)."
                             ]
                         },
                         "particularCases": [
@@ -3137,20 +3137,20 @@
                             "1": [
                                 "Les [indications du caractère obligatoire](#indication-de-champ-obligatoire) de la saisie des champs vérifient-elles une de ces conditions (hors cas particuliers) ?",
                                 "Une [indication de champ obligatoire](#indication-de-champ-obligatoire) est visible et permet d'identifier nommément le champ concerné préalablement à la validation du formulaire ;",
-                                "Le champ obligatoire dispose de l'attribut `aria-required=\"true\"` ou `required` préalablement à la validation du formulaire."
+                                "Le champ obligatoire dispose de l'attribut `aria-required=\"true\"`{lang=en} ou `required`{lang=en} préalablement à la validation du formulaire."
                             ],
                             "2": [
-                                "Les champs obligatoires ayant l'attribut `aria-required=\"true\"` ou `required` vérifient-ils une de ces conditions ?",
+                                "Les champs obligatoires ayant l'attribut `aria-required=\"true\"`{lang=en} ou `required`{lang=en} vérifient-ils une de ces conditions ?",
                                 "Une [indication de champ obligatoire](#indication-de-champ-obligatoire) est visible et située dans l'étiquette associée au champ préalablement à la validation du formulaire ;",
                                 "Une [indication de champ obligatoire](#indication-de-champ-obligatoire) est visible et située dans le [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) associé au champ préalablement à la validation du formulaire."
                             ],
                             "3": [
                                 "Les messages d'erreur indiquant l'absence de saisie d'un champ obligatoire vérifient-ils une de ces conditions ?",
                                 "Le message d'erreur indiquant l'absence de saisie d'un champ obligatoire est visible et permet d'identifier nommément le champ concerné ;",
-                                "Le champ obligatoire dispose de l'attribut `aria-invalid=\"true\"`."
+                                "Le champ obligatoire dispose de l'attribut `aria-invalid=\"true\"`{lang=en}."
                             ],
                             "4": [
-                                "Les champs obligatoires ayant l'attribut `aria-invalid=\"true\"` vérifient-ils une de ces conditions ?",
+                                "Les champs obligatoires ayant l'attribut `aria-invalid=\"true\"`{lang=en} vérifient-ils une de ces conditions ?",
                                 "Le message d'erreur indiquant le caractère invalide de la saisie est visible et situé dans l'étiquette associée au champ ;",
                                 "Le message d'erreur indiquant le caractère invalide de la saisie est visible et situé dans le [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) associé au champ."
                             ],
@@ -3162,11 +3162,11 @@
                             "6": [
                                 "Les messages d'erreurs fournissant une instruction ou une indication du type de données et/ou de format obligatoire des champs vérifient-ils une de ces conditions ?",
                                 "Le message d'erreur fournissant une instruction ou une indication du type de données et/ou de format obligatoires est visible et identifie le champ concerné ;",
-                                "Le champ dispose de l'attribut `aria-invalid=\"true\"`."
+                                "Le champ dispose de l'attribut `aria-invalid=\"true\"`{lang=en}."
                             ],
                             "7": [
-                                "Les champs ayant l'attribut `aria-invalid=\"true\"` dont la saisie requiert un type de données et/ou de format obligatoires vérifient-ils une de ces conditions ?",
-                                "Une instruction ou une indication du type de données et/ou de format obligatoire est visible et située dans la balise `<label>` associée au champ ;",
+                                "Les champs ayant l'attribut `aria-invalid=\"true\"`{lang=en} dont la saisie requiert un type de données et/ou de format obligatoires vérifient-ils une de ces conditions ?",
+                                "Une instruction ou une indication du type de données et/ou de format obligatoire est visible et située dans la balise `<label>`{lang=en} associée au champ ;",
                                 "Une instruction ou une indication du type de données et/ou de format obligatoire est visible et située dans le [passage de texte](#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) associé au champ."
                             ]
                         },
@@ -3176,7 +3176,7 @@
                                 "ul": [
                                     "Un message précise visuellement en haut de formulaire que \"tous les champs sont obligatoires sauf ceux indiqués comme étant facultatifs\" ;",
                                     "Une mention \"facultatif\" est présente visuellement dans le libellé des champs facultatifs ou dans la légende d’un groupe de champs facultatifs ;",
-                                    "Un attribut `required` ou `aria-required=\"true\"` reste associé à chaque champ qui n’est pas concerné par ce caractère facultatif.]"
+                                    "Un attribut `required`{lang=en} ou `aria-required=\"true\"`{lang=en} reste associé à chaque champ qui n’est pas concerné par ce caractère facultatif."
                                 ]
                             }
                         ],
@@ -3185,7 +3185,7 @@
                             {
                                 "ul": [
                                     "Visible ;",
-                                    "Dans la balise `<label>` ou dans la [légende](#legende) associée au champ."
+                                    "Dans la balise `<label>`{lang=en} ou dans la [légende](#legende) associée au champ."
                                 ]
                             },
                             "Dans le cas où l'ensemble des champs d'un formulaire sont obligatoires, les tests 11.10.1 et 11.10.2 restent applicables."
@@ -3235,8 +3235,8 @@
                             ]
                         },
                         "technicalNote": [
-                            "Certains types de contrôles en HTML5 proposent des messages d'aide à la saisie automatique : par exemple le type `email` affiche un message du type « veuillez saisir une adresse e-mail valide » dans le cas où l'adresse e-mail saisie ne correspond pas au format attendu. Ces messages sont personnalisables via l'API Constraint Validation, ce qui permet de personnaliser les messages d'erreur et de valider le critère. L’attribut `pattern` permet d'effectuer automatiquement des contrôles de format (via des expressions régulières) et affiche un message d'aide personnalisable via l'attribut `title` : ce dispositif valide également le critère.",
-                            "Référence : <a href=\"https://www.w3.org/TR/html52/sec-forms.html#the-constraint-validation-api\">HTML 5.2 - 4.10.20.3 The constraint validation API</a>."
+                            "Certains types de contrôles en HTML5 proposent des messages d'aide à la saisie automatique : par exemple le type `email`{lang=en} affiche un message du type « veuillez saisir une adresse e-mail valide » dans le cas où l'adresse e-mail saisie ne correspond pas au format attendu. Ces messages sont personnalisables via l'API *Constraint Validation*{lang=en}, ce qui permet de personnaliser les messages d'erreur et de valider le critère. L’attribut `pattern`{lang=en} permet d'effectuer automatiquement des contrôles de format (via des expressions régulières) et affiche un message d'aide personnalisable via l'attribut `title`{lang=en} : ce dispositif valide également le critère.",
+                            "Référence : [HTML 5.2 - 4.10.20.3 The constraint validation API](https://www.w3.org/TR/html52/sec-forms.html#the-constraint-validation-api){lang=en}."
                         ],
                         "references": [
                             {
@@ -3265,7 +3265,7 @@
                                 "Pour chaque formulaire qui modifie ou supprime des données, ou qui transmet des réponses à un test ou un examen, ou dont la validation a des conséquences financières ou juridiques, la saisie des données vérifie-t-elle une de ces conditions ?",
                                 "L'utilisateur peut [modifier ou annuler les données et les actions effectuées](#modifier-ou-annuler-les-donnees-et-les-actions-effectues) sur ces données après la validation du formulaire ;",
                                 "L'utilisateur peut vérifier et corriger les données avant la validation d'un formulaire en plusieurs étapes ;",
-                                "Un mécanisme de confirmation explicite, via une case à cocher (balise `<input>` de type `checkbox` ou balise ayant un attribut WAI-ARIA `role=\"checkbox\"`) ou une étape supplémentaire, est présent."
+                                "Un mécanisme de confirmation explicite, via une case à cocher (balise `<input>`{lang=en} de type `checkbox`{lang=en} ou balise ayant un attribut WAI-ARIA `role=\"checkbox\"`{lang=en}) ou une étape supplémentaire, est présent."
                             ],
                             "2": [
                                 "Chaque formulaire dont la validation modifie ou supprime des données à caractère financier, juridique ou personnel vérifie-t-il une de ces conditions ?",
@@ -3298,14 +3298,14 @@
                         "tests": {
                             "1": [
                                 "Chaque [champ de formulaire](#champ-de-saisie-de-formulaire) dont l'objet se rapporte à une information concernant l'utilisateur vérifie-t-il ces conditions ?",
-                                "Le [champ de formulaire](#champ-de-saisie-de-formulaire) possède un attribut `autocomplete` ;",
-                                "L'attribut `autocomplete` est pourvu d'une valeur présente dans la [liste des valeurs possibles pour l'attribut `autocomplete`](#liste-des-valeurs-possibles-pour-l-attribut-autocomplete) associés à un [champ de formulaire](#champ-de-saisie-de-formulaire) ;",
-                                "La valeur indiquée pour l'attribut `autocomplete` est pertinente au regard du type d'information attendu."
+                                "Le [champ de formulaire](#champ-de-saisie-de-formulaire) possède un attribut `autocomplete`{lang=en} ;",
+                                "L'attribut `autocomplete`{lang=en} est pourvu d'une valeur présente dans la [liste des valeurs possibles pour l'attribut `autocomplete`{lang=en}](#liste-des-valeurs-possibles-pour-l-attribut-autocomplete) associés à un [champ de formulaire](#champ-de-saisie-de-formulaire) ;",
+                                "La valeur indiquée pour l'attribut `autocomplete`{lang=en} est pertinente au regard du type d'information attendu."
                             ]
                         },
                         "technicalNote": [
-                            "La [liste des valeurs possibles pour l'attribut `autocomplete`](#liste-des-valeurs-possibles-pour-l-attribut-autocomplete) repose sur la liste des valeurs présentes dans la spécification WCAG2.1 qui reprend elle-même la liste des valeurs de type \"field name\" de la spécification HTML5.2. Le critère WCAG demande à ce que l'une de ces valeurs soit présente pour qualifier un champ de saisie concernant l'utilisateur.",
-                            "Ce que le critère WCAG laisse implicite, ce sont les différentes règles de construction possibles pour obtenir une valeur (simple ou composée) pour l'attribut `autocomplete`. C'est cependant l'affaire du développeur de fournir à l'attribut `autocomplete` une valeur ou un ensemble de valeurs valides au regard des exigences de l'algorithme fourni par la spécification HTML5.2. Ainsi, un attribut `autocomplete` ne peut contenir qu'une seule valeur de type \"field name\", comme `\"name\"` ou `\"street-address\"`. On peut avoir également un ensemble composé de différentes valeurs comme, par exemple, `autocomplete=\"shipping name\"` ou `autocomplete=\"section-software shipping street-address\"` : `\"section-software\"` renvoie à une valeur de type \"scope\" et `\"shipping\"` à une valeur de type \"hint set\", mais toujours une seule valeur de type \"field name\"."
+                            "La [liste des valeurs possibles pour l'attribut `autocomplete`{lang=en}](#liste-des-valeurs-possibles-pour-l-attribut-autocomplete) repose sur la liste des valeurs présentes dans la spécification WCAG2.1 qui reprend elle-même la liste des valeurs de type *\"field name\"*{lang=en} de la spécification HTML5.2. Le critère WCAG demande à ce que l'une de ces valeurs soit présente pour qualifier un champ de saisie concernant l'utilisateur.",
+                            "Ce que le critère WCAG laisse implicite, ce sont les différentes règles de construction possibles pour obtenir une valeur (simple ou composée) pour l'attribut `autocomplete`{lang=en}. C'est cependant l'affaire du développeur de fournir à l'attribut `autocomplete`{lang=en} une valeur ou un ensemble de valeurs valides au regard des exigences de l'algorithme fourni par la spécification HTML5.2. Ainsi, un attribut `autocomplete`{lang=en} ne peut contenir qu'une seule valeur de type *\"field name\"*{lang=en}, comme `\"name\"`{lang=en} ou `\"street-address\"`{lang=en}. On peut avoir également un ensemble composé de différentes valeurs comme, par exemple, `autocomplete=\"shipping name\"`{lang=en} ou `autocomplete=\"section-software shipping street-address\"`{lang=en} : `\"section-software\"`{lang=en} renvoie à une valeur de type *\"scope\"*{lang=en} et `\"shipping\"`{lang=en} à une valeur de type *\"hint set\"*{lang=en}, mais toujours une seule valeur de type *\"field name\"*{lang=en}."
                         ],
                         "references": [
                             {
@@ -3494,7 +3494,7 @@
                         "tests": {
                             "1": [
                                 "Dans chaque page web où elles sont présentes, la [zone d'en-tête](#zone-d-en-tete), de [navigation principale](#menu-et-barre-de-navigation), de [contenu principal](#zone-de-contenu-principal), de [pied de page](#zone-de-pied-de-page) et de [moteur de recherche](#moteur-de-recherche-interne-a-un-site-web) respectent-elles au moins une de ces conditions :",
-                                "La zone possède un rôle WAI-ARIA de type [landmark](#landmarks) correspondant à sa nature ;",
+                                "La zone possède un rôle WAI-ARIA de type [landmark](#landmarks){lang=en} correspondant à sa nature ;",
                                 "La zone possède un titre dont le contenu permet de comprendre la nature du contenu de la zone ;",
                                 "La zone peut être masquée par le biais d'un bouton précédent directement la zone dans l'ordre du code source ;",
                                 "La zone peut être évitée par le biais d'un [lien d'évitement](#liens-d-evitement-ou-d-acces-rapide) précédent directement la zone dans l'ordre du code source ;",
@@ -3685,14 +3685,14 @@
                         "title": "Pour chaque page web, l'utilisateur a-t-il le contrôle de chaque limite de temps modifiant le contenu (hors cas particuliers) ?",
                         "tests": {
                             "1": [
-                                "Pour chaque page web, chaque [procédé de rafraîchissement](#procede-de-rafraichissement) (balise `<object>`, balise `<embed>`, balise `<svg>`, balise `<canvas>`, balise `<meta>`) vérifie-t-il une de ces conditions (hors cas particuliers) ?",
+                                "Pour chaque page web, chaque [procédé de rafraîchissement](#procede-de-rafraichissement) (balise `<object>`{lang=en}, balise `<embed>`{lang=en}, balise `<svg>`{lang=en}, balise `<canvas>`{lang=en}, balise `<meta>`{lang=en}) vérifie-t-il une de ces conditions (hors cas particuliers) ?",
                                 "L'utilisateur peut arrêter ou relancer le rafraîchissement ;",
                                 "L'utilisateur peut augmenter la limite de temps entre deux rafraîchissements de dix fois, au moins ;",
                                 "L'utilisateur est averti de l'imminence du rafraîchissement et dispose de vingt secondes, au moins, pour augmenter la limite de temps avant le prochain rafraîchissement ;",
                                 "La limite de temps entre deux rafraîchissements est de vingt heures, au moins."
                             ],
                             "2": [
-                                "Pour chaque page web, chaque procédé de [redirection](#redirection) effectué via une balise `<meta>` est-il immédiat (hors cas particuliers) ?"
+                                "Pour chaque page web, chaque procédé de [redirection](#redirection) effectué via une balise `<meta>`{lang=en} est-il immédiat (hors cas particuliers) ?"
                             ],
                             "3": [
                                 "Pour chaque page web, chaque procédé de [redirection](#redirection) effectué via un [script](#script) vérifie-t-il une de ces conditions (hors cas particuliers) ?",
@@ -3852,7 +3852,7 @@
                         "tests": {
                             "1": [
                                 "Dans chaque page web, chaque contenu cryptique (art ASCII,  émoticône, syntaxe cryptique) vérifie-t-il une de ces conditions ?",
-                                "Un attribut `title` est disponible ;",
+                                "Un attribut `title`{lang=en} est disponible ;",
                                 "Une définition est donnée par le contexte adjacent."
                             ]
                         },
@@ -3880,7 +3880,7 @@
                         "tests": {
                             "1": [
                                 "Dans chaque page web, chaque contenu cryptique (art ASCII,  émoticône, syntaxe cryptique) vérifie-t-il une de ces conditions ?",
-                                "Le contenu de l'attribut `title` est pertinent ;",
+                                "Le contenu de l'attribut `title`{lang=en} est pertinent ;",
                                 "La définition donnée par le contexte adjacent est pertinente."
                             ]
                         },
@@ -3906,7 +3906,7 @@
                         "title": "Dans chaque page web, [les changements brusques de luminosité ou les effets de flash](#changement-brusque-de-luminosite-ou-effet-de-flash) sont-ils correctement utilisés ?",
                         "tests": {
                             "1": [
-                                "Dans chaque page web, chaque image ou élément multimédia (balise `<video>`, balise `<img>`, balise `<svg>`, balise `<canvas>`, balise `<embed>` ou balise `<object>`) qui provoque un changement brusque de luminosité ou un effet de flash vérifie-t-il une de ces conditions ?",
+                                "Dans chaque page web, chaque image ou élément multimédia (balise `<video>`{lang=en}, balise `<img>`{lang=en}, balise `<svg>`{lang=en}, balise `<canvas>`{lang=en}, balise `<embed>`{lang=en} ou balise `<object>`{lang=en}) qui provoque un changement brusque de luminosité ou un effet de flash vérifie-t-il une de ces conditions ?",
                                 "La fréquence de l'effet est inférieure à 3 par seconde ;",
                                 "La surface totale cumulée des effets est inférieure ou égale à 21824 pixels."
                             ],

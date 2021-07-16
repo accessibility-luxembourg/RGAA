@@ -29,17 +29,17 @@ D'autres outils sont disponibles pour aider à la recherche des éléments de co
 
 Les barres d'outils sont des extensions du navigateur qui vont faciliter le repérage visuel de certains éléments dans un document :
 
-* Web Developer Toolbar pour Firefox (<https://addons.mozilla.org/fr/firefox/addon/web-developer/>) : barre d'outils pour les développeurs qui peut aider à retrouver visuellement certains éléments dans un document pour en contrôler l'accessibilité ;
-* Web Developer Toolbar pour Chrome (<https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm>) : la même barre d'outils que précédemment, pour Chrome.
+* *Web Developer Toolbar*{lang=en} pour Firefox (<https://addons.mozilla.org/fr/firefox/addon/web-developer/>) : barre d'outils pour les développeurs qui peut aider à retrouver visuellement certains éléments dans un document pour en contrôler l'accessibilité ;
+* *Web Developer Toolbar*{lang=en} pour Chrome (<https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm>) : la même barre d'outils que précédemment, pour Chrome.
 
 Au-delà de la simple barre d'outil, d'autres outils fournissent une analyse complète du document en signalant visuellement sur la page les erreurs d'accessibilité ou à l'inverse les éléments qui lui sont bénéfiques ; des filtres permettent alors souvent de n'afficher que certains de ces aspects. C'est ce que propose Wave, une solution disponible à la fois en ligne (<http://wave.webaim.org>) et comme extension de navigateur (<https://wave.webaim.org/extension/>).
 
-La validation du code source d'un document HTML utilise le validateur en ligne du W3C (<https://validator.w3.org/>). À noter que pour valider le code source généré par le navigateur, il faut utiliser l'option "Validate by Direct Input" en y copiant la source HTML proposée par l'inspecteur de code du navigateur. Des extensions de navigateur sont aussi disponibles, mais il faut être vigilant, car les algorithmes de validation de ces extensions ne sont pas forcément à jour par rapport au validateur du W3C et les résultats obtenus peuvent donc être différents.
+La validation du code source d'un document HTML utilise le validateur en ligne du W3C (<https://validator.w3.org/>). À noter que pour valider le code source généré par le navigateur, il faut utiliser l'option *"Validate by Direct Input"*{lang=en} en y copiant la source HTML proposée par l'inspecteur de code du navigateur. Des extensions de navigateur sont aussi disponibles, mais il faut être vigilant, car les algorithmes de validation de ces extensions ne sont pas forcément à jour par rapport au validateur du W3C et les résultats obtenus peuvent donc être différents.
 
 La vérification des contrastes de couleurs bénéficie de différents outils :
 
-* WCAG Contrast checker (<https://addons.mozilla.org/fr/firefox/addon/wcag-contrast-checker/>) : extension Firefox qui permet un contrôle automatique des contrastes de couleurs des textes d'un document ;
-* Color Contrast Analyser (<https://developer.paciellogroup.com/resources/contrastanalyser/>) : Application Windows ou Mac qui permet de contrôler des contrastes de couleurs.
+* *WCAG Contrast checker*{lang=en} (<https://addons.mozilla.org/fr/firefox/addon/wcag-contrast-checker/>) : extension Firefox qui permet un contrôle automatique des contrastes de couleurs des textes d'un document ;
+* *Color Contrast Analyser*{lang=en} (<https://developer.paciellogroup.com/resources/contrastanalyser/>) : Application Windows ou Mac qui permet de contrôler des contrastes de couleurs.
 
 La vérification de l'arborescence du document et de la hiérarchie des titres dispose d'une extension très utile :
 
@@ -48,12 +48,12 @@ La vérification de l'arborescence du document et de la hiérarchie des titres d
 
 L'analyse des fichiers bureautiques peut être réalisée au moyen de différents outils en fonction du format du fichier :
 
-* PAC (PDF Accessibility Checker) version 3 pour Windows (<https://www.access-for-all.ch/en/pdf-accessibility-checker.html>) : logiciel qui permet de contrôler certains points d'accessibilité des documents PDF ;
-* Word Accessibility Plug-in pour Microsoft Office Windows (<http://accessibility.zhaw.ch/index.php?id=6&L=1>) : extension du logiciel Microsoft Word qui permet d'éditer et de contrôler l'accessibilité d'un document bureautique éditable au format .doc ; à noter que les versions récentes des outils bureautiques de Microsoft offrent une fonctionnalité intégrée de validation de l'accessibilité.
+* PAC (*PDF Accessibility Checker*{lang=en}) version 3 pour Windows (<https://www.access-for-all.ch/en/pdf-accessibility-checker.html>) : logiciel qui permet de contrôler certains points d'accessibilité des documents PDF ;
+* *Word Accessibility Plug-in*{lang=en} pour Microsoft Office Windows (<http://accessibility.zhaw.ch/index.php?id=6&L=1>) : extension du logiciel Microsoft Word qui permet d'éditer et de contrôler l'accessibilité d'un document bureautique éditable au format .doc ; à noter que les versions récentes des outils bureautiques de Microsoft offrent une fonctionnalité intégrée de validation de l'accessibilité.
 * AccessODF pour LibreOffice (<https://extensions.libreoffice.org/extensions/accessodf>) : extension pour vérifier l'accessibilité d'un document LibreOffice Writer ; à noter que cette extension n'est plus compatible avec les dernières versions de LibreOffice (supérieures à la version 4.0) ;
-* Ace by DAISY App (<https://inclusivepublishing.org/toolbox/ace-by-daisy-app/>) est un utilitaire pour vérifier l'accessibilité d'un fichier EPUB.
+* *Ace by DAISY App*{lang=en} (<https://inclusivepublishing.org/toolbox/ace-by-daisy-app/>) est un utilitaire pour vérifier l'accessibilité d'un fichier EPUB.
 
-Enfin, un logiciel ancien mais toujours utile pour évaluer la potentialité de certains contenus web à causer des crises d'épilepsie : PEAT (Photosensitive Epilepsy Analysis Tool) pour Windows (<https://trace.umd.edu/peat>).
+Enfin, un logiciel ancien mais toujours utile pour évaluer la potentialité de certains contenus web à causer des crises d'épilepsie : PEAT (*Photosensitive Epilepsy Analysis Tool*{lang=en}) pour Windows (<https://trace.umd.edu/peat>).
 
 ### Images
 
@@ -61,42 +61,42 @@ Enfin, un logiciel ancien mais toujours utile pour évaluer la potentialité de 
 
 ##### Test 1.1.1
 
-1. Retrouver dans le document les images structurées au moyen d’un élément `<img>` ou d’un élément possédant l'attribut WAI-ARIA `role="img"` ;
+1. Retrouver dans le document les images structurées au moyen d’un élément `<img>`{lang=en} ou d’un élément possédant l'attribut WAI-ARIA `role="img"`{lang=en} ;
 2. Pour chaque image, déterminer si l’image est porteuse d'information ;
-3. Dans le cas où il s’agit d’un élément `<img>`, vérifier que l’image est pourvue au moins d’une alternative textuelle parmi les suivantes :
-    1. Passage de texte associé via l’attribut WAI-ARIA `aria-labelledby` ;
-    2. Contenu de l’attribut WAI-ARIA `aria-label` ;
-    3. Contenu de l’attribut `alt` ;
-    4. Contenu de l’attribut `title`.
-4. Dans le cas où il s’agit d’un élément possédant l'attribut WAI-ARIA `role="img"`, vérifier que l’image est pourvue au moins d’une alternative textuelle parmi les suivantes :
-    1. Passage de texte associé via l’attribut WAI-ARIA `aria-labelledby` ;
-    2. Contenu de l’attribut WAI-ARIA `aria-label`.
+3. Dans le cas où il s’agit d’un élément `<img>`{lang=en}, vérifier que l’image est pourvue au moins d’une alternative textuelle parmi les suivantes :
+    1. Passage de texte associé via l’attribut WAI-ARIA `aria-labelledby`{lang=en} ;
+    2. Contenu de l’attribut WAI-ARIA `aria-label`{lang=en} ;
+    3. Contenu de l’attribut `alt`{lang=en} ;
+    4. Contenu de l’attribut `title`{lang=en}.
+4. Dans le cas où il s’agit d’un élément possédant l'attribut WAI-ARIA `role="img"`{lang=en}, vérifier que l’image est pourvue au moins d’une alternative textuelle parmi les suivantes :
+    1. Passage de texte associé via l’attribut WAI-ARIA `aria-labelledby`{lang=en} ;
+    2. Contenu de l’attribut WAI-ARIA `aria-label`{lang=en}.
 5. Si au moins une alternative textuelle est trouvée, le test est validé.
 
 ##### Test 1.1.2
 
-1. Retrouver dans le document les éléments `<area>` ;
-2. Pour chaque élément `<area>`, déterminer si la zone réactive est porteuse d'information ;
+1. Retrouver dans le document les éléments `<area>`{lang=en} ;
+2. Pour chaque élément `<area>`{lang=en}, déterminer si la zone réactive est porteuse d'information ;
 3. Vérifier que la zone réactive est pourvue au moins d’une alternative textuelle parmi les suivantes :
-    1. Contenu de l’attribut WAI-ARIA `aria-label` ;
-    2. Contenu de l’attribut `alt` ;
+    1. Contenu de l’attribut WAI-ARIA `aria-label`{lang=en} ;
+    2. Contenu de l’attribut `alt`{lang=en} ;
 4. Si au moins une alternative textuelle est trouvée, le test est validé.
 
 ##### Test 1.1.3
 
-1. Retrouver dans le document les éléments `<input>` pourvus de l’attribut `type="image"` ;
-2. Pour chaque élément `<input>` pourvu de l’attribut `type="image"`, déterminer si l’image utilisée est porteuse d'information ;
-3. Vérifier que l’élément `<input>` est pourvu au moins d’une alternative textuelle parmi les suivantes :
-    1. Passage de texte associé via l’attribut WAI-ARIA `aria-labelledby` ;
-    2. Contenu de l’attribut WAI-ARIA `aria-label` ;
-    3. Contenu de l’attribut `alt` ;
-    4. Contenu de l’attribut `title`.
+1. Retrouver dans le document les éléments `<input>`{lang=en} pourvus de l’attribut `type="image"`{lang=en} ;
+2. Pour chaque élément `<input>`{lang=en} pourvu de l’attribut `type="image"`{lang=en}, déterminer si l’image utilisée est porteuse d'information ;
+3. Vérifier que l’élément `<input>`{lang=en} est pourvu au moins d’une alternative textuelle parmi les suivantes :
+    1. Passage de texte associé via l’attribut WAI-ARIA `aria-labelledby`{lang=en} ;
+    2. Contenu de l’attribut WAI-ARIA `aria-label`{lang=en} ;
+    3. Contenu de l’attribut `alt`{lang=en} ;
+    4. Contenu de l’attribut `title`{lang=en}.
 4. Si au moins une alternative textuelle est trouvée, le test est validé.
 
 ##### Test 1.1.4
 
-1. Retrouver dans le document les éléments `<img>` pourvus de l’attribut `ismap` ;
-2. Pour chaque élément `<img>` pourvu de l’attribut `ismap`, vérifier la présence d’un lien ou d’un ensemble de liens (ou bien d'un autre type de composant d'interface qui jouerait un rôle similaire comme une liste de sélection, par exemple) permettant d'accéder aux mêmes ressources que lorsque l'image fait l’objet d’un clic.
+1. Retrouver dans le document les éléments `<img>`{lang=en} pourvus de l’attribut `ismap`{lang=en} ;
+2. Pour chaque élément `<img>`{lang=en} pourvu de l’attribut `ismap`{lang=en}, vérifier la présence d’un lien ou d’un ensemble de liens (ou bien d'un autre type de composant d'interface qui jouerait un rôle similaire comme une liste de sélection, par exemple) permettant d'accéder aux mêmes ressources que lorsque l'image fait l’objet d’un clic.
 3. Si c'est le cas, le test est validé.
 
 <!--  => le test initial est faux
@@ -104,108 +104,108 @@ La présence de ce test au sein d’un critère portant sur l’existence d’un
 
 ##### Test 1.1.5
 
-1. Retrouver dans le document les éléments `<svg>` ;
-2. Pour chaque élément `<svg>`, déterminer si l’image est porteuse d'information ;
-3. S’assurer que l’élément `<svg>` est pourvu d’un attribut WAI-ARIA `role="img"` ;
+1. Retrouver dans le document les éléments `<svg>`{lang=en} ;
+2. Pour chaque élément `<svg>`{lang=en}, déterminer si l’image est porteuse d'information ;
+3. S’assurer que l’élément `<svg>`{lang=en} est pourvu d’un attribut WAI-ARIA `role="img"`{lang=en} ;
 4. Si ce n’est pas le cas, le test est invalidé.
-5. Le cas échéant, vérifier que l’élément `<svg>` est pourvu au moins d’une alternative textuelle parmi les suivantes :
-    1. Passage de texte associé via l’attribut WAI-ARIA `aria-labelledby` ;
-    2. Contenu de l’attribut WAI-ARIA `aria-label` ;
+5. Le cas échéant, vérifier que l’élément `<svg>`{lang=en} est pourvu au moins d’une alternative textuelle parmi les suivantes :
+    1. Passage de texte associé via l’attribut WAI-ARIA `aria-labelledby`{lang=en} ;
+    2. Contenu de l’attribut WAI-ARIA `aria-label`{lang=en} ;
 6. Si au moins une alternative textuelle est trouvée, le test est validé.
 
 ##### Test 1.1.6
 
-1. Retrouver dans le document les éléments `<object>` pourvus de l'attribut `type="image/…"` ;
-2. Pour chaque élément `<object>` pourvu de l'attribut `type="image/…"`, déterminer si l’image utilisée est porteuse d'information ;
-3. Vérifier que l’élément `<object>` est pourvu au moins d’une alternative textuelle parmi les suivantes :
-    1. Passage de texte associé via l’attribut WAI-ARIA `aria-labelledby` ;
-    2. Contenu de l’attribut WAI-ARIA `aria-label` ;
-    3. Contenu de l’attribut `title`.
+1. Retrouver dans le document les éléments `<object>`{lang=en} pourvus de l'attribut `type="image/…"`{lang=en} ;
+2. Pour chaque élément `<object>`{lang=en} pourvu de l'attribut `type="image/…"`{lang=en}, déterminer si l’image utilisée est porteuse d'information ;
+3. Vérifier que l’élément `<object>`{lang=en} est pourvu au moins d’une alternative textuelle parmi les suivantes :
+    1. Passage de texte associé via l’attribut WAI-ARIA `aria-labelledby`{lang=en} ;
+    2. Contenu de l’attribut WAI-ARIA `aria-label`{lang=en} ;
+    3. Contenu de l’attribut `title`{lang=en}.
 4. Si au moins une alternative textuelle est trouvée, le test est validé ;
-5. Sinon, vérifier que l'élément `<object>` est :
+5. Sinon, vérifier que l'élément `<object>`{lang=en} est :
     * Soit immédiatement suivi d'un lien ou bouton adjacent permettant d'accéder à un contenu alternatif ;
-    * Soit un mécanisme permet à l'utilisateur de remplacer l'élément `<object>` par un contenu alternatif.
+    * Soit un mécanisme permet à l'utilisateur de remplacer l'élément `<object>`{lang=en} par un contenu alternatif.
 6. Si c'est le cas, le test est validé.
 
 ##### Test 1.1.7
 
-1. Retrouver dans le document les éléments `<embed>` pourvus de l'attribut `type="image/…"` ;
-2. Pour chaque élément `<embed>` pourvu de l'attribut `type="image/…"`, déterminer si l’image utilisée est porteuse d'information ;
-3. Vérifier que l’élément `<embed>` est pourvu au moins d’une alternative textuelle parmi les suivantes :
-    1. Passage de texte associé via l’attribut WAI-ARIA `aria-labelledby` ;
-    2. Contenu de l’attribut WAI-ARIA `aria-label` ;
-    3. Contenu de l’attribut `title`.
+1. Retrouver dans le document les éléments `<embed>`{lang=en} pourvus de l'attribut `type="image/…"`{lang=en} ;
+2. Pour chaque élément `<embed>`{lang=en} pourvu de l'attribut `type="image/…"`{lang=en}, déterminer si l’image utilisée est porteuse d'information ;
+3. Vérifier que l’élément `<embed>`{lang=en} est pourvu au moins d’une alternative textuelle parmi les suivantes :
+    1. Passage de texte associé via l’attribut WAI-ARIA `aria-labelledby`{lang=en} ;
+    2. Contenu de l’attribut WAI-ARIA `aria-label`{lang=en} ;
+    3. Contenu de l’attribut `title`{lang=en}.
 4. Si au moins une alternative textuelle est trouvée, le test est validé ;
-5. Sinon, vérifier que l'élément `<embed>` est :
+5. Sinon, vérifier que l'élément `<embed>`{lang=en} est :
     * Soit immédiatement suivi d'un lien ou bouton adjacent permettant d'accéder à un contenu alternatif ;
-    * Soit un mécanisme permet à l'utilisateur de remplacer l'élément `<embed>` par un contenu alternatif.
+    * Soit un mécanisme permet à l'utilisateur de remplacer l'élément `<embed>`{lang=en} par un contenu alternatif.
 6. Si c'est le cas, le test est validé.
 
 ##### Test 1.1.8
 
-1. Retrouver dans le document les éléments `<canvas>` ;
-2. Pour chaque élément `<canvas>`, déterminer si l’image utilisée est porteuse d'information ;
-3. Vérifier que l’élément `<canvas>` est pourvu au moins d’une alternative textuelle parmi les suivantes :
-    1. Passage de texte associé via l’attribut WAI-ARIA `aria-labelledby` ;
-    2. Contenu de l’attribut WAI-ARIA `aria-label`.
+1. Retrouver dans le document les éléments `<canvas>`{lang=en} ;
+2. Pour chaque élément `<canvas>`{lang=en}, déterminer si l’image utilisée est porteuse d'information ;
+3. Vérifier que l’élément `<canvas>`{lang=en} est pourvu au moins d’une alternative textuelle parmi les suivantes :
+    1. Passage de texte associé via l’attribut WAI-ARIA `aria-labelledby`{lang=en} ;
+    2. Contenu de l’attribut WAI-ARIA `aria-label`{lang=en}.
 4. Si au moins une alternative textuelle est trouvée, le test est validé.
-5. Sinon, vérifier que l'élément `<canvas>` est :
-    * Soit pourvu d'un contenu alternatif présent entre les balises `<canvas>` et `</canvas>` ;
+5. Sinon, vérifier que l'élément `<canvas>`{lang=en} est :
+    * Soit pourvu d'un contenu alternatif présent entre les balises `<canvas>`{lang=en} et `</canvas>`{lang=en} ;
     * Soit immédiatement suivi d'un lien ou bouton adjacent permettant d'accéder à un contenu alternatif ;
-    * Soit un mécanisme permet à l'utilisateur de remplacer l'élément `<canvas>` par un contenu alternatif.
+    * Soit un mécanisme permet à l'utilisateur de remplacer l'élément `<canvas>`{lang=en} par un contenu alternatif.
 6. Si c'est le cas, le test est validé.
 
 #### Critère 1.2 Chaque image de décoration est-elle correctement ignorée par les technologies d'assistance ?
 
 ##### Test 1.2.1
 
-1. Retrouver dans le document les images décoratives structurées au moyen d’un élément `<img>` ;
-2. Pour chaque image, vérifier que l’image ne possède pas d'attributs `aria-labelledby`, `aria-label` ou `title` et qu'elle possède :
-    * Soit un attribut `alt` vide (`alt=""`) ;
-    * Soit un attribut WAI-ARIA `aria-hidden="true"` ou `role="presentation"`.
+1. Retrouver dans le document les images décoratives structurées au moyen d’un élément `<img>`{lang=en} ;
+2. Pour chaque image, vérifier que l’image ne possède pas d'attributs `aria-labelledby`{lang=en}, `aria-label`{lang=en} ou `title`{lang=en} et qu'elle possède :
+    * Soit un attribut `alt`{lang=en} vide (`alt=""`{lang=en}) ;
+    * Soit un attribut WAI-ARIA `aria-hidden="true"`{lang=en} ou `role="presentation"`{lang=en}.
 3. Si c'est le cas pour chaque image, le test est validé.
 
 ##### Test 1.2.2
 
-1. Retrouver dans le document les images décoratives structurées au moyen d’un élément `<area>` (sans attribut `href`) ;
-2. Pour chaque image, vérifier que l'élément `<area>` ne possède pas d'attributs `aria-labelledby`, `aria-label` ou `title` et qu'il possède :
-    * Soit un attribut `alt` vide (`alt=""`) ;
-    * Soit un attribut WAI-ARIA `aria-hidden="true"` ou `role="presentation"`.
+1. Retrouver dans le document les images décoratives structurées au moyen d’un élément `<area>`{lang=en} (sans attribut `href`{lang=en}) ;
+2. Pour chaque image, vérifier que l'élément `<area>`{lang=en} ne possède pas d'attributs `aria-labelledby`{lang=en}, `aria-label`{lang=en} ou `title`{lang=en} et qu'il possède :
+    * Soit un attribut `alt`{lang=en} vide (`alt=""`{lang=en}) ;
+    * Soit un attribut WAI-ARIA `aria-hidden="true"`{lang=en} ou `role="presentation"`{lang=en}.
 3. Si c'est le cas pour chaque image, le test est validé.
 
 ##### Test 1.2.3
 
-1. Retrouver dans le document les images décoratives structurées au moyen d’un élément `<object>` (avec un attribut `type="image/…"`) ;
-2. Pour chaque image, vérifier que l'élément `<object>` ne possède pas d'attributs `aria-labelledby`, `aria-label` ou `title` et qu'il :
-    * Possède un attribut WAI-ARIA `aria-hidden="true"` ;
+1. Retrouver dans le document les images décoratives structurées au moyen d’un élément `<object>`{lang=en} (avec un attribut `type="image/…"`{lang=en}) ;
+2. Pour chaque image, vérifier que l'élément `<object>`{lang=en} ne possède pas d'attributs `aria-labelledby`{lang=en}, `aria-label`{lang=en} ou `title`{lang=en} et qu'il :
+    * Possède un attribut WAI-ARIA `aria-hidden="true"`{lang=en} ;
     * Et est dépourvu d'alternative textuelle ;
-    * Et est dépourvu d'un contenu alternatif présent entre les balises `<object>` et `</object>`.
+    * Et est dépourvu d'un contenu alternatif présent entre les balises `<object>`{lang=en} et `</object>`{lang=en}.
 3. Si c'est le cas pour chaque image, le test est validé.
 
 ##### Test 1.2.4
 
-1. Retrouver dans le document les images décoratives structurées au moyen d’un élément `<svg>` ;
-2. Pour chaque image, vérifier que l'élément `<svg>` ne possède pas d'attributs `aria-labelledby` ou `aria-label` et qu'il :
-    * Possède un attribut WAI-ARIA `aria-hidden="true"` ;
+1. Retrouver dans le document les images décoratives structurées au moyen d’un élément `<svg>`{lang=en} ;
+2. Pour chaque image, vérifier que l'élément `<svg>`{lang=en} ne possède pas d'attributs `aria-labelledby`{lang=en} ou `aria-label`{lang=en} et qu'il :
+    * Possède un attribut WAI-ARIA `aria-hidden="true"`{lang=en} ;
     * Et est dépourvu d'alternative textuelle (ainsi que ses éléments enfants) ;
-    * Et ne contient pas d'éléments `<title>` et `<desc>` à moins que vides de contenu ;
-    * Et est dépourvu d'attribut `title` (ainsi que ses éléments enfants).
+    * Et ne contient pas d'éléments `<title>`{lang=en} et `<desc>`{lang=en} à moins que vides de contenu ;
+    * Et est dépourvu d'attribut `title`{lang=en} (ainsi que ses éléments enfants).
 3. Si c'est le cas pour chaque image, le test est validé.
 
 ##### Test 1.2.5
 
-1. Retrouver dans le document les images décoratives structurées au moyen d’un élément `<canvas>` ;
-2. Pour chaque image, vérifier que l'élément `<canvas>` ne possède pas d'attributs `aria-labelledby`, `aria-label` ou `title` et qu'il :
-    * Possède un attribut WAI-ARIA `aria-hidden="true"` ;
+1. Retrouver dans le document les images décoratives structurées au moyen d’un élément `<canvas>`{lang=en} ;
+2. Pour chaque image, vérifier que l'élément `<canvas>`{lang=en} ne possède pas d'attributs `aria-labelledby`{lang=en}, `aria-label`{lang=en} ou `title`{lang=en} et qu'il :
+    * Possède un attribut WAI-ARIA `aria-hidden="true"`{lang=en} ;
     * Et est dépourvu d'alternative textuelle ;
-    * Et est dépourvu d'un contenu alternatif présent entre les balises `<canvas>` et `</canvas>`.
+    * Et est dépourvu d'un contenu alternatif présent entre les balises `<canvas>`{lang=en} et `</canvas>`{lang=en}.
 3. Si c'est le cas pour chaque image, le test est validé.
 
 ##### Test 1.2.6
 
-1. Retrouver dans le document les images décoratives structurées au moyen d’un élément `<embed>` (avec un attribut `type="image/…"`) ;
-2. Pour chaque image, vérifier que l'élément `<embed>` ne possède pas d'attributs `aria-labelledby`, `aria-label` ou `title` et qu'il :
-    * Possède un attribut WAI-ARIA `aria-hidden="true"` ;
+1. Retrouver dans le document les images décoratives structurées au moyen d’un élément `<embed>`{lang=en} (avec un attribut `type="image/…"`{lang=en}) ;
+2. Pour chaque image, vérifier que l'élément `<embed>`{lang=en} ne possède pas d'attributs `aria-labelledby`{lang=en}, `aria-label`{lang=en} ou `title`{lang=en} et qu'il :
+    * Possède un attribut WAI-ARIA `aria-hidden="true"`{lang=en} ;
     * Et est dépourvu d'alternative textuelle ;
 3. Si c'est le cas pour chaque image, le test est validé.
 
@@ -213,50 +213,50 @@ La présence de ce test au sein d’un critère portant sur l’existence d’un
 
 ##### Test 1.3.1
 
-1. Retrouver dans le document les images structurées au moyen d’un élément `<img>` (ou d’un élément possédant l'attribut WAI-ARIA `role="img"`) pourvues d'une alternative textuelle ;
+1. Retrouver dans le document les images structurées au moyen d’un élément `<img>`{lang=en} (ou d’un élément possédant l'attribut WAI-ARIA `role="img"`{lang=en}) pourvues d'une alternative textuelle ;
 2. Pour chaque image, vérifier que l’alternative textuelle est pertinente ;
 3. Si c'est le cas pour chaque image, le test est validé.
 
 ##### Test 1.3.2
 
-1. Retrouver dans le document les éléments `<area>` pourvus d'une alternative textuelle ;
-2. Pour chaque élément `<area>`, vérifier que l’alternative textuelle est pertinente ;
+1. Retrouver dans le document les éléments `<area>`{lang=en} pourvus d'une alternative textuelle ;
+2. Pour chaque élément `<area>`{lang=en}, vérifier que l’alternative textuelle est pertinente ;
 3. Si c'est le cas pour chaque image, le test est validé.
 
 ##### Test 1.3.3
 
-1. Retrouver dans le document les éléments `<input>` pourvus de l’attribut `type="image"` et d'une alternative textuelle ;
-2. Pour chaque élément `<input>` pourvu de l’attribut `type="image"`, vérifier que l’alternative textuelle est pertinente ;
+1. Retrouver dans le document les éléments `<input>`{lang=en} pourvus de l’attribut `type="image"`{lang=en} et d'une alternative textuelle ;
+2. Pour chaque élément `<input>`{lang=en} pourvu de l’attribut `type="image"`{lang=en}, vérifier que l’alternative textuelle est pertinente ;
 3. Si c'est le cas pour chaque image, le test est validé.
 
 ##### Test 1.3.4
 
-1. Retrouver dans le document les éléments `<object>` pourvus de l'attribut `type="image/…"` et d'une alternative textuelle ;
-2. Pour chaque élément `<object>` pourvu de l'attribut `type="image/…"`, vérifier que l’alternative textuelle est pertinente ;
+1. Retrouver dans le document les éléments `<object>`{lang=en} pourvus de l'attribut `type="image/…"`{lang=en} et d'une alternative textuelle ;
+2. Pour chaque élément `<object>`{lang=en} pourvu de l'attribut `type="image/…"`{lang=en}, vérifier que l’alternative textuelle est pertinente ;
 3. Si c'est le cas pour chaque image, le test est validé.
 
 ##### Test 1.3.5
 
-1. Retrouver dans le document les éléments `<embed>` pourvus de l'attribut `type="image/…"` et d'une alternative textuelle ;
-2. Pour chaque élément `<embed>` pourvu de l'attribut `type="image/…"`, vérifier que l’alternative textuelle est pertinente ;
+1. Retrouver dans le document les éléments `<embed>`{lang=en} pourvus de l'attribut `type="image/…"`{lang=en} et d'une alternative textuelle ;
+2. Pour chaque élément `<embed>`{lang=en} pourvu de l'attribut `type="image/…"`{lang=en}, vérifier que l’alternative textuelle est pertinente ;
 3. Si c'est le cas pour chaque image, le test est validé.
 
 ##### Test 1.3.6
 
-1. Retrouver dans le document les éléments `<svg>` pourvus d'une alternative textuelle ;
-2. Pour chaque élément `<svg>`, vérifier que l’alternative textuelle est pertinente ;
+1. Retrouver dans le document les éléments `<svg>`{lang=en} pourvus d'une alternative textuelle ;
+2. Pour chaque élément `<svg>`{lang=en}, vérifier que l’alternative textuelle est pertinente ;
 3. Si c'est le cas pour chaque image, le test est validé.
 
 ##### Test 1.3.7
 
-1. Retrouver dans le document les éléments `<canvas>` pourvus d'une alternative textuelle ;
-2. Pour chaque élément `<canvas>`, vérifier que l’alternative textuelle est pertinente ;
+1. Retrouver dans le document les éléments `<canvas>`{lang=en} pourvus d'une alternative textuelle ;
+2. Pour chaque élément `<canvas>`{lang=en}, vérifier que l’alternative textuelle est pertinente ;
 3. Si c'est le cas pour chaque image, le test est validé.
 
 ##### Test 1.3.8
 
-1. Retrouver dans le document les éléments `<canvas>` pourvus d'un contenu alternatif entre les balises `<canvas>` et `</canvas>` ;
-2. Pour chaque élément `<canvas>`, vérifier que le contenu alternatif est correctement restitué par les technologies d'assistance ;
+1. Retrouver dans le document les éléments `<canvas>`{lang=en} pourvus d'un contenu alternatif entre les balises `<canvas>`{lang=en} et `</canvas>`{lang=en} ;
+2. Pour chaque élément `<canvas>`{lang=en}, vérifier que le contenu alternatif est correctement restitué par les technologies d'assistance ;
 3. Si c'est le cas pour chaque image, le test est validé.
 
 ##### Test 1.3.9
@@ -269,51 +269,51 @@ La présence de ce test au sein d’un critère portant sur l’existence d’un
 
 ##### Test 1.4.1
 
-1. Retrouver dans le document les images structurées au moyen d’un élément `<img>` pourvues d'une alternative textuelle et utilisées comme CAPTCHA ou comme image-test ;
+1. Retrouver dans le document les images structurées au moyen d’un élément `<img>`{lang=en} pourvues d'une alternative textuelle et utilisées comme CAPTCHA ou comme image-test ;
 2. Pour chaque image, vérifier que l’alternative textuelle est pertinente ;
 3. Si c'est le cas pour chaque image, le test est validé.
 
 ##### Test 1.4.2
 
-1. Retrouver dans le document les éléments `<area>` pourvus d'une alternative textuelle et utilisés comme CAPTCHA ou comme image-test ;
-2. Pour chaque élément `<area>`, vérifier que l’alternative textuelle est pertinente ;
+1. Retrouver dans le document les éléments `<area>`{lang=en} pourvus d'une alternative textuelle et utilisés comme CAPTCHA ou comme image-test ;
+2. Pour chaque élément `<area>`{lang=en}, vérifier que l’alternative textuelle est pertinente ;
 3. Si c'est le cas pour chaque image, le test est validé.
 
 ##### Test 1.4.3
 
-1. Retrouver dans le document les éléments `<input>` pourvus de l’attribut `type="image"` et d'une alternative textuelle, et utilisés comme CAPTCHA ou comme image-test ;
-2. Pour chaque élément `<input>` pourvu de l’attribut `type="image"`, vérifier que l’alternative textuelle est pertinente ;
+1. Retrouver dans le document les éléments `<input>`{lang=en} pourvus de l’attribut `type="image"`{lang=en} et d'une alternative textuelle, et utilisés comme CAPTCHA ou comme image-test ;
+2. Pour chaque élément `<input>`{lang=en} pourvu de l’attribut `type="image"`{lang=en}, vérifier que l’alternative textuelle est pertinente ;
 3. Si c'est le cas pour chaque image, le test est validé.
 
 ##### Test 1.4.4
 
-1. Retrouver dans le document les éléments `<object>` pourvus de l'attribut `type="image/…"` et d'une alternative textuelle, et utilisés comme CAPTCHA ou comme image-test ;
-2. Pour chaque élément `<object>` pourvu de l'attribut `type="image/…"`, vérifier que l’alternative textuelle est pertinente ;
+1. Retrouver dans le document les éléments `<object>`{lang=en} pourvus de l'attribut `type="image/…"`{lang=en} et d'une alternative textuelle, et utilisés comme CAPTCHA ou comme image-test ;
+2. Pour chaque élément `<object>`{lang=en} pourvu de l'attribut `type="image/…"`{lang=en}, vérifier que l’alternative textuelle est pertinente ;
 3. Si c'est le cas pour chaque image, le test est validé.
 
 ##### Test 1.4.5
 
-1. Retrouver dans le document les éléments `<embed>` pourvus de l'attribut `type="image/…"` et d'une alternative textuelle, et utilisés comme CAPTCHA ou comme image-test ;
-2. Pour chaque élément `<embed>` pourvu de l'attribut `type="image/…"`, vérifier que l’alternative textuelle est pertinente ;
+1. Retrouver dans le document les éléments `<embed>`{lang=en} pourvus de l'attribut `type="image/…"`{lang=en} et d'une alternative textuelle, et utilisés comme CAPTCHA ou comme image-test ;
+2. Pour chaque élément `<embed>`{lang=en} pourvu de l'attribut `type="image/…"`{lang=en}, vérifier que l’alternative textuelle est pertinente ;
 3. Si c'est le cas pour chaque image, le test est validé.
 
 ##### Test 1.4.6
 
-1. Retrouver dans le document les éléments `<svg>` pourvus d'une alternative textuelle et utilisés comme CAPTCHA ou comme image-test ;
-2. Pour chaque élément `<svg>`, vérifier que l’alternative textuelle est pertinente ;
+1. Retrouver dans le document les éléments `<svg>`{lang=en} pourvus d'une alternative textuelle et utilisés comme CAPTCHA ou comme image-test ;
+2. Pour chaque élément `<svg>`{lang=en}, vérifier que l’alternative textuelle est pertinente ;
 3. Si c'est le cas pour chaque image, le test est validé.
 
 ##### Test 1.4.7
 
-1. Retrouver dans le document les éléments `<canvas>` pourvus d'une alternative textuelle et utilisés comme CAPTCHA ou comme image-test ;
-2. Pour chaque élément `<canvas>`, vérifier que l’alternative textuelle est pertinente ;
+1. Retrouver dans le document les éléments `<canvas>`{lang=en} pourvus d'une alternative textuelle et utilisés comme CAPTCHA ou comme image-test ;
+2. Pour chaque élément `<canvas>`{lang=en}, vérifier que l’alternative textuelle est pertinente ;
 3. Si c'est le cas pour chaque image, le test est validé.
 
 #### Critère 1.5 Pour chaque image utilisée comme CAPTCHA, une solution d'accès alternatif au contenu ou à la fonction du CAPTCHA est-elle présente ?
 
 ##### Test 1.5.1
 
-1. Retrouver dans le document les images (éléments `<img>`, `<area>`, `<object>`, `<embed>`, `<svg>`, `<canvas>` ou possédant un attribut WAI-ARIA `role="img"`) utilisés comme CAPTCHA ou comme image-test ;
+1. Retrouver dans le document les images (éléments `<img>`{lang=en}, `<area>`{lang=en}, `<object>`{lang=en}, `<embed>`{lang=en}, `<svg>`{lang=en}, `<canvas>`{lang=en} ou possédant un attribut WAI-ARIA `role="img"`{lang=en}) utilisés comme CAPTCHA ou comme image-test ;
 2. Pour chaque image, vérifier qu'il existe :
     * Soit une autre forme de CAPTCHA non graphique, au moins ;
     * Soit une autre solution d'accès à la fonctionnalité qui est sécurisée par le CAPTCHA.
@@ -321,7 +321,7 @@ La présence de ce test au sein d’un critère portant sur l’existence d’un
 
 ##### Test 1.5.2
 
-1. Retrouver dans le document les boutons associés à une image (éléments `<input>` avec l'attribut `type="image"`) utilisés comme CAPTCHA ou comme image-test ;
+1. Retrouver dans le document les boutons associés à une image (éléments `<input>`{lang=en} avec l'attribut `type="image"`{lang=en}) utilisés comme CAPTCHA ou comme image-test ;
 2. Pour chaque bouton associé à une image, vérifier qu'il existe :
     * Soit une autre forme de CAPTCHA non graphique, au moins ;
     * Soit une autre solution d'accès à la fonctionnalité qui est sécurisée par le CAPTCHA.
@@ -335,130 +335,130 @@ En quoi finalement 1.5.1 est-il différent de 1.5.2 ? Les deux disent la même c
 
 ##### Test 1.6.1
 
-1. Retrouver dans le document les images structurées au moyen d’un élément `<img>` (ou d’un élément possédant l'attribut WAI-ARIA `role="img"`) porteuses d'information qui nécessitent une description détaillée ;
+1. Retrouver dans le document les images structurées au moyen d’un élément `<img>`{lang=en} (ou d’un élément possédant l'attribut WAI-ARIA `role="img"`{lang=en}) porteuses d'information qui nécessitent une description détaillée ;
 2. Pour chaque image, vérifier qu'il existe :
-    * Soit un attribut `longdesc` qui donne l'adresse (url) d'une page ou d'un emplacement dans la page contenant la description détaillée ;
+    * Soit un attribut `longdesc`{lang=en} qui donne l'adresse (url) d'une page ou d'un emplacement dans la page contenant la description détaillée ;
     * Soit une alternative textuelle contenant la référence à une description détaillée adjacente à l'image ;
     * Soit un lien ou un bouton adjacent permettant d'accéder à la description détaillée.
 3. Si c'est le cas pour chaque image, le test est validé.
 
 ##### Test 1.6.2
 
-1. Retrouver dans le document les éléments `<object>` pourvus de l'attribut `type="image/…"`, porteurs d'information qui nécessitent une description détaillée ;
-2. Pour chaque élément `<object>` pourvu de l'attribut `type="image/…"`, vérifier qu'il existe :
+1. Retrouver dans le document les éléments `<object>`{lang=en} pourvus de l'attribut `type="image/…"`{lang=en}, porteurs d'information qui nécessitent une description détaillée ;
+2. Pour chaque élément `<object>`{lang=en} pourvu de l'attribut `type="image/…"`{lang=en}, vérifier qu'il existe :
     * Soit une alternative textuelle contenant la référence à une description détaillée adjacente à l'image ;
     * Soit un lien ou un bouton adjacent permettant d'accéder à la description détaillée.
-3. Si c'est le cas pour chaque élément `<object>` pourvu de l'attribut `type="image/…"`, le test est validé.
+3. Si c'est le cas pour chaque élément `<object>`{lang=en} pourvu de l'attribut `type="image/…"`{lang=en}, le test est validé.
 
 ##### Test 1.6.3
 
-1. Retrouver dans le document les éléments `<embed>` pourvus de l'attribut `type="image/…"`, porteurs d'information qui nécessitent une description détaillée ;
-2. Pour chaque élément `<embed>` pourvu de l'attribut `type="image/…"`, vérifier qu'il existe :
+1. Retrouver dans le document les éléments `<embed>`{lang=en} pourvus de l'attribut `type="image/…"`{lang=en}, porteurs d'information qui nécessitent une description détaillée ;
+2. Pour chaque élément `<embed>`{lang=en} pourvu de l'attribut `type="image/…"`{lang=en}, vérifier qu'il existe :
     * Soit une alternative textuelle contenant la référence à une description détaillée adjacente à l'image ;
     * Soit un lien ou un bouton adjacent permettant d'accéder à la description détaillée.
-3. Si c'est le cas pour chaque élément `<embed>` pourvu de l'attribut `type="image/…"`, le test est validé.
+3. Si c'est le cas pour chaque élément `<embed>`{lang=en} pourvu de l'attribut `type="image/…"`{lang=en}, le test est validé.
 
 ##### Test 1.6.4
 
-1. Retrouver dans le document les éléments `<input>` pourvus de l’attribut `type="image"`, porteurs d'information qui nécessitent une description détaillée ;
-2. Pour chaque élément `<input>` pourvu de l’attribut `type="image"`, vérifier qu'il existe :
+1. Retrouver dans le document les éléments `<input>`{lang=en} pourvus de l’attribut `type="image"`{lang=en}, porteurs d'information qui nécessitent une description détaillée ;
+2. Pour chaque élément `<input>`{lang=en} pourvu de l’attribut `type="image"`{lang=en}, vérifier qu'il existe :
     * Soit une alternative textuelle contenant la référence à une description détaillée adjacente à l'image ;
     * Soit un lien ou un bouton adjacent permettant d'accéder à la description détaillée ;
-    * Soit un attribut WAI-ARIA `aria-describedby` associant un passage de texte faisant office de description détaillée.
-3. Si c'est le cas pour chaque élément `<input>` pourvu de l’attribut `type="image"`, le test est validé.
+    * Soit un attribut WAI-ARIA `aria-describedby`{lang=en} associant un passage de texte faisant office de description détaillée.
+3. Si c'est le cas pour chaque élément `<input>`{lang=en} pourvu de l’attribut `type="image"`{lang=en}, le test est validé.
 
 ##### Test 1.6.5
 
-1. Retrouver dans le document les éléments `<svg>` porteurs d'information qui nécessitent une description détaillée ;
-2. Pour chaque élément `<svg>`, vérifier qu'il existe :
-    * Soit un attribut WAI-ARIA `aria-label` contenant l'alternative textuelle et une référence à une description détaillée adjacente ;
-    * Soit un attribut WAI-ARIA `aria-labelledby` associant un passage de texte faisant office d'alternative textuelle et un autre faisant office de description détaillée ;
-    * Soit un attribut WAI-ARIA `aria-describedby` associant un passage de texte faisant office de description détaillée.
+1. Retrouver dans le document les éléments `<svg>`{lang=en} porteurs d'information qui nécessitent une description détaillée ;
+2. Pour chaque élément `<svg>`{lang=en}, vérifier qu'il existe :
+    * Soit un attribut WAI-ARIA `aria-label`{lang=en} contenant l'alternative textuelle et une référence à une description détaillée adjacente ;
+    * Soit un attribut WAI-ARIA `aria-labelledby`{lang=en} associant un passage de texte faisant office d'alternative textuelle et un autre faisant office de description détaillée ;
+    * Soit un attribut WAI-ARIA `aria-describedby`{lang=en} associant un passage de texte faisant office de description détaillée.
     * Soit un lien ou un bouton adjacent permettant d'accéder à la description détaillée.
-3. Si c'est le cas pour chaque élément `<svg>`, le test est validé.
+3. Si c'est le cas pour chaque élément `<svg>`{lang=en}, le test est validé.
 
 ##### Test 1.6.6
 
-1. Retrouver dans le document les éléments `<svg>` porteurs d'information dont la description détaillée est fournie au moyen d'un attribut `aria-label`, `aria-labelledby` ou `aria-describedby` ;
-2. Pour chaque élément `<svg>`, vérifier que le contenu de la description détaillée est correctement restitué par les technologies d'assistance ;
-3. Si c'est le cas pour chaque élément `<svg>`, le test est validé.
+1. Retrouver dans le document les éléments `<svg>`{lang=en} porteurs d'information dont la description détaillée est fournie au moyen d'un attribut `aria-label`{lang=en}, `aria-labelledby`{lang=en} ou `aria-describedby`{lang=en} ;
+2. Pour chaque élément `<svg>`{lang=en}, vérifier que le contenu de la description détaillée est correctement restitué par les technologies d'assistance ;
+3. Si c'est le cas pour chaque élément `<svg>`{lang=en}, le test est validé.
 
 ##### Test 1.6.7
 
-1. Retrouver dans le document les éléments `<canvas>` porteurs d'information qui nécessitent une description détaillée ;
-2. Pour chaque élément `<canvas>`,  vérifier qu'il existe :
-    * Soit un attribut WAI-ARIA `aria-label` contenant l'alternative textuelle et une référence à une description détaillée adjacente ;
-    * Soit un attribut WAI-ARIA `aria-labelledby` associant un passage de texte faisant office d'alternative textuelle et un autre faisant office de description détaillée ;
-    * Soit un contenu textuel entre `<canvas>` et `</canvas>` faisant référence à une description détaillée adjacente à l'image bitmap.
-    * Soit un contenu textuel entre `<canvas>` et `</canvas>` faisant office de description détaillée.
+1. Retrouver dans le document les éléments `<canvas>`{lang=en} porteurs d'information qui nécessitent une description détaillée ;
+2. Pour chaque élément `<canvas>`{lang=en},  vérifier qu'il existe :
+    * Soit un attribut WAI-ARIA `aria-label`{lang=en} contenant l'alternative textuelle et une référence à une description détaillée adjacente ;
+    * Soit un attribut WAI-ARIA `aria-labelledby`{lang=en} associant un passage de texte faisant office d'alternative textuelle et un autre faisant office de description détaillée ;
+    * Soit un contenu textuel entre `<canvas>`{lang=en} et `</canvas>`{lang=en} faisant référence à une description détaillée adjacente à l'image bitmap.
+    * Soit un contenu textuel entre `<canvas>`{lang=en} et `</canvas>`{lang=en} faisant office de description détaillée.
     * Soit un lien ou un bouton adjacent permettant d'accéder à la description détaillée.
-3. Si c'est le cas pour chaque élément `<canvas>`, le test est validé.
+3. Si c'est le cas pour chaque élément `<canvas>`{lang=en}, le test est validé.
 
 ##### Test 1.6.8
 
-1. Retrouver dans le document les éléments `<canvas>` porteurs d'information dont la description détaillée est fournie au moyen d'un attribut `aria-label`, `aria-labelledby` ou `aria-describedby` ;
-2. Pour chaque élément `<canvas>`, vérifier que le contenu de la description détaillée est correctement restitué par les technologies d'assistance ;
-3. Si c'est le cas pour chaque élément `<canvas>`, le test est validé.
+1. Retrouver dans le document les éléments `<canvas>`{lang=en} porteurs d'information dont la description détaillée est fournie au moyen d'un attribut `aria-label`{lang=en}, `aria-labelledby`{lang=en} ou `aria-describedby`{lang=en} ;
+2. Pour chaque élément `<canvas>`{lang=en}, vérifier que le contenu de la description détaillée est correctement restitué par les technologies d'assistance ;
+3. Si c'est le cas pour chaque élément `<canvas>`{lang=en}, le test est validé.
 
 ##### Test 1.6.9
 
-1. Retrouver dans le document les images (éléments `<img>`, `<input>` avec l'attribut `type="image"`, `<area>`, `<object>`, `<embed>`, `<svg>`, `<canvas>` ou possédant un attribut WAI-ARIA `role="img"`) porteuses d'information dont la description détaillée utilise un attribut WAI-ARIA `aria-describedby` ;
+1. Retrouver dans le document les images (éléments `<img>`{lang=en}, `<input>`{lang=en} avec l'attribut `type="image"`{lang=en}, `<area>`{lang=en}, `<object>`{lang=en}, `<embed>`{lang=en}, `<svg>`{lang=en}, `<canvas>`{lang=en} ou possédant un attribut WAI-ARIA `role="img"`{lang=en}) porteuses d'information dont la description détaillée utilise un attribut WAI-ARIA `aria-describedby`{lang=en} ;
 2. Pour chaque image, vérifier que le contenu de la description détaillée est correctement restitué par les technologies d'assistance ;
 3. Si c'est le cas pour chaque image, le test est validé.
 
 ##### Test 1.6.10
 
-1. Retrouver dans le document les éléments pourvu d'un attribut WAI-ARIA `role="img"` porteurs d'information qui nécessitent une description détaillée ;
-2. Pour chaque élément `role="img"`, vérifier qu'il existe :
-    * Soit un attribut WAI-ARIA `aria-label` contenant l'alternative textuelle et une référence à une description détaillée adjacente ;
-    * Soit un attribut WAI-ARIA `aria-labelledby` associant un passage de texte faisant office d'alternative textuelle et un autre faisant office de description détaillée ;
-    * Soit un attribut WAI-ARIA `aria-describedby` associant un passage de texte faisant office de description détaillée.
+1. Retrouver dans le document les éléments pourvu d'un attribut WAI-ARIA `role="img"`{lang=en} porteurs d'information qui nécessitent une description détaillée ;
+2. Pour chaque élément `role="img"`{lang=en}, vérifier qu'il existe :
+    * Soit un attribut WAI-ARIA `aria-label`{lang=en} contenant l'alternative textuelle et une référence à une description détaillée adjacente ;
+    * Soit un attribut WAI-ARIA `aria-labelledby`{lang=en} associant un passage de texte faisant office d'alternative textuelle et un autre faisant office de description détaillée ;
+    * Soit un attribut WAI-ARIA `aria-describedby`{lang=en} associant un passage de texte faisant office de description détaillée.
     * Soit un lien ou un bouton adjacent permettant d'accéder à la description détaillée.
-3. Si c'est le cas pour chaque élément `role="img"`, le test est validé.
+3. Si c'est le cas pour chaque élément `role="img"`{lang=en}, le test est validé.
 
 #### Critère 1.7 Pour chaque image porteuse d'information ayant une description détaillée, cette description est-elle pertinente ?
 
 ##### Test 1.7.1
 
-1. Retrouver dans le document les images structurées au moyen d’un élément `<img>` qui possèdent une description détaillée ;
+1. Retrouver dans le document les images structurées au moyen d’un élément `<img>`{lang=en} qui possèdent une description détaillée ;
 2. Pour chaque image, vérifier que la description détaillée est pertinente ;
 3. Si c'est le cas pour chaque image, le test est validé.
 
 ##### Test 1.7.2
 
-1. Retrouver dans le document les éléments `<input>` pourvus de l’attribut `type="image"` qui possèdent une description détaillée ;
-2. Pour chaque élément `<input>` pourvu de l’attribut `type="image"`, vérifier que la description détaillée est pertinente ;
+1. Retrouver dans le document les éléments `<input>`{lang=en} pourvus de l’attribut `type="image"`{lang=en} qui possèdent une description détaillée ;
+2. Pour chaque élément `<input>`{lang=en} pourvu de l’attribut `type="image"`{lang=en}, vérifier que la description détaillée est pertinente ;
 3. Si c'est le cas pour chaque image, le test est validé.
 
 ##### Test 1.7.3
 
-1. Retrouver dans le document les éléments `<object>` pourvus de l'attribut `type="image/…"` qui possèdent une description détaillée ;
-2. Pour chaque élément `<object>` pourvu de l'attribut `type="image/…"`, vérifier que la description détaillée est pertinente ;
+1. Retrouver dans le document les éléments `<object>`{lang=en} pourvus de l'attribut `type="image/…"`{lang=en} qui possèdent une description détaillée ;
+2. Pour chaque élément `<object>`{lang=en} pourvu de l'attribut `type="image/…"`{lang=en}, vérifier que la description détaillée est pertinente ;
 3. Si c'est le cas pour chaque image, le test est validé.
 
 ##### Test 1.7.4
 
-1. Retrouver dans le document les éléments `<embed>` pourvus de l'attribut `type="image/…"` qui possèdent une description détaillée ;
-2. Pour chaque élément `<embed>` pourvu de l'attribut `type="image/…"`, vérifier que la description détaillée est pertinente ;
+1. Retrouver dans le document les éléments `<embed>`{lang=en} pourvus de l'attribut `type="image/…"`{lang=en} qui possèdent une description détaillée ;
+2. Pour chaque élément `<embed>`{lang=en} pourvu de l'attribut `type="image/…"`{lang=en}, vérifier que la description détaillée est pertinente ;
 3. Si c'est le cas pour chaque image, le test est validé.
 
 ##### Test 1.7.5
 
-1. Retrouver dans le document les éléments `<svg>` qui possèdent une description détaillée ;
-2. Pour chaque élément `<svg>`, vérifier que la description détaillée est pertinente ;
+1. Retrouver dans le document les éléments `<svg>`{lang=en} qui possèdent une description détaillée ;
+2. Pour chaque élément `<svg>`{lang=en}, vérifier que la description détaillée est pertinente ;
 3. Si c'est le cas pour chaque image, le test est validé.
 
 ##### Test 1.7.6
 
-1. Retrouver dans le document les éléments `<canvas>` qui possèdent une description détaillée ;
-2. Pour chaque élément `<canvas>`, vérifier que la description détaillée est pertinente ;
+1. Retrouver dans le document les éléments `<canvas>`{lang=en} qui possèdent une description détaillée ;
+2. Pour chaque élément `<canvas>`{lang=en}, vérifier que la description détaillée est pertinente ;
 3. Si c'est le cas pour chaque image, le test est validé.
 
 #### Critère 1.8 Chaque image texte porteuse d'information, en l'absence d'un mécanisme de remplacement, doit si possible être remplacée par du texte stylé. Cette règle est-elle respectée ?
 
 ##### Test 1.8.1
 
-1. Retrouver dans le document les images texte structurées au moyen d’un élément `<img>` (ou d’un élément possédant l'attribut WAI-ARIA `role="img"`) ;
+1. Retrouver dans le document les images texte structurées au moyen d’un élément `<img>`{lang=en} (ou d’un élément possédant l'attribut WAI-ARIA `role="img"`{lang=en}) ;
 2. Pour chaque image, vérifier que :
     * Soit il existe un mécanisme de remplacement ;
     * Soit l'image contient un texte qui fait appel à un effet graphique qui ne peut pas être reproduit en CSS.
@@ -466,7 +466,7 @@ En quoi finalement 1.5.1 est-il différent de 1.5.2 ? Les deux disent la même c
 
 ##### Test 1.8.2
 
-1. Retrouver dans le document les boutons "images texte" (élément `<input>` avec l'attribut `type="image"`) ;
+1. Retrouver dans le document les boutons "images texte" (élément `<input>`{lang=en} avec l'attribut `type="image"`{lang=en}) ;
 2. Pour chaque image, vérifier que :
     * Soit il existe un mécanisme de remplacement ;
     * Soit l'image contient un texte qui fait appel à un effet graphique qui ne peut pas être reproduit en CSS.
@@ -474,7 +474,7 @@ En quoi finalement 1.5.1 est-il différent de 1.5.2 ? Les deux disent la même c
 
 ##### Test 1.8.3
 
-1. Retrouver dans le document les images texte objet (élément `<object>` avec l'attribut `type="image/…"`) ;
+1. Retrouver dans le document les images texte objet (élément `<object>`{lang=en} avec l'attribut `type="image/…"`{lang=en}) ;
 2. Pour chaque image, vérifier que :
     * Soit il existe un mécanisme de remplacement ;
     * Soit l'image contient un texte qui fait appel à un effet graphique qui ne peut pas être reproduit en CSS.
@@ -482,7 +482,7 @@ En quoi finalement 1.5.1 est-il différent de 1.5.2 ? Les deux disent la même c
 
 ##### Test 1.8.4
 
-1. Retrouver dans le document les images texte embarquées (élément `<embed>` avec l'attribut `type="image/…"`) ;
+1. Retrouver dans le document les images texte embarquées (élément `<embed>`{lang=en} avec l'attribut `type="image/…"`{lang=en}) ;
 2. Pour chaque image, vérifier que :
     * Soit il existe un mécanisme de remplacement ;
     * Soit l'image contient un texte qui fait appel à un effet graphique qui ne peut pas être reproduit en CSS.
@@ -490,7 +490,7 @@ En quoi finalement 1.5.1 est-il différent de 1.5.2 ? Les deux disent la même c
 
 ##### Test 1.8.5
 
-1. Retrouver dans le document les images texte bitmap (élément `<canvas>`) ;
+1. Retrouver dans le document les images texte bitmap (élément `<canvas>`{lang=en}) ;
 2. Pour chaque image, vérifier que :
     * Soit il existe un mécanisme de remplacement ;
     * Soit l'image contient un texte qui fait appel à un effet graphique qui ne peut pas être reproduit en CSS.
@@ -500,52 +500,52 @@ En quoi finalement 1.5.1 est-il différent de 1.5.2 ? Les deux disent la même c
 
 ##### Test 1.9.1
 
-1. Retrouver dans le document les images pourvues d'une légende structurées au moyen d'élément `<img>`, d'un élément `<input>` avec l'attribut `type="image"` ou d'un élément possédant l'attribut WAI-ARIA `role="img"` ;
+1. Retrouver dans le document les images pourvues d'une légende structurées au moyen d'élément `<img>`{lang=en}, d'un élément `<input>`{lang=en} avec l'attribut `type="image"`{lang=en} ou d'un élément possédant l'attribut WAI-ARIA `role="img"`{lang=en} ;
 2. Pour chaque image, vérifier que :
-    * L'image et sa légende sont contenues dans une balise `<figure>` ;
-    * La balise `<figure>` possède une propriété WAI-ARIA `role="figure"` ou `role="group"` ;
-    * La balise `<figure>` possède un attribut WAI-ARIA `aria-label` dont le contenu est identique au contenu de la légende ;
-    * La légende est contenue dans une balise `<figcaption>`.
+    * L'image et sa légende sont contenues dans une balise `<figure>`{lang=en} ;
+    * La balise `<figure>`{lang=en} possède une propriété WAI-ARIA `role="figure"`{lang=en} ou `role="group"`{lang=en} ;
+    * La balise `<figure>`{lang=en} possède un attribut WAI-ARIA `aria-label`{lang=en} dont le contenu est identique au contenu de la légende ;
+    * La légende est contenue dans une balise `<figcaption>`{lang=en}.
 3. Si c'est le cas pour chaque image, le test est validé.
 
 ##### Test 1.9.2
 
-1. Retrouver dans le document les images objet pourvues d'une légende (élément `<object>` avec l'attribut `type="image/…"`) ;
+1. Retrouver dans le document les images objet pourvues d'une légende (élément `<object>`{lang=en} avec l'attribut `type="image/…"`{lang=en}) ;
 2. Pour chaque image, vérifier que :
-    * L'image et sa légende sont contenues dans une balise `<figure>` ;
-    * La balise `<figure>` possède une propriété WAI-ARIA `role="figure"` ou `role="group"` ;
-    * La balise `<figure>` possède un attribut WAI-ARIA `aria-label` dont le contenu est identique au contenu de la légende ;
-    * La légende est contenue dans une balise `<figcaption>`.
+    * L'image et sa légende sont contenues dans une balise `<figure>`{lang=en} ;
+    * La balise `<figure>`{lang=en} possède une propriété WAI-ARIA `role="figure"`{lang=en} ou `role="group"`{lang=en} ;
+    * La balise `<figure>`{lang=en} possède un attribut WAI-ARIA `aria-label`{lang=en} dont le contenu est identique au contenu de la légende ;
+    * La légende est contenue dans une balise `<figcaption>`{lang=en}.
 3. Si c'est le cas pour chaque image, le test est validé.
 
 ##### Test 1.9.3
 
-1. Retrouver dans le document les images embarquées pourvues d'une légende (élément `<embed>` avec l'attribut `type="image/…"`) ;
+1. Retrouver dans le document les images embarquées pourvues d'une légende (élément `<embed>`{lang=en} avec l'attribut `type="image/…"`{lang=en}) ;
 2. Pour chaque image, vérifier que :
-    * L'image et sa légende sont contenues dans une balise `<figure>` ;
-    * La balise `<figure>` possède une propriété WAI-ARIA `role="figure"` ou `role="group"` ;
-    * La balise `<figure>` possède un attribut WAI-ARIA `aria-label` dont le contenu est identique au contenu de la légende ;
-    * La légende est contenue dans une balise `<figcaption>`.
+    * L'image et sa légende sont contenues dans une balise `<figure>`{lang=en} ;
+    * La balise `<figure>`{lang=en} possède une propriété WAI-ARIA `role="figure"`{lang=en} ou `role="group"`{lang=en} ;
+    * La balise `<figure>`{lang=en} possède un attribut WAI-ARIA `aria-label`{lang=en} dont le contenu est identique au contenu de la légende ;
+    * La légende est contenue dans une balise `<figcaption>`{lang=en}.
 3. Si c'est le cas pour chaque image, le test est validé.
 
 ##### Test 1.9.4
 
-1. Retrouver dans le document les images vectorielles pourvues d'une légende (élément `<svg>`) ;
+1. Retrouver dans le document les images vectorielles pourvues d'une légende (élément `<svg>`{lang=en}) ;
 2. Pour chaque image, vérifier que :
-    * L'image et sa légende sont contenues dans une balise `<figure>` ;
-    * La balise `<figure>` possède une propriété WAI-ARIA `role="figure"` ou `role="group"` ;
-    * La balise `<figure>` possède un attribut WAI-ARIA `aria-label` dont le contenu est identique au contenu de la légende ;
-    * La légende est contenue dans une balise `<figcaption>`.
+    * L'image et sa légende sont contenues dans une balise `<figure>`{lang=en} ;
+    * La balise `<figure>`{lang=en} possède une propriété WAI-ARIA `role="figure"`{lang=en} ou `role="group"`{lang=en} ;
+    * La balise `<figure>`{lang=en} possède un attribut WAI-ARIA `aria-label`{lang=en} dont le contenu est identique au contenu de la légende ;
+    * La légende est contenue dans une balise `<figcaption>`{lang=en}.
 3. Si c'est le cas pour chaque image, le test est validé.
 
 ##### Test 1.9.5
 
-1. Retrouver dans le document les images bitmap (élément `<canvas>`) ;
+1. Retrouver dans le document les images bitmap (élément `<canvas>`{lang=en}) ;
 2. Pour chaque image, vérifier que :
-    * L'image et sa légende sont contenues dans une balise `<figure>` ;
-    * La balise `<figure>` possède une propriété WAI-ARIA `role="figure"` ou `role="group"` ;
-    * La balise `<figure>` possède un attribut WAI-ARIA `aria-label` dont le contenu est identique au contenu de la légende ;
-    * La légende est contenue dans une balise `<figcaption>`.
+    * L'image et sa légende sont contenues dans une balise `<figure>`{lang=en} ;
+    * La balise `<figure>`{lang=en} possède une propriété WAI-ARIA `role="figure"`{lang=en} ou `role="group"`{lang=en} ;
+    * La balise `<figure>`{lang=en} possède un attribut WAI-ARIA `aria-label`{lang=en} dont le contenu est identique au contenu de la légende ;
+    * La légende est contenue dans une balise `<figcaption>`{lang=en}.
 3. Si c'est le cas pour chaque image, le test est validé.
 
 ### Cadres
@@ -554,16 +554,16 @@ En quoi finalement 1.5.1 est-il différent de 1.5.2 ? Les deux disent la même c
 
 ##### Test 2.1.1
 
-1. Retrouver dans le document les cadres (élément `<iframe>` ou `<frame>`) ;
-2. Pour chaque cadre, vérifier qu'il possède un attribut `title` ;
+1. Retrouver dans le document les cadres (élément `<iframe>`{lang=en} ou `<frame>`{lang=en}) ;
+2. Pour chaque cadre, vérifier qu'il possède un attribut `title`{lang=en} ;
 3. Si c'est le cas pour chaque cadre, le test est validé.
 
 #### Critère 2.2 Pour chaque cadre ayant un titre de cadre, ce titre de cadre est-il pertinent ?
 
 ##### Test 2.2.1
 
-1. Retrouver dans le document les cadres (élément `<iframe>` ou `<frame>`) ;
-2. Pour chaque cadre pourvu d'un attribut `title`, vérifier que son contenu est pertinent ;
+1. Retrouver dans le document les cadres (élément `<iframe>`{lang=en} ou `<frame>`{lang=en}) ;
+2. Pour chaque cadre pourvu d'un attribut `title`{lang=en}, vérifier que son contenu est pertinent ;
 3. Si c'est le cas pour chaque cadre, le test est validé.
 
 ### Couleurs
@@ -573,37 +573,37 @@ En quoi finalement 1.5.1 est-il différent de 1.5.2 ? Les deux disent la même c
 ##### Test 3.1.1
 
 1. Retrouver dans le document les informations données par la couleur dans un mot ou un ensemble de mots ;
-2. Pour chacune de ces informations, vérifier qu'il existe un autre moyen de récupérer cette information (présence d'un attribut `title`, d'une icône ou d'un effet graphique de forme ou de position, un effet typographique...) ;
+2. Pour chacune de ces informations, vérifier qu'il existe un autre moyen de récupérer cette information (présence d'un attribut `title`{lang=en}, d'une icône ou d'un effet graphique de forme ou de position, un effet typographique...) ;
 3. Si c'est le cas pour chaque information, le test est validé.
 
 ##### Test 3.1.2
 
 1. Retrouver dans le document les informations données par la couleur dans un texte ;
-2. Pour chacune de ces informations, vérifier qu'il existe un autre moyen de récupérer cette information (présence d'un attribut `title`, d'une icône ou d'un effet graphique de forme ou de position, un effet typographique...) ;
+2. Pour chacune de ces informations, vérifier qu'il existe un autre moyen de récupérer cette information (présence d'un attribut `title`{lang=en}, d'une icône ou d'un effet graphique de forme ou de position, un effet typographique...) ;
 3. Si c'est le cas pour chaque information, le test est validé.
 
 ##### Test 3.1.3
 
 1. Retrouver dans le document les informations données par la couleur dans une image ;
-2. Pour chacune de ces informations, vérifier qu'il existe un autre moyen de récupérer cette information (présence d'un attribut `title`, d'une icône ou d'un effet graphique de forme ou de position, un effet typographique...) ;
+2. Pour chacune de ces informations, vérifier qu'il existe un autre moyen de récupérer cette information (présence d'un attribut `title`{lang=en}, d'une icône ou d'un effet graphique de forme ou de position, un effet typographique...) ;
 3. Si c'est le cas pour chaque information, le test est validé.
 
 ##### Test 3.1.4
 
 1. Retrouver dans le document les informations données par la couleur dans une propriété CSS ;
-2. Pour chacune de ces informations, vérifier qu'il existe un autre moyen de récupérer cette information (présence d'un attribut `title`, d'une icône ou d'un effet graphique de forme ou de position, un effet typographique...) ;
+2. Pour chacune de ces informations, vérifier qu'il existe un autre moyen de récupérer cette information (présence d'un attribut `title`{lang=en}, d'une icône ou d'un effet graphique de forme ou de position, un effet typographique...) ;
 3. Si c'est le cas pour chaque information, le test est validé.
 
 ##### Test 3.1.5
 
 1. Retrouver dans le document les informations données par la couleur dans un média temporel ;
-2. Pour chacune de ces informations, vérifier qu'il existe un autre moyen de récupérer cette information (présence d'un attribut `title`, d'une icône ou d'un effet graphique de forme ou de position, un effet typographique...) ;
+2. Pour chacune de ces informations, vérifier qu'il existe un autre moyen de récupérer cette information (présence d'un attribut `title`{lang=en}, d'une icône ou d'un effet graphique de forme ou de position, un effet typographique...) ;
 3. Si c'est le cas pour chaque information, le test est validé.
 
 ##### Test 3.1.6
 
 1. Retrouver dans le document les informations données par la couleur dans un média non temporel ;
-2. Pour chacune de ces informations, vérifier qu'il existe un autre moyen de récupérer cette information (présence d'un attribut `title`, d'une icône ou d'un effet graphique de forme ou de position, un effet typographique...) ;
+2. Pour chacune de ces informations, vérifier qu'il existe un autre moyen de récupérer cette information (présence d'un attribut `title`{lang=en}, d'une icône ou d'un effet graphique de forme ou de position, un effet typographique...) ;
 3. Si c'est le cas pour chaque information, le test est validé.
 
 #### Critère 3.2 Dans chaque page web, le contraste entre la couleur du texte et la couleur de son arrière-plan est-il suffisamment élevé (hors cas particuliers) ?
@@ -651,7 +651,7 @@ Note : le critère est non applicable dans les situations où :
 * Le texte fait partie d'un logo ou d'un nom de marque d'un organisme ou d'une société ;
 * Le texte ou l'image de texte est purement décoratif ;
 * Le texte fait partie d'une image véhiculant une information mais le texte lui-même n'apporte aucune information essentielle ;
-* Le texte ou l'image de texte fait partie d'un élément d'interface sur lequel aucune action n'est possible (par exemple un bouton avec l'attribut `disabled`).
+* Le texte ou l'image de texte fait partie d'un élément d'interface sur lequel aucune action n'est possible (par exemple un bouton avec l'attribut `disabled`{lang=en}).
 
 #### Critère 3.3 Dans chaque page web, les couleurs utilisées dans les composants d'interface ou les éléments graphiques porteurs d'informations sont-elles suffisamment contrastées (hors cas particuliers) ?
 
@@ -687,7 +687,7 @@ Note : le critère est non applicable dans les situations où :
 
 Note : le critère est non applicable dans ces situations :
 
-* Composant d'interface inactif (par exemple, un bouton avec un attribut `disabled`) sur lequel aucune action n'est possible ;
+* Composant d'interface inactif (par exemple, un bouton avec un attribut `disabled`{lang=en}) sur lequel aucune action n'est possible ;
 * Composant d'interface pour lequel l'apparence est gérée par les styles natifs du navigateur sans aucune modification par l'auteur (par exemple, le style au focus natif dans Chrome ou Firefox) ;
 * Composant d'interface pour lequel la couleur n'est pas nécessaire pour identifier le composant ou son état (par exemple, un groupe de liens faisant office de navigation dont la position dans la page, la taille et la couleur du texte permettent de comprendre qu'il s'agit de liens même si la couleur du soulignement des liens avec le fond blanc n'a pas un ratio de 3:1 et que le texte lui a un ratio de 4.5:1) ;
 * Élément graphique ou parties d'élément graphique non porteur d'information ou ayant une alternative (description longue, informations identiques visibles dans la page) ;
@@ -701,7 +701,7 @@ Note : le critère est non applicable dans ces situations :
 
 ##### Test 4.1.1
 
-1. Retrouver dans le document les médias temporels (éléments `<audio>`, `<video>` ou `<object>`) seulement audio qui nécessitent une transcription textuelle ;
+1. Retrouver dans le document les médias temporels (éléments `<audio>`{lang=en}, `<video>`{lang=en} ou `<object>`{lang=en}) seulement audio qui nécessitent une transcription textuelle ;
 2. Pour chaque média temporel seulement audio, vérifier la présence d'une transcription textuelle :
     * Soit accessible au moyen d'un lien adjacent (une URL ou une ancre) ;
     * Soit adjacente clairement identifiable.
@@ -709,7 +709,7 @@ Note : le critère est non applicable dans ces situations :
 
 ##### Test 4.1.2
 
-1. Retrouver dans le document les médias temporels (éléments `<video>` ou `<object>`) seulement vidéo qui nécessitent une transcription textuelle ;
+1. Retrouver dans le document les médias temporels (éléments `<video>`{lang=en} ou `<object>`{lang=en}) seulement vidéo qui nécessitent une transcription textuelle ;
 2. Pour chaque média temporel seulement vidéo, vérifier la présence :
     * Soit d'une version alternative audio seulement accessible au moyen d'un lien adjacent (une URL ou une ancre) ;
     * Soit d'une version alternative audio seulement adjacente ;
@@ -721,7 +721,7 @@ Note : le critère est non applicable dans ces situations :
 
 ##### Test 4.1.3
 
-1. Retrouver dans le document les médias temporels (éléments `<video>` ou `<object>`) synchronisés qui nécessitent une transcription textuelle ;
+1. Retrouver dans le document les médias temporels (éléments `<video>`{lang=en} ou `<object>`{lang=en}) synchronisés qui nécessitent une transcription textuelle ;
 2. Pour chaque média temporel synchronisé, vérifier la présence :
     * Soit d'une transcription textuelle accessible au moyen d'un lien adjacent (une URL ou d'une ancre) ;
     * Soit d'une transcription textuelle adjacente clairement identifiable ;
@@ -777,8 +777,8 @@ Note : le critère est non applicable dans les situations où :
 
 ##### Test 4.3.2
 
-1. Retrouver dans le document les médias temporels synchronisés possédant des sous-titres synchronisés au moyen d'un élément `<track>` ;
-2. Pour chaque média temporel synchronisé, vérifier que la balise `<track>` possède un attribut `kind="caption"` ;
+1. Retrouver dans le document les médias temporels synchronisés possédant des sous-titres synchronisés au moyen d'un élément `<track>`{lang=en} ;
+2. Pour chaque média temporel synchronisé, vérifier que la balise `<track>`{lang=en} possède un attribut `kind="caption"`{lang=en} ;
 3. Si c'est le cas pour chaque média temporel synchronisé, le test est validé.
 
 #### Critère 4.4 Pour chaque média temporel synchronisé pré-enregistré ayant des sous-titres synchronisés, ces sous-titres sont-ils pertinents ?
@@ -875,7 +875,7 @@ Note : le critère est non applicable dans les situations où :
     * Soit le volume de la séquence peut être contrôlé par l'utilisateur, indépendamment du contrôle de volume du système.
 2. Si c'est le cas, le test est validé.
 
-Note : les éléments suivants sont susceptibles de déclencher des sons au chargement de la page : éléments  `<audio>`, `<video>`, `<object>`, `<embed>`, `<bgsound>` ou un code JavaScript (utilisation de la `Web Audio API`, par exemple).
+Note : les éléments suivants sont susceptibles de déclencher des sons au chargement de la page : éléments  `<audio>`{lang=en}, `<video>`{lang=en}, `<object>`{lang=en}, `<embed>`{lang=en}, `<bgsound>`{lang=en} ou un code JavaScript (utilisation de la `Web Audio API`{lang=en}, par exemple).
 
 #### Critère 4.11 La consultation de chaque média temporel est-elle, si nécessaire, contrôlable par le clavier et tout dispositif de pointage ?
 
@@ -948,10 +948,10 @@ Note : les éléments suivants sont susceptibles de déclencher des sons au char
 
 ##### Test 5.1.1
 
-1. Retrouver dans le document les tableaux de données complexes (tableau de données - élément `<table>` ou élément pourvu d'un attribut WAI-ARIA `role="table"` - contenant des en-têtes qui ne sont pas répartis uniquement sur la première ligne et/ou la première colonne de la grille ou dont la portée n'est pas valable pour l'ensemble de la colonne ou de la ligne) ;
+1. Retrouver dans le document les tableaux de données complexes (tableau de données - élément `<table>`{lang=en} ou élément pourvu d'un attribut WAI-ARIA `role="table"`{lang=en} - contenant des en-têtes qui ne sont pas répartis uniquement sur la première ligne et/ou la première colonne de la grille ou dont la portée n'est pas valable pour l'ensemble de la colonne ou de la ligne) ;
 2. Pour chaque tableau de données complexe, vérifier qu'un passage de texte permettant de comprendre la nature et la structure du tableau, est présent :
-    * Soit dans l'élément `<caption>` ;
-    * Soit dans l'attribut `summary` de l'élément `<table>`.
+    * Soit dans l'élément `<caption>`{lang=en} ;
+    * Soit dans l'attribut `summary`{lang=en} de l'élément `<table>`{lang=en}.
 3. Si c'est le cas pour chaque tableau de données complexe, le test est validé.
 
 #### Critère 5.2 Pour chaque tableau de données complexe ayant un résumé, celui-ci est-il pertinent ?
@@ -969,7 +969,7 @@ Note : les éléments suivants sont susceptibles de déclencher des sons au char
 1. Retrouver dans le document les tableaux de mise en forme ;
 2. Pour chaque tableau de mise en forme, vérifier que :
     * L'ordre d'accès aux cellules est cohérent avec le contenu ;
-    * L'élément `<table>` est pourvu d'un attribut WAI-ARIA `role="presentation"`.
+    * L'élément `<table>`{lang=en} est pourvu d'un attribut WAI-ARIA `role="presentation"`{lang=en}.
 3. Si c'est le cas pour chaque tableau de mise en forme, le test est validé.
 
 #### Critère 5.4 Pour chaque tableau de données ayant un titre, le titre est-il correctement associé au tableau de données ?
@@ -978,10 +978,10 @@ Note : les éléments suivants sont susceptibles de déclencher des sons au char
 
 1. Retrouver dans le document les tableaux de données pourvus d'un titre ;
 2. Pour chaque titre, vérifier qu'il est fourni au moyen :
-    * Soit d'un élément `<caption>` ;
-    * Soit d'un attribut `title` ;
-    * Soit d'un attribut WAI-ARIA `aria-label` ;
-    * Soit d'un attribut WAI-ARIA `aria-labelledby` référençant un passage de texte.
+    * Soit d'un élément `<caption>`{lang=en} ;
+    * Soit d'un attribut `title`{lang=en} ;
+    * Soit d'un attribut WAI-ARIA `aria-label`{lang=en} ;
+    * Soit d'un attribut WAI-ARIA `aria-labelledby`{lang=en} référençant un passage de texte.
 3. Si c'est le cas pour chaque titre de tableau de données, le test est validé.
 
 <!--
@@ -1012,22 +1012,22 @@ Dans la mesure où il est bien correctement restitué et associé par les techno
 
 1. Retrouver dans le document les tableaux de données ;
 2. Pour chaque en-tête de colonnes s'appliquant à la totalité de la colonne, vérifier que l'en-tête de colonne est structuré au moyen :
-    * Soit d'un élément `<th>` ;
-    * Soit d'un élément pourvu d'un attribut WAI-ARIA `role="columnheader"`.
+    * Soit d'un élément `<th>`{lang=en} ;
+    * Soit d'un élément pourvu d'un attribut WAI-ARIA `role="columnheader"`{lang=en}.
 3. Si c'est le cas pour chaque en-tête de colonne s'appliquant à la totalité de la colonne, le test est validé.
 
 ##### Test 5.6.2
 
 1. Retrouver dans le document les tableaux de données ;
 2. Pour chaque en-tête de ligne s'appliquant à la totalité de la ligne, vérifier que l'en-tête de ligne est structuré au moyen :
-    * Soit d'un élément `<th>` ;
-    * Soit d'un élément pourvu d'un attribut WAI-ARIA `role="rowheader"`.
+    * Soit d'un élément `<th>`{lang=en} ;
+    * Soit d'un élément pourvu d'un attribut WAI-ARIA `role="rowheader"`{lang=en}.
 3. Si c'est le cas pour chaque en-tête de ligne s'appliquant à la totalité de la ligne, le test est validé.
 
 ##### Test 5.6.3
 
 1. Retrouver dans le document les tableaux de données ;
-2. Pour chaque en-tête ne s'appliquant pas à la totalité de la ligne ou de la colonne, vérifier que l'en-tête de ligne est structuré au moyen d'un élément `<th>` ;
+2. Pour chaque en-tête ne s'appliquant pas à la totalité de la ligne ou de la colonne, vérifier que l'en-tête de ligne est structuré au moyen d'un élément `<th>`{lang=en} ;
 3. Si c'est le cas pour chaque en-tête ne s'appliquant pas à la totalité de la ligne ou de la colonne, le test est validé.
 
 #### Critère 5.7 Pour chaque tableau de données, la technique appropriée permettant d'associer chaque cellule avec ses en-têtes est-elle utilisée ?
@@ -1035,44 +1035,44 @@ Dans la mesure où il est bien correctement restitué et associé par les techno
 ##### Test 5.7.1
 
 1. Retrouver dans le document les tableaux de données ;
-2. Pour chaque en-tête (élément `<th>`) s'appliquant à la totalité de la ligne ou de la colonne, vérifier que l'élément `<th>` possède :
-    * Soit un attribut `id` unique ;
-    * Soit un attribut `scope` ;
-    * Soit un attribut WAI-ARIA `role="rowheader"` ou `"columnheader"`.
+2. Pour chaque en-tête (élément `<th>`{lang=en}) s'appliquant à la totalité de la ligne ou de la colonne, vérifier que l'élément `<th>`{lang=en} possède :
+    * Soit un attribut `id`{lang=en} unique ;
+    * Soit un attribut `scope`{lang=en} ;
+    * Soit un attribut WAI-ARIA `role="rowheader"`{lang=en} ou `"columnheader"`{lang=en}.
 3. Si c'est le cas pour chaque en-tête s'appliquant à la totalité de la ligne ou de la colonne, le test est validé.
 
 ##### Test 5.7.2
 
 1. Retrouver dans le document les tableaux de données ;
-2. Pour chaque en-tête (élément `<th>`) s'appliquant à la totalité de la ligne ou de la colonne et pourvu d'un attribut `scope`, vérifier que l'attribut `scope` possède :
-    * Soit une valeur `"row"` pour les en-têtes de ligne ;
-    * Soit une valeur `"col"` pour les en-têtes de colonne.
-3. Si c'est le cas pour chaque en-tête s'appliquant à la totalité de la ligne ou de la colonne et pourvu d'un attribut `scope`, le test est validé.
+2. Pour chaque en-tête (élément `<th>`{lang=en}) s'appliquant à la totalité de la ligne ou de la colonne et pourvu d'un attribut `scope`{lang=en}, vérifier que l'attribut `scope`{lang=en} possède :
+    * Soit une valeur `"row"`{lang=en} pour les en-têtes de ligne ;
+    * Soit une valeur `"col"`{lang=en} pour les en-têtes de colonne.
+3. Si c'est le cas pour chaque en-tête s'appliquant à la totalité de la ligne ou de la colonne et pourvu d'un attribut `scope`{lang=en}, le test est validé.
 
 ##### Test 5.7.3
 
 1. Retrouver dans le document les tableaux de données ;
-2. Pour chaque en-tête (élément `<th>`) ne s'appliquant pas à la totalité de la ligne ou de la colonne, vérifier que l'élément `<th>` :
-    * Possède un attribut `id` unique ;
-    * Et ne possède pas d'attribut `scope` ;
-    * Et ne possède pas d'attribut WAI-ARIA `role="rowheader"` ou `"columnheader"`.
+2. Pour chaque en-tête (élément `<th>`{lang=en}) ne s'appliquant pas à la totalité de la ligne ou de la colonne, vérifier que l'élément `<th>`{lang=en} :
+    * Possède un attribut `id`{lang=en} unique ;
+    * Et ne possède pas d'attribut `scope`{lang=en} ;
+    * Et ne possède pas d'attribut WAI-ARIA `role="rowheader"`{lang=en} ou `"columnheader"`{lang=en}.
 3. Si c'est le cas pour chaque en-tête ne s'appliquant pas à la totalité de la ligne ou de la colonne, le test est validé.
 
 ##### Test 5.7.4
 
 1. Retrouver dans le document les tableaux de données ;
-2. Pour chaque élément `<td>` ou `<th>` associé à un ou plusieurs en-têtes possédant un attribut `id`, vérifier que :
-    * L'élément `<td>` ou `<th>` possède un attribut `headers` ;
-    * Et l'attribut `headers` possède la liste des valeurs d'attribut `id` des en-têtes associés.
-3. Si c'est le cas pour chaque élément `<td>` ou `<th>` associé à un ou plusieurs en-têtes possédant un attribut `id`, le test est validé.
+2. Pour chaque élément `<td>`{lang=en} ou `<th>`{lang=en} associé à un ou plusieurs en-têtes possédant un attribut `id`{lang=en}, vérifier que :
+    * L'élément `<td>`{lang=en} ou `<th>`{lang=en} possède un attribut `headers`{lang=en} ;
+    * Et l'attribut `headers`{lang=en} possède la liste des valeurs d'attribut `id`{lang=en} des en-têtes associés.
+3. Si c'est le cas pour chaque élément `<td>`{lang=en} ou `<th>`{lang=en} associé à un ou plusieurs en-têtes possédant un attribut `id`{lang=en}, le test est validé.
 
 ##### Test 5.7.5
 
 1. Retrouver dans le document les tableaux de données ;
-2. Pour chaque en-tête s'appliquant à la totalité de la ligne ou de la colonne et pourvu d'un attribut WAI-ARIA `role="rowheader"` ou `"columnheader"`, vérifier que l'élément possède :
-    * Soit un attribut WAI-ARIA `role="rowheader"` pour les en-têtes de ligne ;
-    * Soit un attribut WAI-ARIA `role="columnheader"` pour les en-têtes de colonne.
-3. Si c'est le cas pour chaque en-tête s'appliquant à la totalité de la ligne ou de la colonne et pourvu d'un attribut WAI-ARIA `role="rowheader"` ou `"columnheader"`, le test est validé.
+2. Pour chaque en-tête s'appliquant à la totalité de la ligne ou de la colonne et pourvu d'un attribut WAI-ARIA `role="rowheader"`{lang=en} ou `"columnheader"`{lang=en}, vérifier que l'élément possède :
+    * Soit un attribut WAI-ARIA `role="rowheader"`{lang=en} pour les en-têtes de ligne ;
+    * Soit un attribut WAI-ARIA `role="columnheader"`{lang=en} pour les en-têtes de colonne.
+3. Si c'est le cas pour chaque en-tête s'appliquant à la totalité de la ligne ou de la colonne et pourvu d'un attribut WAI-ARIA `role="rowheader"`{lang=en} ou `"columnheader"`{lang=en}, le test est validé.
 
 #### Critère 5.8 Chaque tableau de mise en forme ne doit pas utiliser d'éléments propres aux tableaux de données. Cette règle est-elle respectée ?
 
@@ -1080,8 +1080,8 @@ Dans la mesure où il est bien correctement restitué et associé par les techno
 
 1. Retrouver dans le document les tableaux de mise en forme ;
 2. Pour chaque tableau de mise en forme, vérifier que :
-    * L'élément `<table>` ne possède pas d'éléments enfant `<caption>`, `<thead>`, `<th>`, `<tfoot>`, `<colgroup>` ou d'éléments pourvus d'un attribut WAI-ARIA `role="rowheader"` ou `role="columnheader"` ;
-    * Les éléments `<td>` ne possèdent pas d'attributs `<scope>`, `<headers>` et `<axis>`.
+    * L'élément `<table>`{lang=en} ne possède pas d'éléments enfant `<caption>`{lang=en}, `<thead>`{lang=en}, `<th>`{lang=en}, `<tfoot>`{lang=en}, `<colgroup>`{lang=en} ou d'éléments pourvus d'un attribut WAI-ARIA `role="rowheader"`{lang=en} ou `role="columnheader"`{lang=en} ;
+    * Les éléments `<td>`{lang=en} ne possèdent pas d'attributs `<scope>`{lang=en}, `<headers>`{lang=en} et `<axis>`{lang=en}.
 3. Si c'est le cas pour chaque tableau de mise en forme, le test est validé.
 
 ### Liens
@@ -1098,7 +1098,7 @@ Dans la mesure où il est bien correctement restitué et associé par les techno
 
 ##### Test 6.1.2
 
-1. Retrouver dans le document les liens image (lien avec pour contenu un élément `<img>` ou un élément ayant l'attribut WAI-ARIA `role="img"`, un élément `<area>` possédant un attribut `href`, un élément `<object>`, un élément `<canvas>` ou un élément `<svg>`) ;
+1. Retrouver dans le document les liens image (lien avec pour contenu un élément `<img>`{lang=en} ou un élément ayant l'attribut WAI-ARIA `role="img"`{lang=en}, un élément `<area>`{lang=en} possédant un attribut `href`{lang=en}, un élément `<object>`{lang=en}, un élément `<canvas>`{lang=en} ou un élément `<svg>`{lang=en}) ;
 2. Pour chaque lien image, vérifier que ce qui permet d'en comprendre la fonction et la destination est :
     * Soit l'intitulé du lien seul, fourni par l'alternative textuelle de l'image ;
     * Soit le contexte du lien.
@@ -1114,19 +1114,19 @@ Dans la mesure où il est bien correctement restitué et associé par les techno
 
 ##### Test 6.1.4
 
-1. Retrouver dans le document les liens SVG (élément `<svg>` qui possède un élément `<a>` pourvu d'un attribut `xlink-href` (SVG 1.1) ou `href` (SVG 2)) ;
+1. Retrouver dans le document les liens SVG (élément `<svg>`{lang=en} qui possède un élément `<a>`{lang=en} pourvu d'un attribut `xlink-href`{lang=en} (SVG 1.1) ou `href`{lang=en} (SVG 2)) ;
 2. Pour chaque lien SVG, vérifier que ce qui permet d'en comprendre la fonction et la destination est :
-    * Soit l'intitulé du lien seul, fourni par le nom accessible de l'élément `<svg>` (résolu généralement à partir du contenu d'un élément `<text>`) ;
+    * Soit l'intitulé du lien seul, fourni par le nom accessible de l'élément `<svg>`{lang=en} (résolu généralement à partir du contenu d'un élément `<text>`{lang=en}) ;
     * Soit le contexte du lien.
 3. Si c'est le cas pour chaque lien SVG, le test est validé.
 
 ##### Test 6.1.5
 
-1. Retrouver dans le document les liens autres que SVG dont le contenu est fourni à la fois par un intitulé visible et par le contenu soit d'un attribut `title` ou d'un attribut `aria-label` ou d'un attribut `aria-labelledby` ;
-2. Pour chaque lien, vérifier que le contenu de l'attribut `title` ou de l'attribut `aria-label` ou de l'attribut `aria-labelledby` contient l'intitulé visible ;
+1. Retrouver dans le document les liens autres que SVG dont le contenu est fourni à la fois par un intitulé visible et par le contenu soit d'un attribut `title`{lang=en} ou d'un attribut `aria-label`{lang=en} ou d'un attribut `aria-labelledby`{lang=en} ;
+2. Pour chaque lien, vérifier que le contenu de l'attribut `title`{lang=en} ou de l'attribut `aria-label`{lang=en} ou de l'attribut `aria-labelledby`{lang=en} contient l'intitulé visible ;
 3. Si c'est le cas pour chaque lien, le test est validé pour les liens autres que SVG.
-4. Retrouver dans le document les liens SVG dont le contenu est fourni à la fois par un intitulé visible et par le contenu soit d'un attribut `aria-labelledby`, ou d'un attribut `aria-label` ou d'un élément `title` (enfant direct de l'élément `<svg>`) ou d'un attribut `x-link:title` (SVG 1.1) ou d'un ou plusieurs éléments `<text>`;
-5. Pour chaque lien SVG, vérifier que le contenu de l'attribut `aria-labelledby` ou de l'attribut `aria-label` ou de l'élément `<title>` ou de l'attribut `x-link:title` ou d'un ou plusieurs éléments `<text>` contient l'intitulé visible ;
+4. Retrouver dans le document les liens SVG dont le contenu est fourni à la fois par un intitulé visible et par le contenu soit d'un attribut `aria-labelledby`{lang=en}, ou d'un attribut `aria-label`{lang=en} ou d'un élément `title`{lang=en} (enfant direct de l'élément `<svg>`{lang=en}) ou d'un attribut `x-link:title`{lang=en} (SVG 1.1) ou d'un ou plusieurs éléments `<text>`{lang=en};
+5. Pour chaque lien SVG, vérifier que le contenu de l'attribut `aria-labelledby`{lang=en} ou de l'attribut `aria-label`{lang=en} ou de l'élément `<title>`{lang=en} ou de l'attribut `x-link:title`{lang=en} ou d'un ou plusieurs éléments `<text>`{lang=en} contient l'intitulé visible ;
 6. Si c'est le cas pour chaque lien SVG, le test est validé pour les liens SVG.
 7. Si le test est validé à la fois pour les liens non SVG et pour les liens SVG, le test est globalement validé.
 
@@ -1141,7 +1141,7 @@ Note : considérant la détermination du nom accessible, il existe deux cas part
 ##### Test 6.2.1
 
 1. Retrouver dans le document les liens quels qu'ils soient ;
-2. Pour chaque lien, vérifier que le contenu de l'élément `<a>` (ou d'un élément pourvu d'un attribut WAI-ARIA `role=link`) contient un intitulé (texte ou alternative) ;
+2. Pour chaque lien, vérifier que le contenu de l'élément `<a>`{lang=en} (ou d'un élément pourvu d'un attribut WAI-ARIA `role=link`{lang=en}) contient un intitulé (texte ou alternative) ;
 3. Si c'est le cas pour chaque lien, le test est validé.
 
 ### Scripts
@@ -1195,7 +1195,7 @@ Note : considérant la détermination du nom accessible, il existe deux cas part
 
 ##### Test 7.3.1
 
-1. Retrouver dans le document, tous les éléments sur lesquels est implémenté un gestionnaire d'événements JavaScript (par exemple `click`, `focus`, `mouseover`, `blur`, `keydown`, `touch`, ...).
+1. Retrouver dans le document, tous les éléments sur lesquels est implémenté un gestionnaire d'événements JavaScript (par exemple `click`{lang=en}, `focus`{lang=en}, `mouseover`{lang=en}, `blur`{lang=en}, `keydown`{lang=en}, `touch`{lang=en}, ...).
 2. Vérifier que l'élément est accessible au moyen du clavier :
     1. Il est atteignable avec la touche de tabulation (tab) ;
     2. Si l'élément gère une action simple, il est activable au clavier avec la touche entrée (Entrée) ;
@@ -1217,13 +1217,13 @@ Note : considérant la détermination du nom accessible, il existe deux cas part
 
 1. Retrouver dans le document tous les événements JavaScript qui initient un changement de contexte, par exemple :
     * Une mise à jour dynamique de champs de formulaire ;
-    * L'ouverture d'une nouvelle page à l'activation d'une option d'une liste de sélection (élément `select`) ;
+    * L'ouverture d'une nouvelle page à l'activation d'une option d'une liste de sélection (élément `select`{lang=en}) ;
     * La mise à jour, via un procédé AJAX d'une partie essentielle de la page ;
     * Le lancement automatique d'un lecteur vidéo suite à la sélection d'une playlist ;
     * La manipulation du focus ayant pour résultat de modifier la position courante de l'utilisateur dans la page.
 2. Vérifier que :
     1. L'utilisateur est averti par un message de l'action du script et du type de changement avant son déclenchement ;
-    2. Ou bien le changement de contexte est initié par un bouton (`input` de type `submit`, `button` ou `image` ou la balise `button`) explicite ;
+    2. Ou bien le changement de contexte est initié par un bouton (`input`{lang=en} de type `submit`{lang=en}, `button`{lang=en} ou `image`{lang=en} ou la balise `button`{lang=en}) explicite ;
     3. Ou bien le changement de contexte est initié par un lien explicite.
 3. Si c'est le cas, le test est validé.
 
@@ -1234,15 +1234,15 @@ Note : considérant la détermination du nom accessible, il existe deux cas part
 1. Retrouver dans le document les messages qui valent pour message de statut.
 2. Pour chacun de ces messages, déterminer la nature de l'information dont est porteur le message :
 3. Si le message informe de la réussite, du résultat d'une action ou bien de l'état d'une application, vérifier que l'élément qui contient le message :
-    1. Soit utilise l'attribut WAI-ARIA role="status" ;
-    2. Soit utilise les attributs WAI-ARIA aria-live="polite" et aria-atomic="true".
+    1. Soit utilise l'attribut WAI-ARIA `role="status"`{lang=en} ;
+    2. Soit utilise les attributs WAI-ARIA `aria-live="polite"`{lang=en} et `aria-atomic="true"`{lang=en}.
 4. Si le message présente une suggestion, ou avertit de l'existence d'une erreur, vérifier que l'élément qui contient le message :
-    1. Soit utilise l'attribut WAI-ARIA role="alert" ;
-    2. Soit utilise les attributs aria-live="assertive" et aria-atomic="true".
+    1. Soit utilise l'attribut WAI-ARIA `role="alert"`{lang=en} ;
+    2. Soit utilise les attributs `aria-live="assertive"`{lang=en} et `aria-atomic="true"`{lang=en}.
 5. Si le message indique la progression d'un processus, vérifier que l'élément qui contient le message :
-    1. Soit utilise l'un des attributs WAI-ARIA role="log", role="progressbar" ou role="status" ;
-    2. Soit utilise l'attribut WAI-ARIA aria-live="polite" si l'intention est de signaler l'équivalent d'un rôle "log" ;
-    3. Soit utilise les attributs WAI-ARIA aria-live="polite" et aria-atomic="true si l'intention est de signaler l'équivalent d'un rôle "status".
+    1. Soit utilise l'un des attributs WAI-ARIA `role="log"`{lang=en}, `role="progressbar"`{lang=en} ou `role="status"`{lang=en} ;
+    2. Soit utilise l'attribut WAI-ARIA `aria-live="polite"`{lang=en} si l'intention est de signaler l'équivalent d'un rôle `"log"`{lang=en} ;
+    3. Soit utilise les attributs WAI-ARIA `aria-live="polite"`{lang=en} et `aria-atomic="true"`{lang=en} si l'intention est de signaler l'équivalent d'un rôle `"status"`{lang=en}.
 6. Si c'est le cas, le test est validé.
 
 ### Éléments Obligatoires
@@ -1251,9 +1251,9 @@ Note : considérant la détermination du nom accessible, il existe deux cas part
 
 ##### Tests 8.1.1, 8.1.2 et 8.1.3
 
-1. Retrouver dans le document la balise `DOCTYPE` (par exemple <!DOCTYPE html>) ;
+1. Retrouver dans le document la balise `DOCTYPE`{lang=en} (par exemple <!DOCTYPE html>) ;
 2. Vérifier que :
-    1. La balise `DOCTYPE` est placée avant la balise `<html>`.
+    1. La balise `DOCTYPE`{lang=en} est placée avant la balise `<html>`{lang=en}.
     2. Le type de document est valide.
 3. Si c'est le cas, le test est validé.
 
@@ -1261,12 +1261,12 @@ Note : considérant la détermination du nom accessible, il existe deux cas part
 
 ##### Test 8.2.1
 
-1. Dans le menu « Check », activer l'option « W3C Nu markup checker (all frames) ».
+1. Dans le menu « *Check*{lang=en} », activer l'option « *W3C Nu markup checker (all frames)*{lang=en} ».
 2. Dans la page de résultats, vérifier que :
     1. Les balises, attributs et valeurs d'attributs respectent les règles d'écriture ;
     2. L'imbrication des balises est conforme ;
     3. L'ouverture et la fermeture des balises sont conformes ;
-    4. Les valeurs d'attribut `id` sont uniques dans la page ;
+    4. Les valeurs d'attribut `id`{lang=en} sont uniques dans la page ;
     5. Les attributs ne sont pas doublés sur un même élément.
 3. Si c'est le cas, le test est validé.
 
@@ -1276,9 +1276,9 @@ Note : considérant la détermination du nom accessible, il existe deux cas part
 
 1. Retrouver dans le document l'indication de langue par défaut ;
 2. Vérifier la présence d'une indication de langue :
-    * Soit au moyen de l'attribut `lang` sur la balise `html` si le code est du HTML5 ou du HTML4 ;
-    * Soit au moyen des attributs `lang` et `xml:lang` sur la balise `html` si le code est du XHTML 1.0 ;
-    * Soit au moyen de l'attribut `xml:lang` sur la balise `html` si le code est du XHTML 1.1 ;
+    * Soit au moyen de l'attribut `lang`{lang=en} sur la balise `html`{lang=en} si le code est du HTML5 ou du HTML4 ;
+    * Soit au moyen des attributs `lang`{lang=en} et `xml:lang`{lang=en} sur la balise `html`{lang=en} si le code est du XHTML 1.0 ;
+    * Soit au moyen de l'attribut `xml:lang`{lang=en} sur la balise `html`{lang=en} si le code est du XHTML 1.1 ;
 3. Sinon, vérifier la présence d'une indication de langue sur chaque élément de texte ou l'un de ses parents ;
 4. Si c'est le cas, le test est validé.
 
@@ -1296,15 +1296,15 @@ Note : considérant la détermination du nom accessible, il existe deux cas part
 
 ##### Test 8.5.1
 
-1. Retrouver dans le document le titre structuré au moyen d’un élément `<title>` ;
+1. Retrouver dans le document le titre structuré au moyen d’un élément `<title>`{lang=en} ;
 2. Si c'est le cas, le test est validé.
 
 #### Critère 8.6 Pour chaque page web ayant un titre de page, ce titre est-il pertinent ?
 
 ##### Test 8.6.1
 
-1. Retrouver dans le document le titre structuré au moyen d’un élément `<title>` ;
-2. Vérifier si le contenu de l'élément `<title>` est suffisamment pertinent (il permet de retrouver la page dans l'historique de navigation ou la liste des onglets).
+1. Retrouver dans le document le titre structuré au moyen d’un élément `<title>`{lang=en} ;
+2. Vérifier si le contenu de l'élément `<title>`{lang=en} est suffisamment pertinent (il permet de retrouver la page dans l'historique de navigation ou la liste des onglets).
 3. Si c'est le cas, le test est validé.
 
 #### Critère 8.7 Dans chaque page web, chaque changement de langue est-il indiqué dans le code source (hors cas particuliers) ?
@@ -1315,7 +1315,7 @@ Note : considérant la détermination du nom accessible, il existe deux cas part
     1. Des noms propres ;
     2. Des mots d'origine étrangère, présents dans le dictionnaire de la langue du document ;
     3. Des mots d'origine étrangère et d'usage courant dont la prononciation ne provoque pas d'incompréhension.
-2. Vérifier que chaque passage de texte retenu possède une indication de langue (attribut lang et/ou xml:lang sur l'élément lui-même ou l'un de ses parents).
+2. Vérifier que chaque passage de texte retenu possède une indication de langue (attribut `lang`{lang=en} et/ou `xml:lang`{lang=en} sur l'élément lui-même ou l'un de ses parents).
 3. Si c'est le cas, le test est validé.
 
 #### Critère 8.8 Dans chaque page web, le code de langue de chaque changement de langue est-il valide et pertinent ?
@@ -1333,13 +1333,13 @@ Note : considérant la détermination du nom accessible, il existe deux cas part
 
 1. Retrouver dans le document l'ensemble des éléments sémantiques utilisés à des fins de présentation ;
 2. Pour chacun de ces éléments, vérifier que :
-    1. L'élément est pourvu d'un attribut `role="presentation"` ;
+    1. L'élément est pourvu d'un attribut `role="presentation"`{lang=en} ;
     2. L'utilisation de cet élément à des fins de présentation reste justifée.
 3. Si c'est le cas, le test est validé.
 
-Note : Quelques exemples, non exhaustifs de détournement de balisage : un élément `<div>` utilisé comme paragraphe, un titre utilisé comme légende, un élément `<blockquote>` ou des paragraphes vides ou encore des espaces utilisés pour créer des effets de marges.
+Note : Quelques exemples, non exhaustifs de détournement de balisage : un élément `<div>`{lang=en} utilisé comme paragraphe, un titre utilisé comme légende, un élément `<blockquote>`{lang=en} ou des paragraphes vides ou encore des espaces utilisés pour créer des effets de marges.
 
-L'utilisation d'un `role="presentation"` est formellement déconseillée, mais peut toutefois se justifier dans de rares cas. Cela peut être acceptable sur un élément `<blockquote>` ou un paragraphe vide, mais sera considéré comme non-conforme sur un titre.
+L'utilisation d'un `role="presentation"`{lang=en} est formellement déconseillée, mais peut toutefois se justifier dans de rares cas. Cela peut être acceptable sur un élément `<blockquote>`{lang=en} ou un paragraphe vide, mais sera considéré comme non-conforme sur un titre.
 
 Le cas des tableaux : à noter que ce test aborde les tableaux de présentation qui ne devraient finalement pas apparaître au sein de la thématique Tableaux.
 
@@ -1348,13 +1348,13 @@ Le cas des tableaux : à noter que ce test aborde les tableaux de présentation 
 ##### Test 8.10.1
 
 1. Retrouver dans le document les passages de textes qui utilisent une langue qui se lit dans le sens inverse de la langue du document (comme l'arabe ou l'hébreu pour le français par exemple).
-2. Pour chaque passage de texte, vérifier que le passage de texte est contenu dans une balise qui possède un attribut `dir`.
+2. Pour chaque passage de texte, vérifier que le passage de texte est contenu dans une balise qui possède un attribut `dir`{lang=en}.
 3. Si c'est le cas pour chaque passage de texte, le test est validé.
 
 ##### Test 8.10.2
 
 1. Pour chaque passage de texte validé au test 8.10.1, vérifier que :
-    1. L'indication de sens de lecture est conforme (`ltr`, pour le sens « de gauche à droite » et `rtl` pour le sens « de droite à gauche ») ;
+    1. L'indication de sens de lecture est conforme (`ltr`{lang=en}, pour le sens « de gauche à droite » et `rtl`{lang=en} pour le sens « de droite à gauche ») ;
     2. L'indication de sens de lecture est pertinente.
 2. Si c'est le cas pour chaque passage de texte, le test est validé.
 
@@ -1364,7 +1364,7 @@ Le cas des tableaux : à noter que ce test aborde les tableaux de présentation 
 
 ##### Test 9.1.1
 
-1. Retrouver dans le document les titres (balise `<hx>` ou balise possédant un attribut WAI-ARIA `role="heading"` associé à un attribut WAI-ARIA `aria-level`) ;
+1. Retrouver dans le document les titres (balise `<hx>`{lang=en} ou balise possédant un attribut WAI-ARIA `role="heading"`{lang=en} associé à un attribut WAI-ARIA `aria-level`{lang=en}) ;
 2. Vérifier que la hiérarchie entre les titres est pertinente ;
 3. Si c'est le cas, le test est validé.
 
@@ -1381,20 +1381,20 @@ Le cas des tableaux : à noter que ce test aborde les tableaux de présentation 
 ##### Test 9.1.3
 
 1. Pour chaque titre identifié au test 9.1.1, vérifier que :
-    1. Soit il est structuré au moyen d'une balise `<hx>` ("x" désignant une valeur numérique comprise entre 1 et 6);
-    2. Soit il est structuré au moyen d'une balise possédant un attribut WAI-ARIA `role="heading"` et un attribut WAI-ARIA `aria-level=x` ("x" désignant une valeur numérique).
+    1. Soit il est structuré au moyen d'une balise `<hx>`{lang=en} ("x" désignant une valeur numérique comprise entre 1 et 6);
+    2. Soit il est structuré au moyen d'une balise possédant un attribut WAI-ARIA `role="heading"`{lang=en} et un attribut WAI-ARIA `aria-level=x`{lang=en} ("x" désignant une valeur numérique).
 2. Si c'est le cas pour chaque titre, le test est validé.
 
 #### Critère 9.2 Dans chaque page web, la structure du document est-elle cohérente (hors cas particuliers) ?
 
 ##### Test 9.2.1
 
-1. Vérifier que la zone d'en-tête est structurée au moyen d'un élément `<header>` ;
-2. Vérifier que les zones de n­avigation principales et secondaires sont structurées au moyen d'un élément `<nav>`.
-3. Vérifier que l'élément `<nav>` n'est pas utilisé en dehors de la structuration des zones de navigation principales et secondaires ;
-4. Vérifier que la zone de contenu principal est structurée au moyen d'un élément `<main>` ;
-5. Si le document possède plusieurs éléments `<main>`, vérifier qu'un seul de ces éléments est visible (les autres occurrences de l'élément sont pourvues d'un attribut `hidden`) ;
-6. Vérifier que la zone de pied de page est structurée au moyen d'un élément `<footer>`.
+1. Vérifier que la zone d'en-tête est structurée au moyen d'un élément `<header>`{lang=en} ;
+2. Vérifier que les zones de n­avigation principales et secondaires sont structurées au moyen d'un élément `<nav>`{lang=en}.
+3. Vérifier que l'élément `<nav>`{lang=en} n'est pas utilisé en dehors de la structuration des zones de navigation principales et secondaires ;
+4. Vérifier que la zone de contenu principal est structurée au moyen d'un élément `<main>`{lang=en} ;
+5. Si le document possède plusieurs éléments `<main>`{lang=en}, vérifier qu'un seul de ces éléments est visible (les autres occurrences de l'élément sont pourvues d'un attribut `hidden`{lang=en}) ;
+6. Vérifier que la zone de pied de page est structurée au moyen d'un élément `<footer>`{lang=en}.
 7. Si c'est le cas pour chaque zone de contenu, le test est validé.
 
 #### Critère 9.3 Dans chaque page web, chaque liste est-elle correctement structurée ?
@@ -1403,22 +1403,22 @@ Le cas des tableaux : à noter que ce test aborde les tableaux de présentation 
 
 1. Retrouver dans le document les éléments regroupés visuellement sous la forme d'une liste non ordonnée ;
 2. Pour chaque liste, vérifier que la liste est structurée :
-    1. Soit au moyen des éléments `<ul>` et `<li>` ;
-    2. Soit au moyen d'éléments pourvus d'attributs WAI-ARIA `role="list"` et `role="listitem"`.
+    1. Soit au moyen des éléments `<ul>`{lang=en} et `<li>`{lang=en} ;
+    2. Soit au moyen d'éléments pourvus d'attributs WAI-ARIA `role="list"`{lang=en} et `role="listitem"`{lang=en}.
 3. Si c'est le cas pour chaque liste non ordonnée, le test est validé.
 
 ##### Test 9.3.2
 
 1. Retrouver dans le document les éléments regroupés visuellement sous la forme d'une liste ordonnée ;
 2. Pour chaque liste, vérifier que la liste est structurée :
-    1. Soit au moyen des éléments `<ol>` et `<li>` ;
-    2. Soit au moyen d'éléments pourvus d'attributs WAI-ARIA `role="list"` et `role="listitem"`.
+    1. Soit au moyen des éléments `<ol>`{lang=en} et `<li>`{lang=en} ;
+    2. Soit au moyen d'éléments pourvus d'attributs WAI-ARIA `role="list"`{lang=en} et `role="listitem"`{lang=en}.
 3. Si c'est le cas pour chaque liste ordonnée, le test est validé.
 
 ##### Test 9.3.3
 
 1. Retrouver dans le document les éléments regroupés visuellement sous la forme d'une liste de description ;
-2. Pour chaque liste, vérifier que la liste est structurée au moyen des éléments `<dl>`, `<dt>` et `<dd>` ;
+2. Pour chaque liste, vérifier que la liste est structurée au moyen des éléments `<dl>`{lang=en}, `<dt>`{lang=en} et `<dd>`{lang=en} ;
 3. Si c'est le cas pour chaque liste de description, le test est validé.
 
 #### Critère 9.4 Dans chaque page web, chaque citation est-elle correctement indiquée ?
@@ -1426,13 +1426,13 @@ Le cas des tableaux : à noter que ce test aborde les tableaux de présentation 
 ##### Test 9.4.1
 
 1. Retrouver dans le document les citations courtes (ou en ligne) ;
-2. Pour chaque citation, vérifier que la citation est structurée au moyen d'un élément `<q>` ;
+2. Pour chaque citation, vérifier que la citation est structurée au moyen d'un élément `<q>`{lang=en} ;
 3. Si c'est le cas pour chaque citation courte, le test est validé.
 
 ##### Test 9.4.2
 
 1. Retrouver dans le document les blocs de citation ;
-2. Pour chaque bloc de citation, vérifier que le bloc de citation est structurée au moyen d'un élément `<blockquote>` ;
+2. Pour chaque bloc de citation, vérifier que le bloc de citation est structurée au moyen d'un élément `<blockquote>`{lang=en} ;
 3. Si c'est le cas pour chaque bloc de citation, le test est validé.
 
 ### Présentation de l'information
@@ -1441,13 +1441,13 @@ Le cas des tableaux : à noter que ce test aborde les tableaux de présentation 
 
 ##### Test 10.1.1
 
-1. Vérifier l'absence des éléments de présentation `<basefont>`, `<blink>`, `<center>`, `<font>`, `<marquee>`, `<s>`, `<strike>`, `<tt>`, `<big>` ;
-2. Vérifier l'absence de l'élément `<u>` uniquement si le DOCTYPE du document ne correspond pas à HTML 5 ;
+1. Vérifier l'absence des éléments de présentation `<basefont>`{lang=en}, `<blink>`{lang=en}, `<center>`{lang=en}, `<font>`{lang=en}, `<marquee>`{lang=en}, `<s>`{lang=en}, `<strike>`{lang=en}, `<tt>`{lang=en}, `<big>`{lang=en} ;
+2. Vérifier l'absence de l'élément `<u>`{lang=en} uniquement si le DOCTYPE du document ne correspond pas à HTML 5 ;
 3. Si c'est le cas, le test est validé.
 
 ##### Test 10.1.2
 
-1. Vérifier l'absence des attributs de présentation : `align`, `alink`, `background`, `basefont`, `bgcolor`, `border`, `cellpadding`, `cellspacing`, `char`, `charoff`, `clear`, `color`, `compact`, `frameborder`, `hspace`, `link`, `marginheight`, `marginwidth`, `text`, `valign`, `vlink`, `vspace`, `size`, `width` (exception faite des éléments `<img>`, `<object>`, `<embed>`, `<canvas>` et `<svg>`), `height` (exception faite des éléments `<img>`, `<object>`, `<embed>`, `<canvas>` et `<svg>`) ;
+1. Vérifier l'absence des attributs de présentation : `align`{lang=en}, `alink`{lang=en}, `background`{lang=en}, `basefont`{lang=en}, `bgcolor`{lang=en}, `border`{lang=en}, `cellpadding`{lang=en}, `cellspacing`{lang=en}, `char`{lang=en}, `charoff`{lang=en}, `clear`{lang=en}, `color`{lang=en}, `compact`{lang=en}, `frameborder`{lang=en}, `hspace`{lang=en}, `link`{lang=en}, `marginheight`{lang=en}, `marginwidth`{lang=en}, `text`{lang=en}, `valign`{lang=en}, `vlink`{lang=en}, `vspace`{lang=en}, `size`{lang=en}, `width`{lang=en} (exception faite des éléments `<img>`{lang=en}, `<object>`{lang=en}, `<embed>`{lang=en}, `<canvas>`{lang=en} et `<svg>`{lang=en}), `height`{lang=en} (exception faite des éléments `<img>`{lang=en}, `<object>`{lang=en}, `<embed>`{lang=en}, `<canvas>`{lang=en} et `<svg>`{lang=en}) ;
 2. Si c'est le cas, le test est validé.
 
 ##### Test 10.1.3
@@ -1483,7 +1483,7 @@ Le cas des tableaux : à noter que ce test aborde les tableaux de présentation 
 1. Vérifier dans le document si les textes restent présents et lisibles lorsque :
     1. Le zoom texte du navigateur est réglé à 200% ;
     2. Le zoom graphique du navigateur est réglé à 200% ;
-    3. Les fonctionnalités de zoom personnalisées proposé par le document sont utilisés.
+    3. Les fonctionnalités de zoom personnalisé proposées par le document sont utilisées.
 2. Si c'est le cas, le test est validé.
 
 ##### Test 10.4.2
@@ -1491,7 +1491,7 @@ Le cas des tableaux : à noter que ce test aborde les tableaux de présentation 
 1. Vérifier dans le document si les textes sont effectivement agrandis lorsque :
     1. Le zoom texte du navigateur est réglé à 200% ;
     2. Le zoom graphique du navigateur est réglé à 200% ;
-    3. Les fonctionnalités de zoom personnalisées proposé par le document sont utilisés.
+    3. Les fonctionnalités de zoom personnalisé proposées par le document sont utilisées.
 2. Si c'est le cas, le test est validé.
 
 <!-- Les tests 10.4.2 et 10.4.3 devraient être inversés pour plus de cohérence car le test 3 s'assure que le texte réagit correctement aux fonctionnalités de zoom et le 2 que le texte qui est effectivement zoomé reste présent et lisible. -->
@@ -1501,7 +1501,7 @@ Le cas des tableaux : à noter que ce test aborde les tableaux de présentation 
 ##### Test 10.5.1
 
 1. Retrouver dans le document les textes mis en couleur, à l'exception des couleurs par défaut (par exemple les liens, etc.) ;
-2. Déterminer l'élément qui contient le texte et vérifier la présence d'une valeur calculée pour la propriété `background-color` de l'élément ;
+2. Déterminer l'élément qui contient le texte et vérifier la présence d'une valeur calculée pour la propriété `background-color`{lang=en} de l'élément ;
 3. Si c'est le cas, le test est validé.
 
 <!-- Ce test est toujours validé, car c'est toujours le cas, la propriété background-color étant une propriété de style inhérente à tout noeud élément du DOM. -->
@@ -1509,14 +1509,14 @@ Le cas des tableaux : à noter que ce test aborde les tableaux de présentation 
 ##### Test 10.5.2
 
 1. Retrouver dans le document les textes mis en couleur, à l'exception des couleurs par défaut (par exemple les liens, etc.) ;
-2. Déterminer l'élément qui contient le texte et vérifier la présence d'une valeur calculée pour la propriété `color` de l'élément ;
+2. Déterminer l'élément qui contient le texte et vérifier la présence d'une valeur calculée pour la propriété `color`{lang=en} de l'élément ;
 3. Si c'est le cas, le test est validé.
 
 <!-- Ce test est toujours validé, car c'est toujours le cas, la propriété color étant une propriété de style inhérente à tout noeud élément du DOM. -->
 
 ##### Test 10.5.3
 
-1. Retrouver dans le document les textes dont l'arrière-plan est constitué d'une image (propriété `background-image`) ;
+1. Retrouver dans le document les textes dont l'arrière-plan est constitué d'une image (propriété `background-image`{lang=en}) ;
 2. Déterminer l'élément qui contient le texte et vérifier que si l'image d'arrière-plan est absente, le texte reste lisible ;
 3. Si c'est le cas, le test est validé.
 
@@ -1528,7 +1528,7 @@ Le cas des tableaux : à noter que ce test aborde les tableaux de présentation 
 
 ##### Test 10.6.1
 
-1. Retrouver dans le document les éléments de type lien (élément `<a>` ou élément pourvu d'un attribut WAI-ARIA `role="link"`) ;
+1. Retrouver dans le document les éléments de type lien (élément `<a>`{lang=en} ou élément pourvu d'un attribut WAI-ARIA `role="link"`{lang=en}) ;
 2. Pour chaque élément de type lien, s'il peut être confondu avec un texte normal lorsqu'il est signalé uniquement par la couleur, vérifier que le contraste entre la couleur de police du lien et la couleur de police du texte environnant est de 3:1, au moins ;
 3. Cette vérification doit être faite pour les différents états du lien s'ils sont présentés au moyen d'une couleur différente : l'état non visité, l'état visité, l'état activé, l'état au survol et l'état à la prise de focus ;
 4. Si c'est le cas pour chaque élément de type lien, le test est validé.
@@ -1537,15 +1537,15 @@ Le cas des tableaux : à noter que ce test aborde les tableaux de présentation 
 
 ##### Test 10.7.1
 
-1. Retrouver dans le document les éléments susceptibles de recevoir le focus (les éléments d'interface tels que les liens ou les contrôles de formulaire, ainsi que tout élément pourvu d'un attribut `tabindex` d'une valeur égale ou supérieure à 1) ;
-2. Pour chaque élément susceptible de recevoir le focus, vérifier que l'indication visuelle de la prise de focus est présente (propriétés `outline`, `outline-width`, `outline-style`, `outline-color`) et suffisamment contrastée (ratio de contraste égal ou supérieur à 3.0).
+1. Retrouver dans le document les éléments susceptibles de recevoir le focus (les éléments d'interface tels que les liens ou les contrôles de formulaire, ainsi que tout élément pourvu d'un attribut `tabindex`{lang=en} d'une valeur égale ou supérieure à 1) ;
+2. Pour chaque élément susceptible de recevoir le focus, vérifier que l'indication visuelle de la prise de focus est présente (propriétés `outline`{lang=en}, `outline-width`{lang=en}, `outline-style`{lang=en}, `outline-color`{lang=en}) et suffisamment contrastée (ratio de contraste égal ou supérieur à 3.0).
 3. Si c'est le cas pour chaque élément susceptible de recevoir le focus, le test est validé.
 
 #### Critère 10.8 Pour chaque page web, les contenus cachés ont-ils vocation à être ignorés par les technologies d'assistance ?
 
 ##### Test 10.8.1
 
-1. Retrouver les contenus cachés (éléments pourvus de l'attribut `hidden` ou de l'attribut WAI-ARIA `aria-hidden`, ou bien d'une classe ou d'un ensemble de styles CSS susceptibles de masquer le contenu).
+1. Retrouver les contenus cachés (éléments pourvus de l'attribut `hidden`{lang=en} ou de l'attribut WAI-ARIA `aria-hidden`{lang=en}, ou bien d'une classe ou d'un ensemble de styles CSS susceptibles de masquer le contenu).
 2. Pour chaque contenu caché, vérifier que :
     1. Soit le contenu caché a vocation à être ignoré par les technologies d'assistance (un élément statistique de visites par exemple) ;
     2. Soit le contenu caché n’a pas vocation à être ignoré par les technologies d’assistance, et dans ce cas il est rendu restituable par les technologies d'assistance au moyen :
@@ -1644,14 +1644,14 @@ A voir s'il est utile de conserver séparée en deux critères la distinction en
 ##### Test 10.12.1
 
 1. Modifier les styles du document en donnant :
-    1. Une valeur de 1.5 à la propriété `line-height` de tous les éléments du document ;
-    2. Une valeur de 2em à la propriété `margin-bottom`des éléments `<p>` ;
-    3. Une valeur de 0.12em à la propriété `letter-spacing` de tous les éléments du document ;
-    4. Une valeur de 0.16em à la propriété `word-spacing` de tous les éléments du document ;
+    1. Une valeur de 1.5 à la propriété `line-height`{lang=en} de tous les éléments du document ;
+    2. Une valeur de 2em à la propriété `margin-bottom`{lang=en} des éléments `<p>`{lang=en} ;
+    3. Une valeur de 0.12em à la propriété `letter-spacing`{lang=en} de tous les éléments du document ;
+    4. Une valeur de 0.16em à la propriété `word-spacing`{lang=en} de tous les éléments du document ;
 2. Pour chaque passage de texte, vérifier qu'il reste lisible, à l'exception :
     1. Des sous-titres directement intégrés à une vidéo ;
     2. Des images texte ;
-    3. Des textes au sein d'une balise `<canvas>`.
+    3. Des textes au sein d'une balise `<canvas>`{lang=en}.
 3. Si c'est le cas pour chaque passage de texte, le test est validé.
 
 Note : une implémentation de ces règles de modification est disponible dans les ressources du critère de succès WCAG 1.4.12 ([https://github.com/alastc/adaptation-scripts/blob/master/scripts/text-adaptation.js](https://github.com/alastc/adaptation-scripts/blob/master/scripts/text-adaptation.js)).
@@ -1661,7 +1661,7 @@ Note : une implémentation de ces règles de modification est disponible dans le
 ##### Test 10.13.1
 
 1. Retrouver dans le document les contenus additionnels devenant visible à la prise de focus ou au survol d'un composant d'interface, à l'exception :
-    1. Des contenus additionnels contrôlés par l'agent utilisateur (par exemple, les infobulles associées à l'attribut title ou à la validation native d'un formulaire) ;
+    1. Des contenus additionnels contrôlés par l'agent utilisateur (par exemple, les infobulles associées à l'attribut `title`{lang=en} ou à la validation native d'un formulaire) ;
     2. Des contenus additionnels devenant visibles par une activation de l'utilisateur (par exemple, une fenêtre de dialogue).
 2. Pour chaque contenu additionnel, vérifier que :
     1. Soit le contenu additionnel est positionné de façon à ce qu'il ne gêne pas la consultation des autres contenus informatifs sur lesquels il viendrait se superposer (y compris le composant d'interface qui a déclenché son apparition), quelles que soient les conditions de consultation (y compris lors de l'utilisation d'un mécanisme de zoom) ;
@@ -1671,7 +1671,7 @@ Note : une implémentation de ces règles de modification est disponible dans le
 ##### Test 10.13.2
 
 1. Retrouver dans le document les contenus additionnels devenant visible au survol d'un composant d'interface, à l'exception :
-    1. Des contenus additionnels contrôlés par l'agent utilisateur (par exemple, les infobulles associées à l'attribut title ou à la validation native d'un formulaire) ;
+    1. Des contenus additionnels contrôlés par l'agent utilisateur (par exemple, les infobulles associées à l'attribut `title`{lang=en} ou à la validation native d'un formulaire) ;
     2. Des contenus additionnels devenant visibles par une activation de l'utilisateur (par exemple, une fenêtre de dialogue).
 2. Pour chaque contenu additionnel, vérifier qu'il peut être survolé par le pointeur de la souris sans disparaître ;
 3. Si c'est le cas pour chaque contenu additionnel, le test est validé.
@@ -1693,7 +1693,7 @@ Note : une implémentation de ces règles de modification est disponible dans le
 
 ##### Test 10.14.1
 
-1. Retrouver dans le document les contenus additionnels devenant visible au survol d'un composant d'interface au moyen d'un mécanisme CSS (pseudo-classe `:hover`);
+1. Retrouver dans le document les contenus additionnels devenant visible au survol d'un composant d'interface au moyen d'un mécanisme CSS (pseudo-classe `:hover`{lang=en});
 2. Pour chaque contenu additionnel, vérifier que les contenus additionnels apparaissent également :
     1. À l'activation du composant au moyen du clavier ou de tout autre dispositif de pointage ;
     2. À la prise de focus du composant ;
@@ -1702,7 +1702,7 @@ Note : une implémentation de ces règles de modification est disponible dans le
 
 ##### Test 10.14.2
 
-1. Retrouver dans le document les contenus additionnels devenant visible à la prise de focus d'un composant d'interface au moyen d'un mécanisme CSS (pseudo-classe `:focus`);
+1. Retrouver dans le document les contenus additionnels devenant visible à la prise de focus d'un composant d'interface au moyen d'un mécanisme CSS (pseudo-classe `:focus`{lang=en});
 2. Pour chaque contenu additionnel, vérifier que les contenus additionnels apparaissent également :
     1. À l'activation du composant au moyen du clavier ou de tout autre dispositif de pointage ;
     2. Au survol du composant ;
@@ -1719,26 +1719,26 @@ Note : une implémentation de ces règles de modification est disponible dans le
 
 1. Retrouver dans le document les champs de formulaire ;
 2. Pour chaque champ de formulaire, vérifier que le champ de formulaire :
-    1. Possède un attribut WAI-ARIA `aria-labelledby` référençant un passage de texte identifié ;
-    2. Possède un attribut WAI-ARIA `aria-label` ;
-    3. Est associé à un élément `<label>` ayant un attribut `for` ;
-    4. Possède un attribut `title` ;
-    5. Un bouton adjacent au champ de formulaire lui fournit une étiquette visible et un attribut WAI-ARIA `aria-label`, `aria-labelledby` ou `title` lui fournit un nom accessible.
+    1. Possède un attribut WAI-ARIA `aria-labelledby`{lang=en} référençant un passage de texte identifié ;
+    2. Possède un attribut WAI-ARIA `aria-label`{lang=en} ;
+    3. Est associé à un élément `<label>`{lang=en} ayant un attribut `for`{lang=en} ;
+    4. Possède un attribut `title`{lang=en} ;
+    5. Un bouton adjacent au champ de formulaire lui fournit une étiquette visible et un attribut WAI-ARIA `aria-label`{lang=en}, `aria-labelledby`{lang=en} ou `title`{lang=en} lui fournit un nom accessible.
 3. Si c'est le cas pour champ de formulaire, le test est validé.
 
 ##### Test 11.1.2
 
-1. Retrouver dans le document les champs de formulaire associé à un élément `<label>` ;
+1. Retrouver dans le document les champs de formulaire associé à un élément `<label>`{lang=en} ;
 2. Pour chaque champ de formulaire, vérifier que :
-    1. Le champ de formulaire possède un attribut `id` ;
-    2. La valeur de l'attribut `for` de l'élément `<label>` est égale à la valeur de l'attribut `id`.
+    1. Le champ de formulaire possède un attribut `id`{lang=en} ;
+    2. La valeur de l'attribut `for`{lang=en} de l'élément `<label>`{lang=en} est égale à la valeur de l'attribut `id`{lang=en}.
 3. Si c'est le cas pour champ de formulaire, le test est validé.
 
 ##### Test 11.1.3
 
-1. Retrouver dans le document les champs de formulaire dont l'étiquette n'est pas visible ou à proximité (masquée, utilisation de l'attribut `aria-label`) ou n’est pas accolée au champ (utilisation de l'attribut `aria-labelledby`) ;
+1. Retrouver dans le document les champs de formulaire dont l'étiquette n'est pas visible ou à proximité (masquée, utilisation de l'attribut `aria-label`{lang=en}) ou n’est pas accolée au champ (utilisation de l'attribut `aria-labelledby`{lang=en}) ;
 2. Pour chaque champ de formulaire, vérifier que le champ de formulaire :
-    1. soit possède un attribut `title` dont le contenu permet de comprendre la nature de la saisie attendue ;
+    1. soit possède un attribut `title`{lang=en} dont le contenu permet de comprendre la nature de la saisie attendue ;
     2. est accompagné d'un passage de texte accolé au champ qui devient visible à la prise de focus permettant de comprendre la nature de la saisie attendue.
     3. est accompagné d'un passage de texte visible accolé au champ permettant de comprendre la nature de la saisie attendue.
 
@@ -1748,32 +1748,32 @@ Note : une implémentation de ces règles de modification est disponible dans le
 
 ##### Test 11.2.1
 
-1. Retrouver dans le document les champs de formulaire dont l'étiquette est fournie par un élément `<label>` ;
+1. Retrouver dans le document les champs de formulaire dont l'étiquette est fournie par un élément `<label>`{lang=en} ;
 2. Pour chaque champ de formulaire, vérifier que le contenu de l'élément est pertinent ;
 3. Si c'est le cas pour chaque champ de formulaire, le test est validé.
 
 ##### Test 11.2.2
 
-1. Retrouver dans le document les champs de formulaire dont l'étiquette est fournie par un attribut `title` ;
+1. Retrouver dans le document les champs de formulaire dont l'étiquette est fournie par un attribut `title`{lang=en} ;
 2. Pour chaque champ de formulaire, vérifier que le contenu de l'attribut est pertinent ;
 3. Si c'est le cas pour chaque champ de formulaire, le test est validé.
 
 ##### Test 11.2.3
 
-1. Retrouver dans le document les champs de formulaire dont l'étiquette est fournie par un attribut WAI-ARIA `aria-label` ;
+1. Retrouver dans le document les champs de formulaire dont l'étiquette est fournie par un attribut WAI-ARIA `aria-label`{lang=en} ;
 2. Pour chaque champ de formulaire, vérifier que le contenu de l'attribut est pertinent ;
 3. Si c'est le cas pour chaque champ de formulaire, le test est validé.
 
 ##### Test 11.2.4
 
-1. Retrouver dans le document les champs de formulaire dont l'étiquette est fournie par un attribut WAI-ARIA `aria-labelledby` ;
+1. Retrouver dans le document les champs de formulaire dont l'étiquette est fournie par un attribut WAI-ARIA `aria-labelledby`{lang=en} ;
 2. Pour chaque champ de formulaire, vérifier que le contenu du passage de texte référencé est pertinent ;
 3. Si c'est le cas pour chaque champ de formulaire, le test est validé.
 
 ##### Test 11.2.5
 
-1. Retrouver dans le document les champs de formulaire dont l'étiquette est fournie à la fois par un intitulé visible et par le contenu soit d'un élément `<label>`, soit d'un attribut `title` ou d'un attribut `aria-label` ou d'un attribut `aria-labelledby` ;
-2. Pour chaque champ de formulaire, vérifier que le contenu de l'élément `<label>` ou de l'attribut `title` ou de l'attribut `aria-label` ou de l'attribut `aria-labelledby` contient l'intitulé visible ;
+1. Retrouver dans le document les champs de formulaire dont l'étiquette est fournie à la fois par un intitulé visible et par le contenu soit d'un élément `<label>`{lang=en}, soit d'un attribut `title`{lang=en} ou d'un attribut `aria-label`{lang=en} ou d'un attribut `aria-labelledby`{lang=en} ;
+2. Pour chaque champ de formulaire, vérifier que le contenu de l'élément `<label>`{lang=en} ou de l'attribut `title`{lang=en} ou de l'attribut `aria-label`{lang=en} ou de l'attribut `aria-labelledby`{lang=en} contient l'intitulé visible ;
 3. Si c'est le cas pour chaque champ de formulaire, le test est validé.
 
 ##### Test 11.2.6
@@ -1810,7 +1810,7 @@ Note : une implémentation de ces règles de modification est disponible dans le
 
 ##### Test 11.4.2
 
-1. Retrouver dans le document les champs de formulaire qui ne sont pas des éléments `<input>` de type `checkbox` ou de type `radio` ou des éléments ayant un attribut WAI-ARIA `role="checkbox"`, `role="radio"` ou `role="switch"`;
+1. Retrouver dans le document les champs de formulaire qui ne sont pas des éléments `<input>`{lang=en} de type `checkbox`{lang=en} ou de type `radio`{lang=en} ou des éléments ayant un attribut WAI-ARIA `role="checkbox"`{lang=en}, `role="radio"`{lang=en} ou `role="switch"`{lang=en};
 2. Pour chaque champ de formulaire, vérifier que l'étiquette est visuellement accolée :
     * Immédiatement au-dessus ou à gauche du champ de formulaire lorsque le sens de lecture de la langue de l'étiquette est de gauche à droite ;
     * Immédiatement au-dessus ou à droite du champ de formulaire lorsque le sens de lecture de la langue de l'étiquette est de droite à gauche.
@@ -1818,7 +1818,7 @@ Note : une implémentation de ces règles de modification est disponible dans le
 
 ##### Test 11.4.3
 
-1. Retrouver dans le document les champs de formulaire qui sont `<input>` de type `checkbox` ou de type `radio` ou des éléments ayant un attribut WAI-ARIA `role="checkbox"`, `role="radio"` ou `role="switch"`;
+1. Retrouver dans le document les champs de formulaire qui sont `<input>`{lang=en} de type `checkbox`{lang=en} ou de type `radio`{lang=en} ou des éléments ayant un attribut WAI-ARIA `role="checkbox"`{lang=en}, `role="radio"`{lang=en} ou `role="switch"`{lang=en};
 2. Pour chaque champ de formulaire, vérifier que l'étiquette est visuellement accolée :
     * Immédiatement au-dessus ou à droite du champ de formulaire lorsque le sens de lecture de la langue de l'étiquette est de gauche à droite ;
     * Immédiatement au-dessus ou à gauche du champ de formulaire lorsque le sens de lecture de la langue de l'étiquette est de droite à gauche.
@@ -1830,9 +1830,9 @@ Note : une implémentation de ces règles de modification est disponible dans le
 
 1. Retrouver dans le document les champs de formulaire de même nature (par exemple un groupe de saisie d'informations d'identité, une série de cases à cocher, une saisie de date sur plusieurs champs successifs...) ;
 2. Pour chaque groupe de champs de formulaire de même nature, vérifier que ces champs de même nature sont regroupés :
-    * Soit dans un élément `<fieldset>` ;
-    * Soit dans un élément possédant un attribut WAI-ARIA `role="group"` ;
-    * Soit dans un élément possédant un attribut WAI-ARIA `role="radiogroup"` ou `"group"`, s'il s'agit d'éléments `<input>` de type `radio` ( ou d'éléments possédant un attribut WAI-ARIA `role="radio"`).
+    * Soit dans un élément `<fieldset>`{lang=en} ;
+    * Soit dans un élément possédant un attribut WAI-ARIA `role="group"`{lang=en} ;
+    * Soit dans un élément possédant un attribut WAI-ARIA `role="radiogroup"`{lang=en} ou `"group"`{lang=en}, s'il s'agit d'éléments `<input>`{lang=en} de type `radio`{lang=en} ( ou d'éléments possédant un attribut WAI-ARIA `role="radio"`{lang=en}).
 3. Si c'est le cas pour chaque groupe de champs de formulaire de même nature, le test est validé.
 
 #### Critère 11.6 Dans chaque formulaire, chaque regroupement de champs de formulaire a-t-il une légende ?
@@ -1841,13 +1841,13 @@ Note : une implémentation de ces règles de modification est disponible dans le
 
 1. Retrouver dans le document les groupes de champs de formulaire de même nature ;
 2. Pour chaque groupe de champs de formulaire de même nature, vérifier que :
-    * Si le regroupement utilise un élément `<fieldset>`, l'élément `<fieldset>` possède un élément `<legend>` ;
-    * Si l'élément de regroupement utilise un attribut WAI-ARIA `role="group"` ou `"radiogroup"`, il possède un attribut WAI-ARIA `aria-label` ou `aria-labelledby`.
+    * Si le regroupement utilise un élément `<fieldset>`{lang=en}, l'élément `<fieldset>`{lang=en} possède un élément `<legend>`{lang=en} ;
+    * Si l'élément de regroupement utilise un attribut WAI-ARIA `role="group"`{lang=en} ou `"radiogroup"`{lang=en}, il possède un attribut WAI-ARIA `aria-label`{lang=en} ou `aria-labelledby`{lang=en}.
 3. Sinon, pour chacun des champs de même nature, vérifier la présence :
-    * Soit d'un attribut `title` permettant de déterminer l'appartenance du champ au groupement de champ ;
-    * Soit d'un attribut `aria-label` permettant de déterminer l'appartenance du champ au groupement de champ ;
-    * Soit d'un attribut `aria-labelledby` qui référence un passage de texte permettant de déterminer l'appartenance du champ au groupement de champ.
-    * Soit d'un attribut `aria-describedby` qui référence un passage de texte permettant de déterminer l'appartenance du champ au groupement de champ.
+    * Soit d'un attribut `title`{lang=en} permettant de déterminer l'appartenance du champ au groupement de champ ;
+    * Soit d'un attribut `aria-label`{lang=en} permettant de déterminer l'appartenance du champ au groupement de champ ;
+    * Soit d'un attribut `aria-labelledby`{lang=en} qui référence un passage de texte permettant de déterminer l'appartenance du champ au groupement de champ.
+    * Soit d'un attribut `aria-describedby`{lang=en} qui référence un passage de texte permettant de déterminer l'appartenance du champ au groupement de champ.
 4. Si c'est le cas pour chaque groupe de champs de formulaire ou pour chacun des champs de même nature, le test est validé.
 
 #### Critère 11.7 Dans chaque formulaire, chaque légende associée à un regroupement de champs de même nature est-elle pertinente ?
@@ -1862,21 +1862,21 @@ Note : une implémentation de ces règles de modification est disponible dans le
 
 ##### Test 11.8.1
 
-1. Retrouver dans le document les listes de sélection (élément `<select>`) ;
-2. Pour chaque liste de sélection proposant des groupes d'items de même nature, vérifier que ces items sont regroupés au moyen d'éléments `<optgroup>` ;
+1. Retrouver dans le document les listes de sélection (élément `<select>`{lang=en}) ;
+2. Pour chaque liste de sélection proposant des groupes d'items de même nature, vérifier que ces items sont regroupés au moyen d'éléments `<optgroup>`{lang=en} ;
 3. Si c'est le cas pour chaque liste de sélection proposant des groupes d'items de même nature, le test est validé.
 
 ##### Test 11.8.2
 
-1. Retrouver dans le document les listes de sélection (élément `<select>`) qui possèdent des éléments `<optgroup>` ;
-2. Pour chaque élément `<optgroup>`, vérifier qu'il possède un attribut `label` ;
-3. Si c'est le cas pour chaque élément `<optgroup>`, le test est validé.
+1. Retrouver dans le document les listes de sélection (élément `<select>`{lang=en}) qui possèdent des éléments `<optgroup>`{lang=en} ;
+2. Pour chaque élément `<optgroup>`{lang=en}, vérifier qu'il possède un attribut `label`{lang=en} ;
+3. Si c'est le cas pour chaque élément `<optgroup>`{lang=en}, le test est validé.
 
 ##### Test 11.8.3
 
-1. Retrouver dans le document les listes de sélection (élément `<select>`) qui possèdent des éléments `<optgroup>` pourvus d'un attribut `label` ;
-2. Pour chaque attribut `label`, vérifier que son contenu est pertinent ;
-3. Si c'est le cas pour chaque attribut `label`, le test est validé.
+1. Retrouver dans le document les listes de sélection (élément `<select>`{lang=en}) qui possèdent des éléments `<optgroup>`{lang=en} pourvus d'un attribut `label`{lang=en} ;
+2. Pour chaque attribut `label`{lang=en}, vérifier que son contenu est pertinent ;
+3. Si c'est le cas pour chaque attribut `label`{lang=en}, le test est validé.
 
 #### Critère 11.9 Dans chaque formulaire, l'intitulé de chaque bouton est-il pertinent ?
 
@@ -1917,32 +1917,32 @@ Note : une implémentation de ces règles de modification est disponible dans le
 1. Retrouver dans le document les champs de formulaire obligatoires ;
 2. Pour chaque champ de formulaire, vérifier que préalablement à la validation du formulaire :
     * Soit une indication de champ obligatoire est visible et permet d'identifier nommément le champ concerné ;
-    * Soit le champ possède un attribut `aria-required="true"` ou `required`.
+    * Soit le champ possède un attribut `aria-required="true"`{lang=en} ou `required`{lang=en}.
 3. Si c'est le cas pour chaque champ de formulaire obligatoire, le test est validé.
 
 ##### Test 11.10.2
 
-1. Retrouver dans le document les champs de formulaire obligatoires qui possèdent un attribut `aria-required="true"` ou `required` ;
+1. Retrouver dans le document les champs de formulaire obligatoires qui possèdent un attribut `aria-required="true"`{lang=en} ou `required`{lang=en} ;
 2. Pour chaque champ de formulaire, vérifier que préalablement à la validation du formulaire :
     * Soit une indication de champ obligatoire est visible et située dans l'étiquette associée au champ ;
     * Soit une indication de champ obligatoire est visible et située dans le passage de texte associé au champ.
-3. Si c'est le cas pour chaque champ de formulaire obligatoire qui possèdent un attribut `aria-required="true"` ou `required`, le test est validé.
+3. Si c'est le cas pour chaque champ de formulaire obligatoire qui possèdent un attribut `aria-required="true"`{lang=en} ou `required`{lang=en}, le test est validé.
 
 ##### Test 11.10.3
 
 1. Retrouver dans le document les messages d'erreur indiquant l'absence de saisie d'un champ obligatoire ;
 2. Pour chaque message d'erreur, vérifier que :
     * Soit le message d'erreur est visible et permet d'identifier nommément le champ concerné ;
-    * Soit le champ obligatoire associé au message d'erreur possède un attribut `aria-invalid="true"`.
+    * Soit le champ obligatoire associé au message d'erreur possède un attribut `aria-invalid="true"`{lang=en}.
 3. Si c'est le cas pour chaque message d'erreur indiquant l'absence de saisie d'un champ obligatoire, le test est validé.
 
 ##### Test 11.10.4
 
-1. Retrouver dans le document les champs de formulaire obligatoires qui possèdent un attribut `aria-invalid="true"` ;
+1. Retrouver dans le document les champs de formulaire obligatoires qui possèdent un attribut `aria-invalid="true"`{lang=en} ;
 2. Pour chaque champ de formulaire, vérifier que :
     * Soit une indication de champ obligatoire est visible et située dans l'étiquette associée au champ ;
     * Soit une indication de champ obligatoire est visible et située dans le passage de texte associé au champ.
-3. Si c'est le cas pour chaque champ de formulaire obligatoire qui possède un attribut `aria-invalid="true"`, le test est validé.
+3. Si c'est le cas pour chaque champ de formulaire obligatoire qui possède un attribut `aria-invalid="true"`{lang=en}, le test est validé.
 
 <!-- Les conditions ne sont pas les bonnes copier/coller de 11.10.2 -->
 
@@ -1952,7 +1952,7 @@ Note : une implémentation de ces règles de modification est disponible dans le
 2. Pour chaque champ de formulaire, vérifier que l'instruction ou l'indication du type de données et/ou de format obligatoire est préalablement à la validation du formulaire :
     * Soit visible et permet d'identifier nommément le champ concerné ;
     * Soit visible dans l'étiquette ou le passage de texte associé au champ.
-3. Si c'est le cas pour chaque champ de formulaire obligatoire auxquel est associée une instruction ou une indication du type de données et/ou de format obligatoire, le test est validé.
+3. Si c'est le cas pour chaque champ de formulaire obligatoire auquel est associée une instruction ou une indication du type de données et/ou de format obligatoire, le test est validé.
 
 <!-- 
 * Soit visible et permet d'identifier nommément le champ concerné ;
@@ -1965,7 +1965,7 @@ Note : une implémentation de ces règles de modification est disponible dans le
 1. Retrouver dans le document les messages d'erreur fournissant une instruction ou une indication du type de données et/ou de format obligatoire d'un champ ;
 2. Pour chaque message d'erreur, vérifier que :
     * Soit le message d'erreur est visible et permet d'identifier nommément le champ concerné ;
-    * Soit le champ associé au message d'erreur possède un attribut `aria-invalid="true"`.
+    * Soit le champ associé au message d'erreur possède un attribut `aria-invalid="true"`{lang=en}.
 3. Si c'est le cas pour chaque message d'erreur indiquant l'absence de saisie d'un champ obligatoire, le test est validé.
 
 <!-- 
@@ -1974,11 +1974,11 @@ Les conditions de 11.10.3 et 11.10.6 sont finalement les mêmes à l'exception q
 
 ##### Test 11.10.7
 
-1. Retrouver dans le document les champs de formulaire qui possèdent un attribut `aria-invalid="true"` ;
+1. Retrouver dans le document les champs de formulaire qui possèdent un attribut `aria-invalid="true"`{lang=en} ;
 2. Pour chaque champ de formulaire, vérifier que :
-    * Soit une instruction ou une indication du type de données et/ou de format obligatoire est visible et située dans l'élément `<label>` associé au champ ;
+    * Soit une instruction ou une indication du type de données et/ou de format obligatoire est visible et située dans l'élément `<label>`{lang=en} associé au champ ;
     * Soit une instruction ou une indication du type de données et/ou de format obligatoire est visible et située dans le passage de texte associé au champ.
-3. Si c'est le cas pour chaque champ de formulaire qui possède un attribut `aria-invalid="true"`, le test est validé.
+3. Si c'est le cas pour chaque champ de formulaire qui possède un attribut `aria-invalid="true"`{lang=en}, le test est validé.
 
 <!-- 
 Les conditions sont les mêmes que 11.10.4 qui ne concerne que des champs obligatoires :
@@ -1992,13 +1992,13 @@ Les conditions sont les mêmes que 11.10.4 qui ne concerne que des champs obliga
 
 1. Retrouver dans le document les messages d'erreur ;
 2. Pour chaque message d'erreur, vérifier que les types et les formats de données attendus sont suggérés ;
-3. Si c'est le cas pour chaque message d'erreur , le test est validé.
+3. Si c'est le cas pour chaque message d'erreur, le test est validé.
 
 ##### Test 11.11.2
 
 1. Retrouver dans le document les messages d'erreur ;
 2. Pour chaque message d'erreur, vérifier que des exemples de valeurs attendues sont suggérés ;
-3. Si c'est le cas pour chaque message d'erreur , le test est validé.
+3. Si c'est le cas pour chaque message d'erreur, le test est validé.
 
 <!-- Ce critère revient à dire que les messages d'erreur sont pertinents -->
 
@@ -2029,9 +2029,9 @@ Les conditions sont les mêmes que 11.10.4 qui ne concerne que des champs obliga
 
 1. Retrouver dans le document les champs de formulaire qui se rapportent à une information concernant l'utilisateur (nom, prénom, numéro de téléphone, etc.) ;
 2. Pour chaque champ de formulaire, vérifier que :
-    1. Le champ de formulaire possède un attribut `autocomplete` ;
-    2. L'attribut `autocomplete` est pourvu d'une valeur présente dans la liste des valeurs possibles (voir <https://www.w3.org/TR/html52/sec-forms.html#autofill-processing-model>) ;
-    3. La valeur indiquée pour l'attribut `autocomplete` est pertinente au regard du type d'information attendu.
+    1. Le champ de formulaire possède un attribut `autocomplete`{lang=en} ;
+    2. L'attribut `autocomplete`{lang=en} est pourvu d'une valeur présente dans la liste des valeurs possibles (voir <https://www.w3.org/TR/html52/sec-forms.html#autofill-processing-model>) ;
+    3. La valeur indiquée pour l'attribut `autocomplete`{lang=en} est pertinente au regard du type d'information attendu.
 3. Si c'est le cas pour chaque champ de formulaire retrouvé, le test est validé.
 
 ### Navigation
@@ -2126,7 +2126,7 @@ Note : Un plan du site trop complexe ou trop profond n'est pas recommandé pour 
 
 1. Retrouver dans le document les zones de regroupement de contenus (zones d'en-tête, de navigation principale, de contenu principal, de pied de page et de moteur de recherche) ;
 2. Pour chaque zone, vérifier que la zone :
-    * Soit possède un rôle WAI-ARIA de type `landmark` correspondant à sa nature ;
+    * Soit possède un rôle WAI-ARIA de type `landmark`{lang=en} correspondant à sa nature ;
     * Soit possède un titre de hiérarchie dont le contenu permet de comprendre la nature du contenu de la zone ;
     * Soit peut être masquée au moyen d'un bouton précédant directement la zone dans l'ordre du code source ;
     * Soit peut être évitée au moyen d'un lien d'évitement précédant directement la zone dans l'ordre du code source ;
@@ -2137,7 +2137,7 @@ Note : Un plan du site trop complexe ou trop profond n'est pas recommandé pour 
 
 ##### Test 12.7.1
 
-1. Retrouver dans le document la zone de contenu principal (indiquée par l'élément `main` visible) ;
+1. Retrouver dans le document la zone de contenu principal (indiquée par l'élément `main`{lang=en} visible) ;
 2. Vérifier que la zone :
     * Soit peut être évitée au moyen d'un lien d'évitement précédant directement la zone dans l'ordre du code source ;
     * Soit peut être atteinte au moyen d'un lien d'accès rapide visible à la prise de focus lors d’une tabulation.
@@ -2147,7 +2147,7 @@ Note : Un plan du site trop complexe ou trop profond n'est pas recommandé pour 
 
 ##### Test 12.7.2
 
-1. Retrouver dans le document la zone de contenu principal (indiquée par l'élément `main` visible) ;
+1. Retrouver dans le document la zone de contenu principal (indiquée par l'élément `main`{lang=en} visible) ;
 2. Vérifier que le lien d'évitement ou d'accès rapide à la zone est :
     * Situé à la même place dans la présentation ;
     * Présent toujours dans le même ordre relatif dans le code source (généré côté client) ;
@@ -2211,7 +2211,7 @@ Le test sur le piège au clavier se limite alors à vérifier que le composant e
 
 ##### Test 13.1.1
 
-1. Retrouver dans le document les rafraîchissements initiés dans le contenu par un élément `<object>`, `<embed>`, `<svg>`, `<canvas>` ou par un élément `<meta http-equiv="refresh" content="[compteur]">` (dans l'élément `<head>` de la page) ;
+1. Retrouver dans le document les rafraîchissements initiés dans le contenu par un élément `<object>`{lang=en}, `<embed>`{lang=en}, `<svg>`{lang=en}, `<canvas>`{lang=en} ou par un élément `<meta http-equiv="refresh" content="[compteur]">`{lang=en} (dans l'élément `<head>`{lang=en} de la page) ;
 2. Pour chaque rafraîchissement, vérifier que :
     * Soit la présence d'un mécanisme permet à l'utilisateur de stopper et de relancer le rafraîchissement ;
     * Soit la présence d'un mécanisme permet à l'utilisateur d'augmenter la limite de temps entre deux rafraîchissements de dix fois, au moins ;
@@ -2221,7 +2221,7 @@ Le test sur le piège au clavier se limite alors à vérifier que le composant e
 
 ##### Test 13.1.2
 
-1. Retrouver dans le document une redirection automatique initiée par un élément `<meta http-equiv="refresh" content="0;URL='[URL ciblée]'" />` ;
+1. Retrouver dans le document une redirection automatique initiée par un élément `<meta http-equiv="refresh" content="0;URL='[URL ciblée]'" />`{lang=en} ;
 2. Vérifier que la redirection est immédiate ;
 3. Si c'est le cas, le test est validé.
 
@@ -2252,7 +2252,7 @@ Note : lorsque la limite de temps est essentielle, notamment lorsqu'elle ne pour
 
 ##### Test 13.2.1
 
-1. Vérifier qu'à l'ouverture du document, aucune nouvelle fenêtre (pop-up ou pop-under, par exemple) n'est ouverte.
+1. Vérifier qu'à l'ouverture du document, aucune nouvelle fenêtre (*pop-up*{lang=en} ou *pop-under*{lang=en}, par exemple) n'est ouverte.
 2. Si c'est le cas, le test est validé.
 
 #### Critère 13.3 Dans chaque page web, chaque document bureautique en téléchargement possède-t-il, si nécessaire, une version accessible ?
@@ -2261,7 +2261,7 @@ Note : lorsque la limite de temps est essentielle, notamment lorsqu'elle ne pour
 
 1. Retrouver dans le document les liens et les contrôles de formulaire (un bouton de formulaire ou un formulaire de téléchargement par exemple) permettant de télécharger un fichier au format bureautique ;
 2. Pour chaque fichier au format bureautique, vérifier la présence d'une version alternative présentée comme accessible :
-    * Pour les documents au format .pdf, analyser le fichier avec l'outil PAC (PDF Accessibility Checker) et vérifier l'absence d'erreur d'accessibilité dans le document (cf. note) ;
+    * Pour les documents au format .pdf, analyser le fichier avec l'outil PAC (*PDF Accessibility Checker*{lang=en}) et vérifier l'absence d'erreur d'accessibilité dans le document (cf. note) ;
     * Pour les documents au format .doc ou .docx, analyser le fichier avec l'outil de vérification d'accessibilité de Microsoft Office (à partir de la version 2010) et vérifier l'absence d'erreur d'accessibilité (cf. note) ;
     * Pour les documents au format .odt, analyser le document avec l'éditeur OpenOffice et vérifier que l'ensemble des contenus est conforme avec la liste des critères « Liste document bureautique en téléchargement » (cf. note pour une méthode alternative) ;
     * Pour les documents au format EPUB/DAISY, analyser le document avec un éditeur EPUB/DAISY et vérifier que l'ensemble des contenus est conforme avec la liste des critères « Liste document bureautique en téléchargement ».
@@ -2294,7 +2294,7 @@ Note au sujet des documents bureautiques : si les fichiers bureautiques (ex : P
 
 1. Retrouver dans le document les contenus cryptiques (art ASCII, émoticône, syntaxe cryptique) ;
 2. Pour chaque contenu cryptique, vérifier que :
-    * Soit une définition est disponible au moyen d'un attribut `title`, sur un lien, un contrôle de formulaire, une abréviation (élément `<abbr>`) par exemple ;
+    * Soit une définition est disponible au moyen d'un attribut `title`{lang=en}, sur un lien, un contrôle de formulaire, une abréviation (élément `<abbr>`{lang=en}) par exemple ;
     * Soit une définition est donnée dans le contexte adjacent (immédiatement avant ou après).
 3. Si c'est le cas pour chaque contenu cryptique, le test est validé.
 
@@ -2310,13 +2310,14 @@ Note au sujet des documents bureautiques : si les fichiers bureautiques (ex : P
 
 ##### Test 13.7.1
 
-1. Retrouver dans le document les contenus clignotants ou qui provoquent des effets de flash de type image animée, vidéo (cf. note) ou animation (éléments `<img>`, `<svg>`, `<canvas>`, `<embed>`, `<object>` ou `<video>`) ;
+1. Retrouver dans le document les contenus clignotants ou qui provoquent des effets de flash de type image animée, vidéo (cf. note) ou animation (éléments `<img>`{lang=en}, `<svg>`{lang=en}, `<canvas>`{lang=en}, `<embed>`{lang=en}, `<object>`{lang=en} ou `<video>`{lang=en}) ;
 2. Pour chaque contenu clignotant ou provoquant des effets de flash, vérifier que :
     * Soit la fréquence de l'effet est inférieur à 3 par seconde ;
     * Soit la surface cumulée est inférieure à 21824 pixels.
 3. Si c'est le cas pour chaque contenu clignotant ou provoquant des effets de flash, le test est validé.
 
-Note : l'évaluation de ce critère peut être complexe. Lorsque l'effet est géré par un script ou au moyen de CSS, l'analyse du code est suffisante. L'outil PEAT permet d'analyser les vidéos au format .avi, par exemple. Un exemple de vidéo ayant provoquée des crises d'épilepsie peut être consulté ici : London 2012 Olympics Seizure (<https://www.youtube.com/watch?v=vs0hfhSje9M>).
+Note : l'évaluation de ce critère peut être complexe. Lorsque l'effet est géré par un script ou au moyen de CSS, l'analyse du code est suffisante. L'outil PEAT permet d'analyser les vidéos au format .avi, par exemple. Un exemple de 
+vidéo ayant provoquée des crises d'épilepsie peut être consulté ici : [London 2012 Olympics Seizure](https://www.youtube.com/watch?v=vs0hfhSje9M){lang=en}.
 
 ##### Test 13.7.2
 

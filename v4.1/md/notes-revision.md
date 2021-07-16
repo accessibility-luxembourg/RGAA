@@ -9,11 +9,11 @@ layout: rgaa-accessibilite
 
 Cet erratum signale les corrections apportées aux sections critères et glossaire de la version 4 du RGAA. Ces corrections concernent les critères (tests, cas particuliers et notes techniques) ainsi que le glossaire.
 
-Ces corrections ont été reportées directement aux fichiers criteres.json et glossaire.json disponibles sur le [dépôt GitHub du RGAA](https://github.com/accessibility-luxembourg/RGAA).
+Ces corrections ont été reportées directement aux fichiers `criteres.json` et `glossaire.json` disponibles sur le [dépôt GitHub du RGAA](https://github.com/accessibility-luxembourg/RGAA).
 
 Les différentes sources de cette mise à jour sont :
 
-* Les issues GitHub du dépôt RGAA (<https://github.com/accessibility-luxembourg/RGAA>) ; ces modifications sont signalées par la mention "issue" suivi du numéro de l'issue en question ;
+* Les issues GitHub du dépôt RGAA (<https://github.com/DISIC/RGAA>) ; ces modifications sont signalées par la mention "issue" suivi du numéro de l'issue en question ;
 * Des modifications actées sur la plateforme évolution RGAA qui n'ont pas été reportées lors de la consolidation du référentiel ; ces modifications sont signalées par la mention "évolution RGAA" ;
 * Des retours internes concernant des modifications de forme comme de fond ; dans ce dernier cas, ce sont des remarques de fond ne faisant pas question qui ont été corrigées ; ces modifications sont signalées par la mention "retour interne".
 
@@ -31,37 +31,37 @@ est remplacée par :
 
 Modification de la première condition du test 1.1.6 (issue #56) :
 
-"La balise `<object>` possède une [alternative textuelle](glossaire.html#alternative-textuelle-image)"
+"La balise `<object>`{lang=en} possède une [alternative textuelle](glossaire.html#alternative-textuelle-image)"
 
 est remplacée par :
 
-"La balise `<object>` possède une [alternative textuelle](glossaire.html#alternative-textuelle-image) et un attribut `role='img'`"
+"La balise `<object>`{lang=en} possède une [alternative textuelle](glossaire.html#alternative-textuelle-image) et un attribut `role='img'`{lang=en}"
 
 Modification de la première condition du test 1.1.7 (issue #56) :
 
-"La balise `<embed>` possède une alternative textuelle"
+"La balise `<embed>`{lang=en} possède une alternative textuelle"
 
 est remplacée par :
 
-"La balise `<embed>` possède une [alternative textuelle](glossaire.html#alternative-textuelle-image) et un attribut `role='img'`"
+"La balise `<embed>`{lang=en} possède une [alternative textuelle](glossaire.html#alternative-textuelle-image) et un attribut `role='img'`{lang=en}"
 
 Modification de la première condition du test 1.1.8 (issue #56) :
 
-"La balise `<canvas>` possède une alternative textuelle"
+"La balise `<canvas>`{lang=en} possède une alternative textuelle"
 
 est remplacée par :
 
-"La balise `<canvas>` possède une [alternative textuelle](glossaire.html#alternative-textuelle-image) et un attribut `role='img'`"
+"La balise `<canvas>`{lang=en} possède une [alternative textuelle](glossaire.html#alternative-textuelle-image) et un attribut `role='img'`{lang=en}"
 
 ### Critère 1.3
 
 Modification de la première condition du test 1.3.6 (issue #39) :
 
-"S'il est présent, le contenu de l'attribut `title` est pertinent."
+"S'il est présent, le contenu de l'attribut `title`{lang=en} est pertinent."
 
 est remplacée par :
 
-"S'il est présent, le contenu de l'élément `<title>` est pertinent."
+"S'il est présent, le contenu de l'élément `<title>`{lang=en} est pertinent."
 
 ### Critère 1.6
 
@@ -69,17 +69,17 @@ Suppression du lien associé à l'entrée de glossaire "URL" dans le test 1.6.1 
 
 Modification du deuxième paragraphe de la note technique (issue #61) :
 
-"L'utilisation de l'attribut WAI-ARIA `aria-describedby` n'est pas possible pour lier une image à sa [description détaillée](glossaire.html#description-detaillee-image) par manque de support des technologies d'assistance."
+"L'utilisation de l'attribut WAI-ARIA `aria-describedby`{lang=en} n'est pas possible pour lier une image à sa [description détaillée](glossaire.html#description-detaillee-image) par manque de support des technologies d'assistance."
 
 est remplacé par :
 
-"L'utilisation de l'attribut WAI-ARIA `aria-describedby` n'est pas recommandée pour lier une image (`<img>`, `<object>`, `<embed>`, `<canvas>`) à sa [description détaillée](glossaire.html#description-detaillee-image), par manque de support des technologies d'assistance. Néanmoins, lorsqu'il est utilisé, l'attribut devra nécessairement faire référence à l'`id` de la zone contenant la description détaillée."
+"L'utilisation de l'attribut WAI-ARIA `aria-describedby`{lang=en} n'est pas recommandée pour lier une image (`<img>`{lang=en}, `<object>`{lang=en}, `<embed>`{lang=en}, `<canvas>`{lang=en}) à sa [description détaillée](glossaire.html#description-detaillee-image), par manque de support des technologies d'assistance. Néanmoins, lorsqu'il est utilisé, l'attribut devra nécessairement faire référence à l'`id`{lang=en} de la zone contenant la description détaillée."
 
 ### Critère 1.8
 
 Ajout du test 1.8.6 (issue #76) :
 
-"Chaque image texte SVG (balise `<svg>`) porteuse d'information et dont le texte n'est pas complètement structuré au moyen d'éléments `<text>`, en l'absence d'un mécanisme de remplacement, doit si possible être remplacée par du texte stylé. Cette règle est-elle respectée (hors cas particuliers) ?"
+"Chaque image texte SVG (balise `<svg>`{lang=en}) porteuse d'information et dont le texte n'est pas complètement structuré au moyen d'éléments `<text>`{lang=en}, en l'absence d'un mécanisme de remplacement, doit si possible être remplacée par du texte stylé. Cette règle est-elle respectée (hors cas particuliers) ?"
 
 ### Critère 4.8
 
@@ -95,7 +95,7 @@ est remplacée par :
 
 Ajout d'une note technique manquante (évolution RGAA) :
 
-"La spécification HTML propose plusieurs [méthodes pour lier un résumé à un tableau](https://html.spec.whatwg.org/multipage/tables.html#table-descriptions-techniques) (tableau lié à un passage de texte avec l'attribut `aria-describedby`, tableau groupé dans un élément `figure` avec un résumé présent dans un élément `figcaption` ou un élément `p`, résumé présent dans un élément `details` contenu dans l'élément `caption`). Ces méthodes n'ont pas un support suffisant pour être utilisées actuellement."
+"La spécification HTML propose plusieurs [méthodes pour lier un résumé à un tableau](https://html.spec.whatwg.org/multipage/tables.html#table-descriptions-techniques) (tableau lié à un passage de texte avec l'attribut `aria-describedby`{lang=en}, tableau groupé dans un élément `figure`{lang=en} avec un résumé présent dans un élément `figcaption`{lang=en} ou un élément `p`{lang=en}, résumé présent dans un élément `details`{lang=en} contenu dans l'élément `caption`{lang=en}). Ces méthodes n'ont pas un support suffisant pour être utilisées actuellement."
 
 ### Critère 5.3
 
@@ -117,17 +117,17 @@ est remplacé par :
 
 Ajout du test 5.6.4 manquant concernant la restriction de l'usage des attributs WAI-ARIA aux tableaux de données complexes (évolution RGAA) :
 
-"Pour chaque tableau de données, chaque cellule associée à plusieurs en-têtes est-elle structurée au moyen d'une balise `<td>` ou `<th>` ?"
+"Pour chaque tableau de données, chaque cellule associée à plusieurs en-têtes est-elle structurée au moyen d'une balise `<td>`{lang=en} ou `<th>`{lang=en} ?"
 
 ### Critère 5.8
 
-Ajout de la référence à l'attribut `summary` dans la première condition du test 5.8.1 (issue #67) :
+Ajout de la référence à l'attribut `summary`{lang=en} dans la première condition du test 5.8.1 (issue #67) :
 
-"Le tableau de mise en forme (balise `<table>`) ne contient pas de balises `<caption>`, `<th>`, `<thead>`, `<tfoot>`, `<colgroup>` ou de balises ayant un attribut WAI-ARIA `role='rowheader'`, `role='columnheader'`."
+"Le tableau de mise en forme (balise `<table>`{lang=en}) ne contient pas de balises `<caption>`{lang=en}, `<th>`{lang=en}, `<thead>`{lang=en}, `<tfoot>`{lang=en}, `<colgroup>`{lang=en} ou de balises ayant un attribut WAI-ARIA `role='rowheader'`{lang=en}, `role='columnheader'`{lang=en}."
 
 est remplacé par :
 
-"Le tableau de mise en forme (balise `<table>`) n'a pas d'attribut `summary` (sinon vide) et ne contient pas de balises `<caption>`, `<th>`, `<thead>`, `<tfoot>`, `<colgroup>` ou de balises ayant un attribut WAI-ARIA `role='rowheader'`, `role='columnheader'`."
+"Le tableau de mise en forme (balise `<table>`{lang=en}) n'a pas d'attribut `summary`{lang=en} (sinon vide) et ne contient pas de balises `<caption>`{lang=en}, `<th>`{lang=en}, `<thead>`{lang=en}, `<tfoot>`{lang=en}, `<colgroup>`{lang=en} ou de balises ayant un attribut WAI-ARIA `role='rowheader'`{lang=en}, `role='columnheader'`{lang=en}."
 
 ### Critère 6.1
 
@@ -138,9 +138,9 @@ Ajout d'une note technique manquante concernant la précision sur le placement d
 * WCAG insiste sur le placement de l'intitulé visible au début du nom accessible sans toutefois réserver l'exclusivité de cet emplacement ;
 * WCAG considère comme un cas d'échec une correspondance non exacte de la chaîne de caractères de l'intitulé visible au sein du nom accessible.
 
-Par exemple, si l'on considère l'intitulé visible « Commander maintenant » complété dans le nom accessible par l'expression «produit X », on peut avoir les différents cas suivants :
+Par exemple, si l'on considère l'intitulé visible « Commander maintenant » complété dans le nom accessible par l'expression « produit X », on peut avoir les différents cas suivants :
 
-* « Commander maintenant produit X» est valide (bonne pratique) ;
+* « Commander maintenant produit X » est valide (bonne pratique) ;
 * « Produit X : commander maintenant » est valide ;
 * « Commander produit X maintenant » est non valide."
 
@@ -156,15 +156,15 @@ est remplacé par :
 
 Modification consécutive de l'intitulé du test 6.2.1 :
 
-"Dans chaque page web, chaque [lien](glossaire.html#lien), à l'exception des ancres, a-t-il un [intitulé](glossaire.html#intitule-ou-nom-accessible-de-lien) entre `<a>` et `</a>` ?"
+"Dans chaque page web, chaque [lien](glossaire.html#lien), à l'exception des ancres, a-t-il un [intitulé](glossaire.html#intitule-ou-nom-accessible-de-lien) entre `<a>`{lang=en} et `</a>`{lang=en} ?"
 
 est remplacé par :
 
-"Dans chaque page web, chaque [lien](glossaire.html#lien) a-t-il un [intitulé](glossaire.html#intitule-ou-nom-accessible-de-lien) entre `<a>` et `</a>` ?"
+"Dans chaque page web, chaque [lien](glossaire.html#lien) a-t-il un [intitulé](glossaire.html#intitule-ou-nom-accessible-de-lien) entre `<a>`{lang=en} et `</a>`{lang=en} ?"
 
 Ajout d'une note technique :
 
-"Une ancre n'est pas un lien même si pendant longtemps l'élément `<a>` a servi de support à cette technique. Elle n'est donc pas concernée par le présent critère."
+"Une ancre n'est pas un lien même si pendant longtemps l'élément `<a>`{lang=en} a servi de support à cette technique. Elle n'est donc pas concernée par le présent critère."
 
 ### Critère 8.2
 
@@ -180,12 +180,12 @@ Suppression du cas particulier copié de 8.2 (retour interne).
 
 Suppression du second paragraphe de la note technique (issue #20) :
 
-"WAI-ARIA permet de définir des titres via le rôle `heading` et l'attribut `aria-level` (indication du niveau de titre). Bien qu'il soit préférable d'utiliser l'élément de titre natif en HTML `<hx>`, l'utilisation du rôle WAI-ARIA `heading` est compatible avec l'accessibilité.",
-"Bien que la spécification HTML5 autorise l'utilisation exclusive de titres de niveau 1 (`h1`), le manque de support des technologies d'assistance oblige à utiliser une hiérarchie de titres pertinente."
+"WAI-ARIA permet de définir des titres via le rôle `heading`{lang=en} et l'attribut `aria-level`{lang=en} (indication du niveau de titre). Bien qu'il soit préférable d'utiliser l'élément de titre natif en HTML `<hx>`{lang=en}, l'utilisation du rôle WAI-ARIA `heading`{lang=en} est compatible avec l'accessibilité.",
+"Bien que la spécification HTML5 autorise l'utilisation exclusive de titres de niveau 1 (`h1`{lang=en}), le manque de support des technologies d'assistance oblige à utiliser une hiérarchie de titres pertinente."
 
 est remplacé par :
 
-"WAI-ARIA permet de définir des titres via le rôle `heading` et l'attribut `aria-level` (indication du niveau de titre). Bien qu'il soit préférable d'utiliser l'élément de titre natif en HTML `<hx>`, l'utilisation du rôle WAI-ARIA `heading` est compatible avec l'accessibilité."
+"WAI-ARIA permet de définir des titres via le rôle `heading`{lang=en} et l'attribut `aria-level`{lang=en} (indication du niveau de titre). Bien qu'il soit préférable d'utiliser l'élément de titre natif en HTML `<hx>`{lang=en}, l'utilisation du rôle WAI-ARIA `heading`{lang=en} est compatible avec l'accessibilité."
 
 Suppression de la technique WCAG H69 des références du critère 9.1 (issue #21).
 
@@ -229,11 +229,11 @@ est remplacée par :
 
 Modification de la cinquième condition du test 11.1.1 (issue #25) :
 
-"Un bouton adjacent au [champ de formulaire](glossaire.html#champ-de-saisie-de-formulaire) lui fournit une étiquette visible et un attribut WAI-ARIA `aria-label`, `aria-labelledby` ou `title` lui fournit un nom accessible."
+"Un bouton adjacent au [champ de formulaire](glossaire.html#champ-de-saisie-de-formulaire) lui fournit une étiquette visible et un attribut WAI-ARIA `aria-label`{lang=en}, `aria-labelledby`{lang=en} ou `title`{lang=en} lui fournit un nom accessible."
 
 est remplacée par :
 
-"Un bouton adjacent au [champ de formulaire](glossaire.html#champ-de-saisie-de-formulaire) lui fournit une étiquette visible et un élément `<label>` visuellement caché ou un attribut WAI-ARIA `aria-label`, `aria-labelledby` ou `title` lui fournit un nom accessible."
+"Un bouton adjacent au [champ de formulaire](glossaire.html#champ-de-saisie-de-formulaire) lui fournit une étiquette visible et un élément `<label>`{lang=en} visuellement caché ou un attribut WAI-ARIA `aria-label`{lang=en}, `aria-labelledby`{lang=en} ou `title`{lang=en} lui fournit un nom accessible."
 
 ### Critère 11.4
 
@@ -265,14 +265,14 @@ est remplacée par :
 
 Modification de la formulation des conditions du test 11.10.4, car c'est un doublon des conditions du test 11.10.2 (retour interne) :
 
-"Les champs obligatoires ayant l'attribut `aria-invalid='true'` vérifient-ils une de ces conditions ?
+"Les champs obligatoires ayant l'attribut `aria-invalid='true'`{lang=en} vérifient-ils une de ces conditions ?
 
 * Une [indication de champ obligatoire](glossaire.html#indication-de-champ-obligatoire) est visible et située dans l'étiquette associée au champ.
 * Une [indication de champ obligatoire](glossaire.html#indication-de-champ-obligatoire) est visible et située dans le [passage de texte](glossaire.html#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) associé au champ."
 
 est remplacée par :
 
-"Les champs obligatoires ayant l'attribut `aria-invalid='true'` vérifient-ils une de ces conditions ?
+"Les champs obligatoires ayant l'attribut `aria-invalid='true'`{lang=en} vérifient-ils une de ces conditions ?
 
 * Le message d'erreur indiquant le caractère invalide de la saisie est visible et situé dans l'étiquette associée au champ.
 * Le message d'erreur indiquant le caractère invalide de la saisie est visible et situé dans le [passage de texte](glossaire.html#passage-de-texte-lie-par-aria-labelledby-ou-aria-describedby) associé au champ."
@@ -283,14 +283,14 @@ Ajout d'un cas d'usage dans une note technique (issue #2) :
 
 * Un message précise visuellement en haut de formulaire que "tous les champs sont obligatoires sauf ceux indiqués comme étant facultatifs" ;
 * Une mention "facultatif" est présente visuellement dans le libellé des champs facultatifs ou dans la légende d'un groupe de champs facultatifs ;
-* Un attribut `required` ou `aria-required='true'` reste associé à chaque champ qui n'est pas concerné par ce caractère facultatif."
+* Un attribut `required`{lang=en} ou `aria-required='true'`{lang=en} reste associé à chaque champ qui n'est pas concerné par ce caractère facultatif."
 
 Modification de la formulation du cas particulier pour tenir compte du test 11.10.2 :
 
 "Le test 11.10.1 et le test 11.10.2 seront considérés comme non applicables lorsque le formulaire comporte un seul champ de formulaire ou qu'il indique les champs optionnels de manière :
 
 * Visible ;
-* Dans la balise `<label>` ou dans la légende associée au champ.
+* Dans la balise `<label>`{lang=en} ou dans la légende associée au champ.
 
 Dans le cas où l'ensemble des champs d'un formulaire sont obligatoires, les tests 11.10.1 et 11.10.2 restent applicables."
 
@@ -403,11 +403,11 @@ Suppression de la référence à la technique G160 (issue #57).
 
 Modification de l'intitulé du test 13.7.1 (issue #75) :
 
-"Dans chaque page web, chaque image (balise `<img>`, balise `<svg>`, balise `<canvas>`, balise `<embed>` ou balise `<object>`) qui provoque un changement brusque de luminosité ou un effet de flash vérifie-t-elle une de ces conditions ?"
+"Dans chaque page web, chaque image (balise `<img>`{lang=en}, balise `<svg>`{lang=en}, balise `<canvas>`{lang=en}, balise `<embed>`{lang=en} ou balise `<object>`{lang=en}) qui provoque un changement brusque de luminosité ou un effet de flash vérifie-t-elle une de ces conditions ?"
 
 est remplacé par :
 
-"Dans chaque page web, chaque image ou élément multimédia (balise `<video>`, balise `<img>`, balise `<svg>`, balise `<canvas>`, balise `<embed>` ou balise `<object>`) qui provoque un changement brusque de luminosité ou un effet de flash vérifie-t-il une de ces conditions ?"
+"Dans chaque page web, chaque image ou élément multimédia (balise `<video>`{lang=en}, balise `<img>`{lang=en}, balise `<svg>`{lang=en}, balise `<canvas>`{lang=en}, balise `<embed>`{lang=en} ou balise `<object>`{lang=en}) qui provoque un changement brusque de luminosité ou un effet de flash vérifie-t-il une de ces conditions ?"
 
 ### Critère 13.10
 
@@ -443,7 +443,7 @@ Suppression de l'entrée qui a été remplacée plus globalement par l'entrée "
 
 Ajout d'une sixième note technique à l'entrée de glossaire (issue #56) :
 
-"Note 6 : bien que l'attribut `title` soit considéré comme une possibilité d'alternative textuelle à une image, son usage peut poser problème, notamment du fait qu'une image avec un attribut `alt` absent ou vide est considérée comme une image pourvue d'un rôle "présentation" par WAI-ARIA : <https://www.w3.org/TR/html-aam-1.0/#details-id-54>. Il faut s'assurer que les assistances techniques présentes dans l'environnement de test retenu restituent correctement l'alternative proposée par l'attribut `title`."
+"Note 6 : bien que l'attribut `title`{lang=en} soit considéré comme une possibilité d'alternative textuelle à une image, son usage peut poser problème, notamment du fait qu'une image avec un attribut `alt`{lang=en} absent ou vide est considérée comme une image pourvue d'un rôle "présentation" par WAI-ARIA : <https://www.w3.org/TR/html-aam-1.0/#details-id-54>. Il faut s'assurer que les assistances techniques présentes dans l'environnement de test retenu restituent correctement l'alternative proposée par l'attribut `title`{lang=en}."
 
 ### Ancre
 
@@ -461,7 +461,7 @@ La référence au critère 10.13 est erronée. Il s'agit du critère 10.8 (retou
 
 Modification de la note 2 (issue #52) :
 
-"Note 2 : RGAA considère que des liens particuliers comme des liens de type `mailto` (qui génère un lien sous la forme d'une adresse email cliquable) sont suffisamment explicites et ne requièrent pas de signaler que l'action consiste à envoyer un email. L'attention des auteurs est appelée sur le fait que cette règle générale peut être adaptée au contexte, par exemple si la page contient plusieurs adresses email cliquables affectées de comportements différents (envoyer un email via le client de messagerie pour l'une, accéder à un formulaire pour l'autre) il peut être nécessaire de donner des informations complémentaires sur l'action du lien afin de différencier leurs comportements."
+"Note 2 : RGAA considère que des liens particuliers comme des liens de type `mailto`{lang=en} (qui génère un lien sous la forme d'une adresse email cliquable) sont suffisamment explicites et ne requièrent pas de signaler que l'action consiste à envoyer un email. L'attention des auteurs est appelée sur le fait que cette règle générale peut être adaptée au contexte, par exemple si la page contient plusieurs adresses email cliquables affectées de comportements différents (envoyer un email via le client de messagerie pour l'une, accéder à un formulaire pour l'autre) il peut être nécessaire de donner des informations complémentaires sur l'action du lien afin de différencier leurs comportements."
 
 est remplacée par :
 
@@ -519,11 +519,11 @@ Modification de l'intitulé en "Items de même nature d'une liste de choix" (ret
 
 Modification du second paragraphe par souci de clarté (retour interne)
 
-"Il est également possible de créer des regroupements avec le rôle WAI-ARIA `group` et un passage de texte, faisant office de légende, liée par l'attribut WAI-ARIA `aria-labelledby` ou implémentée par l'intermédiaire d'un attribut WAI-ARIA `aria-label`."
+"Il est également possible de créer des regroupements avec le rôle WAI-ARIA `group`{lang=en} et un passage de texte, faisant office de légende, liée par l'attribut WAI-ARIA `aria-labelledby`{lang=en} ou implémentée par l'intermédiaire d'un attribut WAI-ARIA `aria-label`{lang=en}."
 
 est remplacée par :
 
-"Il est également possible de créer des regroupements avec le rôle WAI-ARIA `group` et un passage de texte, faisant office de légende, lié par l'attribut WAI-ARIA `aria-labelledby` ou fourni par un attribut WAI-ARIA `aria-label`."
+"Il est également possible de créer des regroupements avec le rôle WAI-ARIA `group`{lang=en} et un passage de texte, faisant office de légende, lié par l'attribut WAI-ARIA `aria-labelledby`{lang=en} ou fourni par un attribut WAI-ARIA `aria-label`{lang=en}."
 
 ### Lien dont la nature n'est pas évidente
 
@@ -563,25 +563,25 @@ est remplacée par :
 
 Modification de l'entrée de glossaire (issue #6) :
 
-"Note : l'utilisation du paramètre `wmode` pour un objet Flash avec les valeurs `\"transparent\"` et `\"opaque\"` invalide de fait le [critère 4.12](criteres.html#crit-4-12). En effet, l'utilisation de ces valeurs a pour conséquence que l'animation Flash vue du côté des utilisateurs de lecteur d'écran est invisible."
+"Note : l'utilisation du paramètre `wmode`{lang=en} pour un objet Flash avec les valeurs `\"transparent\"`{lang=en} et `\"opaque\"`{lang=en} invalide de fait le [critère 4.12](criteres.html#crit-4-12). En effet, l'utilisation de ces valeurs a pour conséquence que l'animation Flash vue du côté des utilisateurs de lecteur d'écran est invisible."
 
 est remplacée par :
 
-"Note : l'utilisation du paramètre `wmode` pour un objet Flash avec les valeurs `\"transparent\"` et `\"opaque\"` invalide de fait le [critère 4.13](criteres.html#crit-4-13). En effet, l'utilisation de ces valeurs a pour conséquence que l'animation Flash vue du côté des utilisateurs de lecteur d'écran est invisible."
+"Note : l'utilisation du paramètre `wmode`{lang=en} pour un objet Flash avec les valeurs `\"transparent\"`{lang=en} et `\"opaque\"`{lang=en} invalide de fait le [critère 4.13](criteres.html#crit-4-13). En effet, l'utilisation de ces valeurs a pour conséquence que l'animation Flash vue du côté des utilisateurs de lecteur d'écran est invisible."
 
 ### Média temporel (type son, vidéo et synchronisé)
 
 Modification de l'entrée de glossaire (issue #6) :
 
-"Note 1 : l'utilisation du paramètre wmode pour un objet Flash avec les valeurs `\"transparent\"` et `\"opaque\"` invalide de fait le [critère 4.11](criteres.html#crit-4-11). En effet, l'utilisation de ces valeurs a pour conséquence que l'animation Flash vue du côté des utilisateurs de lecteur d'écran est invisible."
+"Note 1 : l'utilisation du paramètre `wmode`{lang=en} pour un objet Flash avec les valeurs `\"transparent\"`{lang=en} et `\"opaque\"`{lang=en} invalide de fait le [critère 4.11](criteres.html#crit-4-11). En effet, l'utilisation de ces valeurs a pour conséquence que l'animation Flash vue du côté des utilisateurs de lecteur d'écran est invisible."
 
 est remplacée par :
 
-"Note 1 : l'utilisation du paramètre wmode pour un objet Flash avec les valeurs `\"transparent\"` et `\"opaque\"` invalide de fait le [critère 4.13](criteres.html#crit-4-13). En effet, l'utilisation de ces valeurs a pour conséquence que l'animation Flash vue du côté des utilisateurs de lecteur d'écran est invisible."
+"Note 1 : l'utilisation du paramètre `wmode`{lang=en} pour un objet Flash avec les valeurs `\"transparent\"`{lang=en} et `\"opaque\"`{lang=en} invalide de fait le [critère 4.13](criteres.html#crit-4-13). En effet, l'utilisation de ces valeurs a pour conséquence que l'animation Flash vue du côté des utilisateurs de lecteur d'écran est invisible."
 
 ### Moteur de recherche (interne à un site web)
 
-Modification de l'entrée de glossaire afin de tenir compte de la précision (retour interne) : "Check that the Web page contains a search form or a link to a search page"
+Modification de l'entrée de glossaire afin de tenir compte de la précision (retour interne) : *"Check that the Web page contains a search form or a link to a search page"*{lang=en}
 (<https://www.w3.org/WAI/WCAG21/Techniques/general/G161>) :
 
 "Zone contenant le moteur de recherche permettant d'effectuer des recherches sur les contenus de l'ensemble du site."
@@ -618,7 +618,7 @@ Modification de l'exemple et de la référence à l'ancien test 1.3.7 supprimé 
 
 est remplacée par :
 
-"Par exemple : le [test 1.3.8](criteres.html#test-1-3-8) demande de vérifier que l'alternative d'une image bitmap (balise `<canvas>`) porteuse d'information est correctement restituée.",
+"Par exemple : le [test 1.3.8](criteres.html#test-1-3-8) demande de vérifier que l'alternative d'une image bitmap (balise `<canvas>`{lang=en}) porteuse d'information est correctement restituée.",
 
 ### Si nécessaire (texte visible en complément de l'attribut aria-label ou aria-labelledby)
 
@@ -628,16 +628,16 @@ Suppression de l'entrée, car le test qui mentionnait cette expression a été r
 
 Les deux points suivants ne sont pas requis par les WCAG :
 
-* La présence nécessaire d'un titre `<h1>` même si une hiérarchie de titres est présente ;
+* La présence nécessaire d'un titre `<h1>`{lang=en} même si une hiérarchie de titres est présente ;
 * L'absence de sauts hiérarchiques entre niveaux de titre.
 
 Modification en conséquence du second paragraphe de l'entrée du glossaire (issue #51) :
 
-"La hiérarchie entre les titres doit être respectée dans une page web et les degrés de titre ne peuvent pas être sautés (un titre `h3` ne peut pas venir directement après un titre `h1`, par exemple). Par contre, la hiérarchie ne doit pas obligatoirement débuter par un `h1`. Même si cet usage n'est pas encouragé, il est considéré comme conforme de débuter la hiérarchie des titres d'une page par un autre niveau que le niveau 1."
+"La hiérarchie entre les titres doit être respectée dans une page web et les degrés de titre ne peuvent pas être sautés (un titre `h3`{lang=en} ne peut pas venir directement après un titre `h1`{lang=en}, par exemple). Par contre, la hiérarchie ne doit pas obligatoirement débuter par un `h1`{lang=en}. Même si cet usage n'est pas encouragé, il est considéré comme conforme de débuter la hiérarchie des titres d'une page par un autre niveau que le niveau 1."
 
 est remplacée par :
 
-"Assurer une stricte hiérarchie entre les titres d'une page web est une bonne pratique, mais la présence de sauts hiérarchiques n'invalide pas le critère tant que cette hiérarchie plus lâche reste cohérente (un titre `<h3>` peut ainsi venir directement après un titre `<h1>`, par exemple). La hiérarchie de titres ne doit pas obligatoirement contenir un titre `<h1>`. Même si ces pratiques ne sont pas encouragées, elles n'invalident pas le critère."
+"Assurer une stricte hiérarchie entre les titres d'une page web est une bonne pratique, mais la présence de sauts hiérarchiques n'invalide pas le critère tant que cette hiérarchie plus lâche reste cohérente (un titre `<h3>`{lang=en} peut ainsi venir directement après un titre `<h1>`{lang=en}, par exemple). La hiérarchie de titres ne doit pas obligatoirement contenir un titre `<h1>`{lang=en}. Même si ces pratiques ne sont pas encouragées, elles n'invalident pas le critère."
 
 Modification de la note :
 
@@ -651,11 +651,11 @@ est remplacée par :
 
 Modification de la note 2 (issue #44) :
 
-"Note 2 : Si cela ne gêne pas le fonctionnement de ce type de cadre, il est possible de les rendre indisponibles aux technologies d'assistance en utilisant l'attribut WAI-ARIA `aria-hidden='true'`. Dans ce cas le [critère 2.2](criteres.html#crit-2-2) sera non applicable."
+"Note 2 : Si cela ne gêne pas le fonctionnement de ce type de cadre, il est possible de les rendre indisponibles aux technologies d'assistance en utilisant l'attribut WAI-ARIA `aria-hidden='true'`{lang=en}. Dans ce cas le [critère 2.2](criteres.html#crit-2-2) sera non applicable."
 
 est remplacée par :
 
-"Note 2 : Si cela ne gêne pas le fonctionnement de ce type de cadre, il est possible de les rendre indisponibles aux technologies d'assistance en utilisant l'attribut WAI-ARIA `aria-hidden='true'`. Dans ce cas le [critère 2.1](criteres.html#crit-2-1) et le [critère 2.2](criteres.html#crit-2-2) seront non applicables."
+"Note 2 : Si cela ne gêne pas le fonctionnement de ce type de cadre, il est possible de les rendre indisponibles aux technologies d'assistance en utilisant l'attribut WAI-ARIA `aria-hidden='true'`{lang=en}. Dans ce cas le [critère 2.1](criteres.html#crit-2-1) et le [critère 2.2](criteres.html#crit-2-2) seront non applicables."
 
 ### Version accessible (pour un document en téléchargement)
 
